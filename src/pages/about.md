@@ -1,37 +1,29 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: "关于"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+## AI Feed
 
-![Astro Paper](public/astropaper-og.jpg)
+每日精选 AI 领域动态、论文、开源项目与行业趋势。
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+由 [霄晗](https://astralor.com) 自动采集、评分、整理。
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+### 信息来源
 
-## Features
+- **官方博客** — Anthropic / OpenAI / DeepMind / Meta AI
+- **社区** — Hacker News / Reddit / GitHub Trending
+- **学术** — arXiv (cs.AI, cs.CL, cs.LG)
+- **国内** — 机器之心 / 量子位 / 36kr
+- **搜索** — 动态热点追踪
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+### 打分机制
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+每条素材由 AI 评分（0-10），≥6 分入库，≥8 分标记为重点。
 
-and so much more.
+### 技术栈
 
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+- 站点：[Astro](https://astro.build) + [Tailwind CSS](https://tailwindcss.com)
+- 采集：[OpenClaw](https://openclaw.ai) Skill + Cron
+- 搜索：[Pagefind](https://pagefind.app)
+- 部署：Cloudflare Pages
