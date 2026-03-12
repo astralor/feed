@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "description": "Seen URLs for feed deduplication. Entries older than 30 days are purged on each collection run.",
+  "retention_days": 30,
+  "entries": {
+    "https://openai.com/index/designing-ai-agents-to-resist-prompt-injection/": "2026-03-12T11:15:00+08:00",
+    "https://openai.com/index/reasoning-models-struggle-to-control-their-chains-of-thought/": "2026-03-12T11:15:00+08:00",
+    "https://github.com/microsoft/BitNet": "2026-03-12T11:15:00+08:00",
+    "https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/": "2026-03-12T11:15:00+08:00",
+    "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/": "2026-03-12T11:15:00+08:00",
+    "https://www.anthropic.com/research/labor-market-impacts": "2026-03-12T11:15:00+08:00",
+    "https://openai.com/index/introducing-agentkit/": "2026-03-12T11:15:00+08:00",
+    "https://openai.com/index/march-funding-updates/": "2026-03-12T11:15:00+08:00",
+    "https://www.anthropic.com/research/measuring-agent-autonomy": "2026-03-12T11:15:00+08:00",
+    "https://news.ycombinator.com/newsguidelines.html#generated": "2026-03-12T11:15:00+08:00",
+    "https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz": "2026-03-12T11:15:00+08:00"
+  }
+}
