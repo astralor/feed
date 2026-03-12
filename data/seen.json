@@ -1,5 +1,0 @@
-{
-  "version": 1,
-  "description": "Seen URLs for deduplication. Key is URL hash, value is first-seen timestamp.",
-  "entries": {}
-}
