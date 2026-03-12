@@ -35,6 +35,46 @@
     "https://github.com/theredsix/agent-browser-protocol": "2026-03-12T16:05:31.315246+08:00",
     "https://www.anthropic.com/research/AI-fluency-index": "2026-03-12T16:05:31.315246+08:00",
     "https://newsletter.getdx.com/p/ai-productivity-gains-are-10-not": "2026-03-12T16:05:31.315246+08:00",
-    "https://github.com/NousResearch/hermes-agent": "2026-03-12T16:05:31.315246+08:00"
+    "https://github.com/NousResearch/hermes-agent": "2026-03-12T16:05:31.315246+08:00",
+    "https://openai.com/index/codex-security-now-in-research-preview/": {
+      "date": "2026-03-12",
+      "title": "OpenAI Codex Security: AI Agent Scans 1.2M Commits, Finds 10,561 High-Severity Vulnerabilities",
+      "score": 8.5
+    },
+    "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/": {
+      "date": "2026-03-12",
+      "title": "Meta 收购 Moltbook：专为 AI Agent 设计的社交网络",
+      "score": 9.0
+    },
+    "https://openai.com/index/introducing-codex/": {
+      "date": "2026-03-12",
+      "title": "OpenAI 推出 Codex for Open Source：开源维护者可免费获得 6 个月 ChatGPT Pro",
+      "score": 7.5
+    },
+    "https://www.buildfastwithai.com/blogs/gemini-3-1-flash-lite-vs-2-5-flash-speed-cost-benchmarks-2026": {
+      "date": "2026-03-12",
+      "title": "Google 发布 Gemini 3.1 Flash Lite：最快最省钱的 Gemini 3 系列模型",
+      "score": 7.5
+    },
+    "https://github.com/vectorize-io/hindsight": {
+      "date": "2026-03-12",
+      "title": "GitHub 热榜：Hindsight — 会自我学习的 Agent 记忆系统",
+      "score": 7.0
+    },
+    "https://github.com/anthropics/claude-plugins-official": {
+      "date": "2026-03-12",
+      "title": "Anthropic 开放官方 Claude Code 插件目录：高质量插件的权威来源",
+      "score": 7.5
+    },
+    "https://github.com/666ghj/MiroFish": {
+      "date": "2026-03-12",
+      "title": "MiroFish：简洁通用的群体智能引擎，今日 GitHub 热榜第一",
+      "score": 7.0
+    },
+    "https://github.com/langflow-ai/openrag": {
+      "date": "2026-03-12",
+      "title": "OpenRAG：基于 Langflow 的一体化开源 RAG 平台",
+      "score": 6.5
+    }
   }
 }
