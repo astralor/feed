@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "description": "Feed source definitions for the collector skill",
+  "sources": {
+    "tier1_blogs": {
+      "description": "Official AI company blogs — full coverage, no filtering",
+      "frequency": "daily",
+      "sources": [
+        {
+          "id": "anthropic-blog",
+          "name": "Anthropic Blog",
+          "type": "anthropic-blog",
+          "url": "https://www.anthropic.com/research",
+          "rss": "https://www.anthropic.com/rss.xml",
+          "method": "rss",
+          "filter": false
+        },
+        {
+          "id": "openai-blog",
+          "name": "OpenAI Blog",
+          "type": "openai-blog",
+          "url": "https://openai.com/blog",
+          "rss": "https://openai.com/blog/rss.xml",
+          "method": "rss",
+          "filter": false
+        },
+        {
+          "id": "deepmind-blog",
+          "name": "Google DeepMind",
+          "type": "deepmind-blog",
+          "url": "https://deepmind.google/discover/blog/",
+          "method": "web_fetch",
+          "filter": false
+        },
+        {
+          "id": "meta-ai-blog",
+          "name": "Meta AI Blog",
+          "type": "meta-ai-blog",
+          "url": "https://ai.meta.com/blog/",
+          "method": "web_fetch",
+          "filter": false
+        }
+      ]
+    },
+    "tier2_community": {
+      "description": "Community aggregators — AI-scored filtering",
+      "frequency": "every_2h",
+      "sources": [
+        {
+          "id": "hacker-news",
+          "name": "Hacker News",
+          "type": "hacker-news",
+          "url": "https://hacker-news.firebaseio.com/v0",
+          "method": "api",
+          "params": {
+            "endpoint": "topstories",
+            "limit": 30,
+            "keywords": ["AI", "LLM", "GPT", "Claude", "machine learning", "neural", "transformer", "agent", "RAG", "embedding"]
+          },
+          "filter": true
+        },
+        {
+          "id": "reddit-ml",
+          "name": "r/MachineLearning",
+          "type": "reddit",
+          "url": "https://www.reddit.com/r/MachineLearning/hot.json",
+          "rss": "https://www.reddit.com/r/MachineLearning/hot/.rss",
+          "method": "rss",
+          "params": { "limit": 20 },
+          "filter": true
+        },
+        {
+          "id": "reddit-localllama",
+          "name": "r/LocalLLaMA",
+          "type": "reddit",
+          "url": "https://www.reddit.com/r/LocalLLaMA/hot.json",
+          "rss": "https://www.reddit.com/r/LocalLLaMA/hot/.rss",
+          "method": "rss",
+          "params": { "limit": 20 },
+          "filter": true
+        },
+        {
+          "id": "reddit-artificial",
+          "name": "r/artificial",
+          "type": "reddit",
+          "url": "https://www.reddit.com/r/artificial/hot.json",
+          "rss": "https://www.reddit.com/r/artificial/hot/.rss",
+          "method": "rss",
+          "params": { "limit": 15 },
+          "filter": true
+        },
+        {
+          "id": "github-trending",
+          "name": "GitHub Trending",
+          "type": "github-trending",
+          "url": "https://github.com/trending",
+          "method": "web_fetch",
+          "params": {
+            "languages": ["python", "typescript", "rust"],
+            "keywords": ["ai", "llm", "ml", "agent", "transformer", "diffusion"]
+          },
+          "filter": true
+        }
+      ]
+    },
+    "tier3_academic": {
+      "description": "Academic papers — daily, filtered by relevance",
+      "frequency": "daily",
+      "sources": [
+        {
+          "id": "arxiv-cs-ai",
+          "name": "arXiv cs.AI",
+          "type": "arxiv",
+          "url": "https://export.arxiv.org/api/query",
+          "method": "api",
+          "params": {
+            "categories": ["cs.AI", "cs.CL", "cs.LG"],
+            "max_results": 30,
+            "sortBy": "submittedDate",
+            "sortOrder": "descending"
+          },
+          "filter": true
+        }
+      ]
+    },
+    "tier4_chinese": {
+      "description": "Chinese AI media — daily coverage",
+      "frequency": "daily_2x",
+      "sources": [
+        {
+          "id": "jiqizhixin",
+          "name": "机器之心",
+          "type": "jiqizhixin",
+          "url": "https://www.jiqizhixin.com/",
+          "rss": "https://www.jiqizhixin.com/rss",
+          "method": "web_fetch",
+          "filter": true
+        },
+        {
+          "id": "qbitai",
+          "name": "量子位",
+          "type": "qbitai",
+          "url": "https://www.qbitai.com/",
+          "method": "web_fetch",
+          "filter": true
+        },
+        {
+          "id": "36kr-ai",
+          "name": "36kr AI",
+          "type": "36kr",
+          "url": "https://36kr.com/information/AI/",
+          "method": "web_fetch",
+          "filter": true
+        }
+      ]
+    },
+    "tier5_search": {
+      "description": "Dynamic web search — trending topic discovery",
+      "frequency": "every_3h",
+      "sources": [
+        {
+          "id": "brave-search-ai",
+          "name": "AI Hot Topics",
+          "type": "web-search",
+          "method": "web_search",
+          "params": {
+            "base_queries": [
+              "AI breakthrough today",
+              "LLM new release",
+              "AI agent framework",
+              "machine learning research"
+            ],
+            "dynamic_keywords": true,
+            "results_per_query": 5
+          },
+          "filter": true
+        }
+      ]
+    }
+  }
+}

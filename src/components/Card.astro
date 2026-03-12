@@ -1,0 +1,69 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { slugifyStr } from "@/utils/slugify";
+import { getPath } from "@/utils/getPath";
+import Datetime from "./Datetime.astro";
+import { SOURCE_LABELS } from "@/constants";
+
+type Props = {
+  variant?: "h2" | "h3";
+} & CollectionEntry<"blog">;
+
+const { variant: Heading = "h2", id, data, filePath } = Astro.props;
+
+const { title, description, score, sourceType, sourceUrl, ...props } = data;
+
+const sourceInfo = sourceType ? SOURCE_LABELS[sourceType] : null;
+const scoreDisplay = score != null ? score.toFixed(1) : null;
+const scoreColor = score != null
+  ? score >= 8 ? "text-red-500" : score >= 6 ? "text-amber-500" : "text-gray-400"
+  : "";
+---
+
+<li class="my-6">
+  <div class="flex items-start gap-3">
+    {scoreDisplay && (
+      <span class:list={["shrink-0 font-mono text-sm font-bold mt-1", scoreColor]}>
+        {scoreDisplay}
+      </span>
+    )}
+    <div class="min-w-0 flex-1">
+      <div class="flex items-center gap-2 flex-wrap">
+        <a
+          href={getPath(id, filePath)}
+          class:list={[
+            "inline-block text-lg font-medium text-accent",
+            "decoration-dashed underline-offset-4 hover:underline",
+            "focus-visible:no-underline focus-visible:underline-offset-0",
+          ]}
+        >
+          <Heading
+            style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
+          >
+            {title}
+          </Heading>
+        </a>
+        {sourceInfo && (
+          <span
+            class="shrink-0 rounded-full px-2 py-0.5 text-xs font-medium text-white"
+            style={`background-color: ${sourceInfo.color}`}
+          >
+            {sourceInfo.label}
+          </span>
+        )}
+      </div>
+      <Datetime {...props} />
+      <p class="text-sm">{description}</p>
+      {sourceUrl && (
+        <a
+          href={sourceUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-xs text-gray-400 hover:text-accent decoration-dashed underline-offset-4 hover:underline"
+        >
+          → 原文链接
+        </a>
+      )}
+    </div>
+  </div>
+</li>

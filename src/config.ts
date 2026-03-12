@@ -1,0 +1,23 @@
+export const SITE = {
+  website: "https://feed.astralor.com/",
+  author: "霄晗",
+  profile: "https://astralor.com/",
+  desc: "AI 信息流 — 每日精选 AI 领域动态、论文、开源项目与行业趋势",
+  title: "AI Feed",
+  ogImage: "og-default.png",
+  lightAndDarkMode: true,
+  postPerIndex: 20,
+  postPerPage: 20,
+  scheduledPostMargin: 15 * 60 * 1000,
+  showArchives: true,
+  showBackButton: true,
+  editPost: {
+    enabled: false,
+    text: "",
+    url: "",
+  },
+  dynamicOgImage: false,
+  dir: "ltr",
+  lang: "zh-CN",
+  timezone: "Asia/Shanghai",
+} as const;
