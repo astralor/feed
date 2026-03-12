@@ -1,6 +1,6 @@
 ---
 title: "NousResearch/hermes-agent：与你一同成长的开源 AI 代理框架"
-description: "NousResearch 发布 hermes-agent，定位为"随用户成长的代理"，1234 stars 今日新增，是 GitHub 热榜上又一个面向个性化 AI 代理的开源框架。"
+description: "NousResearch 发布 hermes-agent，定位为「随用户成长的代理」，1234 stars 今日新增，是 GitHub 热榜上又一个面向个性化 AI 代理的开源框架。"
 pubDatetime: 2026-03-12T16:00:00+08:00
 tags: [github-trending, agent, open-source, nousresearch, llm]
 featured: false
