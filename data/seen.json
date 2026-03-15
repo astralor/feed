@@ -154,6 +154,42 @@
     },
     "https://thenewstack.io/nvidia-nemoclaw-launch/": "2026-03-15T09:00:00+08:00",
     "https://www.cnbc.com/2026/03/12/china-openclaw-ai-agent-adoption-tech-companies-government-support-lobster-shrimp.html": "2026-03-15T09:00:00+08:00",
-    "https://tolearn.blog/blog/2026-03-09-gpt-5-4-codex-agent-stack": "2026-03-15T09:00:00+08:00"
+    "https://tolearn.blog/blog/2026-03-09-gpt-5-4-codex-agent-stack": "2026-03-15T09:00:00+08:00",
+    "https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/": {
+      "seen_at": "2026-03-15T14:05:24.201467+08:00",
+      "date": "2026-03-15"
+    },
+    "https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html": {
+      "seen_at": "2026-03-15T14:05:24.201467+08:00",
+      "date": "2026-03-15"
+    },
+    "https://www.marktechpost.com/2026/03/13/google-deepmind-introduces-aletheia-the-ai-agent-moving-from-math-competitions-to-fully-autonomous-professional-research-discoveries/": {
+      "seen_at": "2026-03-15T14:05:24.201467+08:00",
+      "date": "2026-03-15"
+    },
+    "https://fortune.com/2026/03/14/openclaw-china-ai-agent-boom-open-source-lobster-craze-minimax-qwen/": {
+      "seen_at": "2026-03-15T14:05:24.201467+08:00",
+      "date": "2026-03-15"
+    },
+    "https://www.newyorker.com/news/annals-of-inquiry/the-pentagon-went-to-war-with-anthropic-whats-really-at-stake": {
+      "seen_at": "2026-03-15T14:05:24.201467+08:00",
+      "date": "2026-03-15"
+    },
+    "https://winbuzzer.com/2026/03/13/google-not-ruling-out-ads-in-gemini-as-users-top-750m-xcxwbn/": {
+      "seen_at": "2026-03-15T14:05:24.201467+08:00",
+      "date": "2026-03-15"
+    },
+    "https://www.pcmag.com/news/grok-is-this-true-musk-says-xai-needs-to-be-rebuilt-as-co-founders-flee": {
+      "seen_at": "2026-03-15T14:05:24.201467+08:00",
+      "date": "2026-03-15"
+    },
+    "https://ayushtambde.com/blog/tree-search-distillation-for-language-models-using-ppo/": {
+      "seen_at": "2026-03-15T14:05:24.201467+08:00",
+      "date": "2026-03-15"
+    },
+    "https://github.com/dimensionalOS/dimos": {
+      "seen_at": "2026-03-15T14:05:24.201467+08:00",
+      "date": "2026-03-15"
+    }
   }
 }
