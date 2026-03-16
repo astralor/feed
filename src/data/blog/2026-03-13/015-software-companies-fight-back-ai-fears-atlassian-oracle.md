@@ -4,6 +4,7 @@ description: "Atlassian 市值腰斩、裁员 1600 人的背景下，Oracle 等�
 pubDatetime: 2026-03-13T11:00:00+08:00
 tags: [ai-and-jobs, software-industry, atlassian, oracle, layoffs]
 featured: false
+category: "行业格局"
 score: 6.5
 sourceUrl: "https://www.reuters.com/business/software-companies-fight-back-against-fears-that-ai-will-kill-them-2026-03-12/"
 sourceType: "web-search"

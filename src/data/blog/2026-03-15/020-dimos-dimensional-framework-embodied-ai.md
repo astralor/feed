@@ -4,6 +4,7 @@ description: "GitHub 今日新晋 Trending 项目 dimos，专为物理世界 AI 
 pubDatetime: 2026-03-15T14:00:00+08:00
 tags: [github-trending, agent, robotics, embodied-ai, python]
 featured: false
+category: "工程实践"
 score: 7.0
 sourceUrl: "https://github.com/dimensionalOS/dimos"
 sourceType: "github-trending"

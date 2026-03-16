@@ -4,6 +4,7 @@ description: "研究发现尽管 SWE-Bench 基准分数持续上升，LLM 生成
 pubDatetime: 2026-03-13T09:00:00+08:00
 tags: [benchmark, llm, swe-bench, research]
 featured: false
+category: "学术前沿"
 score: 7.5
 sourceUrl: "https://entropicthoughts.com/no-swe-bench-improvement"
 sourceType: "hacker-news"

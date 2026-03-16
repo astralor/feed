@@ -3,6 +3,7 @@ title: "HN 热议：不要在 Hacker News 发 AI 生成评论"
 description: "Hacker News 官方更新社区规范，明确禁止 AI 生成/编辑的评论，引发 2900+ 分热议。"
 pubDatetime: 2026-03-11T20:00:00+08:00
 tags: [hacker-news, ai-generated-content, community, policy]
+category: "深度观点"
 score: 7.2
 sourceUrl: "https://news.ycombinator.com/newsguidelines.html#generated"
 sourceType: "hacker-news"

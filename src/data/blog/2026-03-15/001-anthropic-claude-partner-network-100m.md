@@ -4,6 +4,7 @@ description: "Anthropic 宣布 Claude Partner Network 正式启动，初期投�
 pubDatetime: 2026-03-15T09:00:00+08:00
 tags: [anthropic, enterprise, ecosystem, claude]
 featured: true
+category: "行业格局"
 score: 8.5
 sourceUrl: "https://www.anthropic.com/news/claude-partner-network"
 sourceType: "anthropic-blog"

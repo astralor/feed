@@ -4,6 +4,7 @@ description: "Perplexity 在 Ask 2026 开发者大会上发布 Computer for Ente
 pubDatetime: 2026-03-13T08:00:00+08:00
 tags: [perplexity, enterprise, agent, copilot, microsoft, salesforce]
 featured: false
+category: "行业格局"
 score: 7.5
 sourceUrl: "https://venturebeat.com/technology/perplexity-takes-its-computer-ai-agent-into-the-enterprise-taking-aim-at"
 sourceType: "web-search"

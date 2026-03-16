@@ -4,6 +4,7 @@ description: "120B 参数混合 Mamba-Transformer MoE 架构，1M context 窗口
 pubDatetime: 2026-03-16T06:00:00+08:00
 tags: [nvidia, model-release, agent, moe, open-source]
 featured: true
+category: "模型动态"
 score: 8.5
 scoreReason: "重要模型发布，架构创新（Latent MoE + Hybrid Mamba-Transformer），专为 Agent 场景优化，完全开源"
 sourceUrl: "https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/"

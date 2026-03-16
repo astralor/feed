@@ -4,6 +4,7 @@ description: "Lightpanda 是用 Zig 编写的开源无头浏览器，专门针�
 pubDatetime: 2026-03-13T11:00:00+08:00
 tags: [github, browser, automation, ai-agent, zig, open-source]
 featured: false
+category: "工程实践"
 score: 7.0
 sourceUrl: "https://github.com/lightpanda-io/browser"
 sourceType: "github-trending"

@@ -4,6 +4,7 @@ description: "Gemini 3.1 Flash Lite 于 3 月 3 日正式上线 Google AI Studio
 pubDatetime: 2026-03-03T12:00:00+08:00
 tags: [google, gemini, model-release, multimodal]
 featured: false
+category: "模型动态"
 score: 7.5
 sourceUrl: "https://www.buildfastwithai.com/blogs/gemini-3-1-flash-lite-vs-2-5-flash-speed-cost-benchmarks-2026"
 sourceType: "other"

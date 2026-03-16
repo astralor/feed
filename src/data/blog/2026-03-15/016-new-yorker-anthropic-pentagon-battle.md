@@ -4,6 +4,7 @@ description: "New Yorker 深度分析 Anthropic-Pentagon 对抗背后的权力�
 pubDatetime: 2026-03-15T14:00:00+08:00
 tags: [anthropic, pentagon, military, ai-safety, policy]
 featured: true
+category: "深度观点"
 score: 8.0
 sourceUrl: "https://www.newyorker.com/news/annals-of-inquiry/the-pentagon-went-to-war-with-anthropic-whats-really-at-stake"
 sourceType: "web-search"

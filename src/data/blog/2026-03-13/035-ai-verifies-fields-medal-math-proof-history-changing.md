@@ -4,6 +4,7 @@ description: "AI 系统成功验证了 Maryna Viazovska 的球堆积问题证明
 pubDatetime: 2026-03-13T21:00:00+08:00
 tags: [ai-math, proof-verification, deepmind, openai, formal-math, research]
 featured: true
+category: "学术前沿"
 score: 8.0
 sourceUrl: "https://www.newscientist.com/article/2518526-mathematics-is-undergoing-the-biggest-change-in-its-history/"
 sourceType: "web-search"

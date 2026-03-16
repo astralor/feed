@@ -4,6 +4,7 @@ description: "AWS 同步推出 Amazon Bedrock AgentCore（托管企业 Agent 运
 pubDatetime: 2026-03-13T14:21:00+08:00
 tags: [aws, agent, bedrock, open-source, infrastructure]
 featured: false
+category: "工程实践"
 score: 8.0
 sourceUrl: "https://www.infoq.com/news/2026/03/aws-strands-agents/"
 sourceType: "other"

@@ -4,6 +4,7 @@ description: "msitarzewski/agency-agents 今日涨 6167 Star，提供从前端�
 pubDatetime: 2026-03-12T14:00:00+08:00
 tags: [github-trending, agent, open-source, multi-agent, framework]
 featured: false
+category: "工程实践"
 score: 7.5
 sourceUrl: "https://github.com/msitarzewski/agency-agents"
 sourceType: "github-trending"

@@ -9,12 +9,23 @@ import getSortedPosts from "@/utils/getSortedPosts";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
+import { CATEGORIES } from "@/constants";
 
 const posts = await getCollection("blog");
-
 const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
-const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+
+// Group posts by category
+const categoryPosts = CATEGORIES.map(cat => ({
+  ...cat,
+  posts: sortedPosts
+    .filter(({ data }) => data.category === cat.key)
+    .slice(0, 5),
+}));
+
+// Uncategorized posts (no category or unknown category)
+const uncategorized = sortedPosts.filter(
+  ({ data }) => !data.category || !CATEGORIES.some(c => c.key === data.category)
+);
 ---
 
 <Layout>
@@ -22,7 +33,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
       <h1 class="my-4 inline-block text-3xl font-bold sm:my-8 sm:text-4xl">
-        📡 AI Feed
+        AI Feed
       </h1>
       <a
         target="_blank"
@@ -38,49 +49,53 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         />
         <span class="sr-only">RSS Feed</span>
       </a>
-
       <p class="text-sm opacity-80">
         每日精选 AI 领域动态 · 论文 · 开源项目 · 行业趋势
       </p>
     </section>
 
-    {
-      featuredPosts.length > 0 && (
-        <section
-          id="featured"
-          class:list={[
-            "pt-12 pb-6",
-            { "border-b border-border": recentPosts.length > 0 },
-          ]}
-        >
-          <h2 class="text-2xl font-semibold tracking-wide">🔥 重点关注</h2>
+    {categoryPosts.map(cat =>
+      cat.posts.length > 0 && (
+        <section class="pt-10 pb-4 border-b border-border">
+          <div class="flex items-center justify-between mb-2">
+            <h2 class="text-xl font-semibold tracking-wide flex items-center gap-2">
+              <span
+                class="inline-block w-1 h-5 rounded-sm"
+                style={`background-color: ${cat.color}`}
+              />
+              {cat.label}
+            </h2>
+            <a
+              href={`/categories/${cat.slug}/`}
+              class="text-sm text-accent hover:underline underline-offset-4 decoration-dashed"
+            >
+              更多 →
+            </a>
+          </div>
           <ul>
-            {featuredPosts.map(data => (
+            {cat.posts.map(data => (
               <Card variant="h3" {...data} />
             ))}
           </ul>
         </section>
       )
-    }
+    )}
 
-    {
-      recentPosts.length > 0 && (
-        <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">最新动态</h2>
-          <ul>
-            {recentPosts.map(
-              (data, index) =>
-                index < SITE.postPerIndex && <Card variant="h3" {...data} />
-            )}
-          </ul>
-        </section>
-      )
-    }
+    {uncategorized.length > 0 && (
+      <section class="pt-10 pb-4 border-b border-border">
+        <h2 class="text-xl font-semibold tracking-wide mb-2">其他</h2>
+        <ul>
+          {uncategorized.slice(0, 10).map(data => (
+            <Card variant="h3" {...data} showCategory />
+          ))}
+        </ul>
+      </section>
+    )}
 
     <div class="my-8 text-center">
       <LinkButton href="/posts/">
         全部动态
-        <IconArrowRight class="inline-block rtl:-rotate-180" />
+        <IconArrowRight class="inline-block rtl:rotate-180" />
       </LinkButton>
     </div>
   </main>

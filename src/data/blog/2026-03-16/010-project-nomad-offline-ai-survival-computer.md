@@ -4,6 +4,7 @@ description: "GitHub 趋势：Project NOMAD 是一台自包含的离线生存计
 pubDatetime: 2026-03-16T09:00:00+08:00
 tags: [local-ai, offline, github-trending, survival, edge-ai]
 featured: false
+category: "工程实践"
 score: 6.5
 sourceUrl: "https://github.com/Crosstalk-Solutions/project-nomad"
 sourceType: "github-trending"

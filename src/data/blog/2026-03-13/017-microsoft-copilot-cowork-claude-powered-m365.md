@@ -4,6 +4,7 @@ description: "微软推出 Copilot Cowork，基于 Anthropic Claude 深度打造
 pubDatetime: 2026-03-13T14:00:00+08:00
 tags: [microsoft, anthropic, enterprise-ai, agent, copilot]
 featured: true
+category: "行业格局"
 score: 9.0
 sourceUrl: "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/"
 sourceType: "other"

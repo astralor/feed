@@ -4,6 +4,7 @@ description: "前 OpenAI CTO Mira Murati 创立的 Thinking Machines Lab 获得 
 pubDatetime: 2026-03-13T11:00:00+08:00
 tags: [nvidia, training-infrastructure, frontier-model, mira-murati, investment]
 featured: true
+category: "行业格局"
 score: 9.0
 sourceUrl: "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/"
 sourceType: "other"

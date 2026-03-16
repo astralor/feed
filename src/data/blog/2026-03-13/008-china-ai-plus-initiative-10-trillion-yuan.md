@@ -4,6 +4,7 @@ description: "中国政府工作报告提出扩大「AI 加」行动，加速 AI
 pubDatetime: 2026-03-13T09:00:00+08:00
 tags: [china, policy, ai, market]
 featured: false
+category: "深度观点"
 score: 7.0
 sourceUrl: "https://en.people.cn/n3/2026/0306/c90000-20432337.html"
 sourceType: "web-search"

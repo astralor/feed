@@ -4,6 +4,7 @@ description: "Datadog MCP Server 于 3 月 9 日进入 GA，为 AI 编程 Agent 
 pubDatetime: 2026-03-12T21:00:00+08:00
 tags: [datadog, mcp, observability, agents, devops]
 featured: false
+category: "工程实践"
 score: 7.5
 sourceUrl: "https://www.helpnetsecurity.com/2026/03/10/datadog-mcp-server/"
 sourceType: "web-search"

@@ -4,6 +4,7 @@ description: "Wired 独家：Claude Code 已占 Anthropic 近五分之一收入�
 pubDatetime: 2026-03-12T21:00:00+08:00
 tags: [openai, anthropic, claude-code, coding-agent, industry]
 featured: true
+category: "深度观点"
 score: 9.0
 sourceUrl: "https://www.wired.com/story/openai-codex-race-claude-code/"
 sourceType: "web-search"

@@ -4,6 +4,7 @@ description: "anthropics/claude-plugins-official 成为 Anthropic 官方维护�
 pubDatetime: 2026-03-12T19:00:00+08:00
 tags: [anthropic, claude, plugins, open-source]
 featured: false
+category: "行业格局"
 score: 7.5
 sourceUrl: "https://github.com/anthropics/claude-plugins-official"
 sourceType: "github-trending"

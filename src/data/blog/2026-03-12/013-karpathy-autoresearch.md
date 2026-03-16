@@ -4,6 +4,7 @@ description: "Andrej Karpathy 发布极简 autoresearch 工具，让 AI Agent �
 pubDatetime: 2026-03-12T14:00:00+08:00
 tags: [karpathy, agent, ml-research, automation, open-source]
 featured: true
+category: "工程实践"
 score: 9.5
 sourceUrl: "https://github.com/karpathy/autoresearch"
 sourceType: "github-trending"

@@ -4,6 +4,7 @@ description: "GitHub 趋势项目：系统整理 Claude Code 的使用技巧、A
 pubDatetime: 2026-03-16T09:00:00+08:00
 tags: [claude-code, github-trending, developer-tools, best-practices]
 featured: false
+category: "工程实践"
 score: 6.5
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
 sourceType: "github-trending"

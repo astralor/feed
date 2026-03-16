@@ -4,6 +4,7 @@ description: "666ghj/MiroFish 今日 GitHub 热榜新增 2,907 星，是一个�
 pubDatetime: 2026-03-12T19:00:00+08:00
 tags: [swarm-intelligence, multi-agent, open-source, github-trending]
 featured: false
+category: "工程实践"
 score: 7.0
 sourceUrl: "https://github.com/666ghj/MiroFish"
 sourceType: "github-trending"

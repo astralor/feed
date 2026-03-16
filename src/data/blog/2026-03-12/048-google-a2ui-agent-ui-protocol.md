@@ -4,6 +4,7 @@ description: "Google 开源的 A2UI 框架定义了 AI Agent 与 UI 组件之间
 pubDatetime: 2026-03-12T21:00:00+08:00
 tags: [google, a2ui, agents, ui, protocol, github-trending]
 featured: false
+category: "工程实践"
 score: 7.0
 sourceUrl: "https://github.com/google/A2UI"
 sourceType: "github-trending"

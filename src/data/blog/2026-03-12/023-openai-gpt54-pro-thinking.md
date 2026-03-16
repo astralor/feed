@@ -4,6 +4,7 @@ description: "OpenAI 正式推出 GPT-5.4 系列，包括 GPT-5.4 Thinking（集
 pubDatetime: 2026-03-12T16:00:00+08:00
 tags: [openai, gpt-5, model-release, reasoning, api]
 featured: true
+category: "模型动态"
 score: 9.2
 sourceUrl: "https://community.openai.com/t/gpt-5-4-pro-and-thinking-are-here/1375799"
 sourceType: "openai-blog"

@@ -3,6 +3,7 @@ title: "Anthropic 发布 AI 劳动力市场影响新指标"
 description: "Anthropic 经济研究团队发布新的衡量指标和早期证据，量化 AI 对劳动力市场的实际影响。"
 pubDatetime: 2026-03-05T12:00:00+08:00
 tags: [anthropic, economics, labor-market, research]
+category: "学术前沿"
 score: 7.5
 sourceUrl: "https://www.anthropic.com/research/labor-market-impacts"
 sourceType: "anthropic-blog"

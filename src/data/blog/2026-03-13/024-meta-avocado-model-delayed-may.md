@@ -4,6 +4,7 @@ description: "Meta CEO 扎克伯格力推的旗舰模型 Avocado 因性能问题
 pubDatetime: 2026-03-13T16:00:00+08:00
 tags: [meta, llama, model-release, avocado]
 featured: false
+category: "模型动态"
 score: 7.5
 sourceUrl: "https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html"
 sourceType: "other"

@@ -4,6 +4,7 @@ description: "印度 AI 创业公司 Sarvam AI 开源 Sarvam 30B 和 Sarvam 105B
 pubDatetime: 2026-03-13T21:00:00+08:00
 tags: [open-source, india, multilingual, sarvam, indic-ai, llm]
 featured: false
+category: "模型动态"
 score: 7.5
 sourceUrl: "https://inc42.com/features/sarvam-ai-open-source-bet-faces-early-adoption-hurdles/"
 sourceType: "web-search"

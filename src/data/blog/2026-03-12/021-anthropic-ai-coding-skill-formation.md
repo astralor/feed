@@ -4,6 +4,7 @@ description: "Anthropic Alignment 团队研究 AI 辅助对编程技能形成的
 pubDatetime: 2026-03-12T14:00:00+08:00
 tags: [anthropic, coding, education, alignment, skill-formation]
 featured: false
+category: "深度观点"
 score: 7.5
 sourceUrl: "https://www.anthropic.com/research/AI-assistance-coding-skills"
 sourceType: "anthropic-blog"

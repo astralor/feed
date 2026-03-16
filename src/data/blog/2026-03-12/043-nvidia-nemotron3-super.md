@@ -4,6 +4,7 @@ description: "120B 总参数、12B 激活参数的 Mamba-Transformer MoE 混合�
 pubDatetime: 2026-03-12T21:00:00+08:00
 tags: [nvidia, open-source, model-release, agents, moe]
 featured: true
+category: "模型动态"
 score: 8.5
 sourceUrl: "https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/"
 sourceType: "web-search"

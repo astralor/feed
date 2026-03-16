@@ -4,6 +4,7 @@ description: "图灵奖得主 Yann LeCun 联合创立的 Advanced Machine Intell
 pubDatetime: 2026-03-15T09:00:00+08:00
 tags: [yann-lecun, ami-labs, world-models, funding]
 featured: true
+category: "行业格局"
 score: 8.0
 sourceUrl: "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/"
 sourceType: "web-search"

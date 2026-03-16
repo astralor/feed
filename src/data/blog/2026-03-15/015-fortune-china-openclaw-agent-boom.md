@@ -4,6 +4,7 @@ description: "Fortune 报道中国 AI 公司纷纷推出 OpenClaw 兼容 Agent�
 pubDatetime: 2026-03-15T14:00:00+08:00
 tags: [china, openclaw, agent, open-source, minimax, kimi]
 featured: true
+category: "深度观点"
 score: 8.0
 sourceUrl: "https://fortune.com/2026/03/14/openclaw-china-ai-agent-boom-open-source-lobster-craze-minimax-qwen/"
 sourceType: "web-search"

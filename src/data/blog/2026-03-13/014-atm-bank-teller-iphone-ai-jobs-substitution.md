@@ -4,6 +4,7 @@ description: "Hacker News 高赞文章深入分析技术替代就业的真实规
 pubDatetime: 2026-03-13T11:00:00+08:00
 tags: [ai-and-jobs, economics, labor-market, hacker-news]
 featured: false
+category: "行业格局"
 score: 7.5
 sourceUrl: "https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller"
 sourceType: "hacker-news"

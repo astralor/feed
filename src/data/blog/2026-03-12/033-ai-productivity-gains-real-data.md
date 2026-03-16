@@ -4,6 +4,7 @@ description: "DX Newsletter 发布 AI 影响纵向研究初步数据，发现真
 pubDatetime: 2026-03-12T16:00:00+08:00
 tags: [ai-productivity, research, software-engineering, llm-in-practice]
 featured: false
+category: "学术前沿"
 score: 7.0
 sourceUrl: "https://newsletter.getdx.com/p/ai-productivity-gains-are-10-not"
 sourceType: "hacker-news"

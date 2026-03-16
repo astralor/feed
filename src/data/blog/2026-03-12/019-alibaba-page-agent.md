@@ -4,6 +4,7 @@ description: "阿里巴巴开源 page-agent，一个 JavaScript in-page GUI Agen
 pubDatetime: 2026-03-12T14:00:00+08:00
 tags: [alibaba, gui-agent, web-automation, open-source, github-trending]
 featured: false
+category: "工程实践"
 score: 7.5
 sourceUrl: "https://github.com/alibaba/page-agent"
 sourceType: "github-trending"

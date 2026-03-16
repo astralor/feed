@@ -3,6 +3,7 @@ title: "OpenAI 发布 AgentKit：端到端 Agent 开发框架"
 description: "OpenAI 推出 AgentKit，基于 Responses API 和 Agents SDK，提供标准化的 Agent 工作流开发方案。"
 pubDatetime: 2026-03-10T12:00:00+08:00
 tags: [openai, agent, sdk, framework]
+category: "工程实践"
 score: 8.0
 sourceUrl: "https://openai.com/index/introducing-agentkit/"
 sourceType: "openai-blog"

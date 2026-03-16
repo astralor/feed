@@ -4,6 +4,7 @@ description: "Time 杂志将 Anthropic 评为全球最具颠覆性企业，Claud
 pubDatetime: 2026-03-15T14:00:00+08:00
 tags: [anthropic, business, claude, revenue]
 featured: true
+category: "行业格局"
 score: 8.5
 sourceUrl: "https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon/"
 sourceType: "web-search"

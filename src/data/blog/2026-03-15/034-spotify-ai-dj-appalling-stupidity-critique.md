@@ -4,6 +4,7 @@ description: "作者解剖 Spotify AI DJ 为何令人反感：它不懂音乐，
 pubDatetime: 2026-03-15T19:00:00+08:00
 tags: [spotify, ai-ux, music-ai, critique, user-experience]
 featured: false
+category: "深度观点"
 score: 6.5
 sourceUrl: "https://www.charlespetzold.com/blog/2026/02/The-Appalling-Stupidity-of-Spotifys-AI-DJ.html"
 sourceType: "hacker-news"

@@ -4,6 +4,7 @@ description: "DeepMind 推出数学研究智能体 Aletheia，能够自主生成
 pubDatetime: 2026-03-15T14:00:00+08:00
 tags: [deepmind, research-agent, math, gemini]
 featured: true
+category: "学术前沿"
 score: 8.5
 sourceUrl: "https://www.marktechpost.com/2026/03/13/google-deepmind-introduces-aletheia-the-ai-agent-moving-from-math-competitions-to-fully-autonomous-professional-research-discoveries/"
 sourceType: "deepmind-blog"

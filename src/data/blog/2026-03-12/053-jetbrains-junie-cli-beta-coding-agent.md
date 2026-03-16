@@ -4,6 +4,7 @@ description: "JetBrains 将 Junie 从 IDE 插件升级为独立 CLI，支持在�
 pubDatetime: 2026-03-12T21:00:00+08:00
 tags: [jetbrains, coding-agent, cli, developer-tools]
 featured: true
+category: "工程实践"
 score: 8.5
 sourceUrl: "https://blog.jetbrains.com/junie/2026/03/junie-cli-the-llm-agnostic-coding-agent-is-now-in-beta/"
 sourceType: "web-search"

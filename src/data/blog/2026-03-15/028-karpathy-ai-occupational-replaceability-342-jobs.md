@@ -4,6 +4,7 @@ description: "OpenAI 联合创始人 Karpathy 于 3 月 15 日发布职业 AI �
 pubDatetime: 2026-03-15T19:00:00+08:00
 tags: [karpathy, jobs, ai-impact, labor-market, future-of-work]
 featured: true
+category: "深度观点"
 score: 8.5
 sourceUrl: "https://www.gate.com/news/detail/karpathy-releases-ai-occupational-replaceability-study-covering-342-19489006"
 sourceType: "web-search"

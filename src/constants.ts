@@ -28,6 +28,18 @@ export const SHARE_LINKS: Social[] = [
   },
 ] as const;
 
+// Category display config
+export const CATEGORIES = [
+  { key: "行业格局", slug: "industry", label: "行业格局", color: "#3b82f6" },
+  { key: "工程实践", slug: "engineering", label: "工程实践", color: "#8b5cf6" },
+  { key: "模型动态", slug: "models", label: "模型动态", color: "#f59e0b" },
+  { key: "学术前沿", slug: "research", label: "学术前沿", color: "#06b6d4" },
+  { key: "深度观点", slug: "opinions", label: "深度观点", color: "#ef4444" },
+] as const;
+
+export const CATEGORY_LABELS: Record<string, { label: string; color: string }> =
+  Object.fromEntries(CATEGORIES.map(c => [c.key, { label: c.label, color: c.color }]));
+
 // Source type display names and colors
 export const SOURCE_LABELS: Record<string, { label: string; color: string }> = {
   "anthropic-blog": { label: "Anthropic", color: "#d97706" },

@@ -4,6 +4,7 @@ description: "OpenAI 技术博客详解 Codex CLI 的 Agent Loop 实现，包括
 pubDatetime: 2026-03-11T00:00:00+08:00
 tags: [openai, codex, agent-loop, llm, technical]
 featured: true
+category: "工程实践"
 score: 9.0
 sourceUrl: "https://openai.com/index/unrolling-the-codex-agent-loop/"
 sourceType: "openai-blog"

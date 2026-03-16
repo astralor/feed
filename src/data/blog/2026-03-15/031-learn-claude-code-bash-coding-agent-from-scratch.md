@@ -4,6 +4,7 @@ description: "开源项目用纯 Bash 实现 Claude Code 核心逻辑，日增 8
 pubDatetime: 2026-03-15T19:00:00+08:00
 tags: [claude-code, coding-agent, open-source, bash, github-trending]
 featured: false
+category: "工程实践"
 score: 7.5
 sourceUrl: "https://github.com/shareAI-lab/learn-claude-code"
 sourceType: "github-trending"

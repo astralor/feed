@@ -4,6 +4,7 @@ description: "Axe 是一个用 Rust 编写的极简 AI 推理框架，单个 12M
 pubDatetime: 2026-03-13T09:00:00+08:00
 tags: [open-source, framework, rust, llm]
 featured: false
+category: "工程实践"
 score: 6.5
 sourceUrl: "https://github.com/jrswab/axe"
 sourceType: "hacker-news"

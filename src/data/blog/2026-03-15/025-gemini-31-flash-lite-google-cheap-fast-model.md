@@ -4,6 +4,7 @@ description: "Google 推出 Gemini 3.1 Flash-Lite，输入价格仅 $0.25/M toke
 pubDatetime: 2026-03-15T16:00:00+08:00
 tags: [google, gemini, model-release, api, developers]
 featured: false
+category: "模型动态"
 score: 7.5
 sourceUrl: "https://www.dqindia.com/news/gemini-31-flash-lite-arrives-googles-most-cost-efficient-ai-model-yet-11194316"
 sourceType: "other"

@@ -4,6 +4,7 @@ description: "马斯克宣布 Macrohard 项目：Grok 作为「导航员」，Di
 pubDatetime: 2026-03-12T21:00:00+08:00
 tags: [xai, tesla, grok, agent, computer-use]
 featured: true
+category: "行业格局"
 score: 8.5
 sourceUrl: "https://www.reuters.com/business/autos-transportation/musk-unveils-joint-tesla-xai-project-macrohard-eyes-software-disruption-2026-03-11/"
 sourceType: "web-search"

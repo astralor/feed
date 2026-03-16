@@ -4,6 +4,7 @@ description: "Luma AI 发布 Luma Agents，基于全新 Unified Intelligence 模
 pubDatetime: 2026-03-12T14:00:00+08:00
 tags: [luma, creative-ai, agent, multimodal, video]
 featured: true
+category: "行业格局"
 score: 8.0
 sourceUrl: "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/"
 sourceType: "web-search"

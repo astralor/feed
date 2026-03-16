@@ -4,6 +4,7 @@ description: "NousResearch 发布 hermes-agent，定位为「随用户成长的�
 pubDatetime: 2026-03-12T16:00:00+08:00
 tags: [github-trending, agent, open-source, nousresearch, llm]
 featured: false
+category: "工程实践"
 score: 6.5
 sourceUrl: "https://github.com/NousResearch/hermes-agent"
 sourceType: "github-trending"

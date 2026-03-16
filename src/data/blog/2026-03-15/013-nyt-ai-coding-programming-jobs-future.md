@@ -4,6 +4,7 @@ description: "纽约时报深度调查 AI 对编程职业的冲击，初创公�
 pubDatetime: 2026-03-15T14:00:00+08:00
 tags: [ai-coding, labor, claude-code, future-of-work]
 featured: true
+category: "深度观点"
 score: 8.0
 sourceUrl: "https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html"
 sourceType: "web-search"

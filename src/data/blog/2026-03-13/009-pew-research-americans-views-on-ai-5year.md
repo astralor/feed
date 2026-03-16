@@ -4,6 +4,7 @@ description: "皮尤研究中心发布五年跟踪调查，揭示美国公众对
 pubDatetime: 2026-03-13T09:00:00+08:00
 tags: [research, public-opinion, ai, society]
 featured: false
+category: "学术前沿"
 score: 6.5
 sourceUrl: "https://www.pewresearch.org/short-reads/2026/03/12/key-findings-about-how-americans-view-artificial-intelligence/"
 sourceType: "web-search"

@@ -4,6 +4,7 @@ description: "开源工具 heretic 可全自动移除大语言模型的输出审
 pubDatetime: 2026-03-15T09:00:00+08:00
 tags: [llm, censorship, open-source, safety, tools]
 featured: false
+category: "工程实践"
 score: 6.5
 sourceUrl: "https://github.com/p-e-w/heretic"
 sourceType: "github-trending"

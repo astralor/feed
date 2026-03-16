@@ -4,6 +4,7 @@ description: "微软旗下 GitHub 宣布从免费学生 Copilot 计划中移除 
 pubDatetime: 2026-03-16T09:00:00+08:00
 tags: [github, copilot, microsoft, pricing, accessibility]
 featured: false
+category: "行业格局"
 score: 7.0
 sourceUrl: "https://www.theregister.com/2026/03/13/microsoft_github_removes_models_student_plan/"
 sourceType: "other"

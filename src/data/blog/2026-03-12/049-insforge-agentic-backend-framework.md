@@ -4,6 +4,7 @@ description: "InsForge 是为 AI Agent 打造的全栈应用后端框架，给 A
 pubDatetime: 2026-03-12T21:00:00+08:00
 tags: [github-trending, framework, agents, backend, fullstack]
 featured: false
+category: "工程实践"
 score: 7.0
 sourceUrl: "https://github.com/InsForge/InsForge"
 sourceType: "github-trending"

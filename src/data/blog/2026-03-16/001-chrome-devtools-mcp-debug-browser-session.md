@@ -4,6 +4,7 @@ description: "Chrome 官方推出 DevTools MCP 服务，让 AI Agent 能直接�
 pubDatetime: 2026-03-16T09:00:00+08:00
 tags: [mcp, chrome, devtools, agent, browser-automation]
 featured: true
+category: "工程实践"
 score: 9.2
 sourceUrl: "https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session"
 sourceType: "other"

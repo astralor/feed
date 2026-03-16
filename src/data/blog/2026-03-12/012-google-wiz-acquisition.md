@@ -3,6 +3,7 @@ title: "Google 完成收购 Wiz，强化云安全版图"
 description: "Google 正式完成对云安全公司 Wiz 的收购，加强其云计算安全防护能力。"
 pubDatetime: 2026-03-11T10:00:00+08:00
 tags: [google, wiz, cloud-security, acquisition]
+category: "行业格局"
 score: 7.0
 sourceUrl: "https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz"
 sourceType: "hacker-news"

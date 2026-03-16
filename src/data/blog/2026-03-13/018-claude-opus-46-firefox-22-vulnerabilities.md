@@ -4,6 +4,7 @@ description: "Mozilla 与 Anthropic Frontier Red Team 合作，用 Claude Opus 4
 pubDatetime: 2026-03-13T14:00:00+08:00
 tags: [security, anthropic, claude, firefox, bug-hunting]
 featured: true
+category: "工程实践"
 score: 9.0
 sourceUrl: "https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/"
 sourceType: "other"

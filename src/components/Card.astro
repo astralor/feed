@@ -3,17 +3,19 @@ import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@/utils/slugify";
 import { getPath } from "@/utils/getPath";
 import Datetime from "./Datetime.astro";
-import { SOURCE_LABELS } from "@/constants";
+import { SOURCE_LABELS, CATEGORY_LABELS } from "@/constants";
 
 type Props = {
   variant?: "h2" | "h3";
+  showCategory?: boolean;
 } & CollectionEntry<"blog">;
 
-const { variant: Heading = "h2", id, data, filePath } = Astro.props;
+const { variant: Heading = "h2", id, data, filePath, showCategory = false } = Astro.props;
 
-const { title, description, score, sourceType, sourceUrl, ...props } = data;
+const { title, description, score, sourceType, sourceUrl, category, ...props } = data;
 
 const sourceInfo = sourceType ? SOURCE_LABELS[sourceType] : null;
+const categoryInfo = category ? CATEGORY_LABELS[category] : null;
 const scoreDisplay = score != null ? score.toFixed(1) : null;
 const scoreColor = score != null
   ? score >= 8 ? "text-red-500" : score >= 6 ? "text-amber-500" : "text-gray-400"
@@ -49,6 +51,14 @@ const scoreColor = score != null
             style={`background-color: ${sourceInfo.color}`}
           >
             {sourceInfo.label}
+          </span>
+        )}
+        {showCategory && categoryInfo && (
+          <span
+            class="shrink-0 rounded-full px-2 py-0.5 text-xs font-medium text-white"
+            style={`background-color: ${categoryInfo.color}`}
+          >
+            {categoryInfo.label}
           </span>
         )}
       </div>

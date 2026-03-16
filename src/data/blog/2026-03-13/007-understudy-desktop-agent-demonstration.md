@@ -4,6 +4,7 @@ description: "开源项目 Understudy 让用户只需操作演示一遍，AI 桌
 pubDatetime: 2026-03-13T09:00:00+08:00
 tags: [agents, open-source, automation, desktop]
 featured: false
+category: "行业格局"
 score: 7.0
 sourceUrl: "https://github.com/understudy-ai/understudy"
 sourceType: "hacker-news"

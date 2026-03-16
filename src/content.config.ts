@@ -21,6 +21,13 @@ const blog = defineCollection({
       hideEditPost: z.boolean().optional(),
       timezone: z.string().optional(),
       // Feed-specific fields
+      category: z.enum([
+        "模型动态",
+        "工程实践",
+        "学术前沿",
+        "行业格局",
+        "深度观点",
+      ]).optional(),
       score: z.number().min(0).max(10).optional(),
       sourceUrl: z.string().url().optional(),
       sourceType: z.enum([

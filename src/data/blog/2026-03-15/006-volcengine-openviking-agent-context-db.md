@@ -4,6 +4,7 @@ description: "字节旗下火山引擎开源 OpenViking，一个专为 AI Agent 
 pubDatetime: 2026-03-15T09:00:00+08:00
 tags: [agent, memory, context, open-source, volcengine]
 featured: false
+category: "工程实践"
 score: 7.5
 sourceUrl: "https://github.com/volcengine/OpenViking"
 sourceType: "github-trending"

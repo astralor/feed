@@ -4,6 +4,7 @@ description: "DeepMind 发表 AlphaGo 十周年长文，回顾 2016 年击败李
 pubDatetime: 2026-03-12T14:00:00+08:00
 tags: [deepmind, alphago, agi, history, milestone]
 featured: true
+category: "深度观点"
 score: 8.5
 sourceUrl: "https://deepmind.google/blog/10-years-of-alphago/"
 sourceType: "deepmind-blog"

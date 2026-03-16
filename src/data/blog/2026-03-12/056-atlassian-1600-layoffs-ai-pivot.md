@@ -4,6 +4,7 @@ description: "Atlassian 宣布裁员约 10% 员工（约 1600 人），同步收
 pubDatetime: 2026-03-12T21:00:00+08:00
 tags: [atlassian, layoffs, enterprise-ai, industry-trends]
 featured: false
+category: "行业格局"
 score: 7.5
 sourceUrl: "https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/"
 sourceType: "web-search"

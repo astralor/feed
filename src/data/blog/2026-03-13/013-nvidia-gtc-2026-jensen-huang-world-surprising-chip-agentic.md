@@ -4,6 +4,7 @@ description: "全球最大 AI 会议 GTC 2026 于 3 月 16-19 日在圣何塞举
 pubDatetime: 2026-03-13T11:00:00+08:00
 tags: [nvidia, hardware, agentic-ai, conference, gtc]
 featured: true
+category: "行业格局"
 score: 8.5
 sourceUrl: "https://blogs.nvidia.com/blog/gtc-2026-news/"
 sourceType: "other"

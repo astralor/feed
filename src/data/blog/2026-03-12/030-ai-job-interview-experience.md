@@ -4,6 +4,7 @@ description: "The Verge 一篇获 270 HN 分的亲历报道，记者经历由 AI
 pubDatetime: 2026-03-12T16:00:00+08:00
 tags: [ai-hiring, future-of-work, llm-interview, hacker-news]
 featured: false
+category: "深度观点"
 score: 7.5
 sourceUrl: "https://www.theverge.com/featured-video/892850/i-was-interviewed-by-an-ai-bot-for-a-job"
 sourceType: "hacker-news"
