@@ -73,35 +73,49 @@ const layoutProps = {
   scrollSmooth: true,
 };
 
-const allPosts = posts.map(({ data: { title }, id, filePath }) => ({
+const allPosts = posts.map(({ data: { title, category: cat }, id, filePath }) => ({
   id,
   title,
   filePath,
+  category: cat,
 }));
 
-const currentPostIndex = allPosts.findIndex(a => a.id === post.id);
-const prevPost = currentPostIndex !== 0 ? allPosts[currentPostIndex - 1] : null;
-const nextPost =
-  currentPostIndex !== allPosts.length ? allPosts[currentPostIndex + 1] : null;
+// Category-scoped prev/next (default)
+const categoryPosts = category
+  ? allPosts.filter(p => p.category === category)
+  : allPosts;
+const catIdx = categoryPosts.findIndex(a => a.id === post.id);
+const prevCat = catIdx > 0 ? categoryPosts[catIdx - 1] : null;
+const nextCat = catIdx < categoryPosts.length - 1 ? categoryPosts[catIdx + 1] : null;
+
+// Global prev/next (used when ?from=all)
+const globalIdx = allPosts.findIndex(a => a.id === post.id);
+const prevAll = globalIdx > 0 ? allPosts[globalIdx - 1] : null;
+const nextAll = globalIdx < allPosts.length - 1 ? allPosts[globalIdx + 1] : null;
 ---
 
 <Layout {...layoutProps}>
   <Header activeCategory={categorySlug} />
-  <!-- Breadcrumb: category path -->
-  <div class="app-layout flex items-center gap-2 mt-6 mb-2 text-sm">
+  <!-- Breadcrumb: category path (default) / 文章库 (when ?from=all) -->
+  <div id="breadcrumb" class="app-layout flex items-center gap-2 mt-6 mb-2 text-sm">
     <a href="/" class="text-text-secondary hover:text-accent transition-colors">首页</a>
     <span class="text-text-secondary">/</span>
-    {catInfo && categorySlug ? (
-      <a
-        href={`/categories/${categorySlug}/`}
-        class="hover:text-accent transition-colors"
-        style={`color: ${catInfo.color}`}
-      >
-        {catInfo.label}
-      </a>
-    ) : (
+    <span id="bc-category">
+      {catInfo && categorySlug ? (
+        <a
+          href={`/categories/${categorySlug}/`}
+          class="hover:text-accent transition-colors"
+          style={`color: ${catInfo.color}`}
+        >
+          {catInfo.label}
+        </a>
+      ) : (
+        <a href="/posts/" class="text-text-secondary hover:text-accent transition-colors">文章库</a>
+      )}
+    </span>
+    <span id="bc-global" class="hidden">
       <a href="/posts/" class="text-text-secondary hover:text-accent transition-colors">文章库</a>
-    )}
+    </span>
   </div>
   <main
     id="main-content"
@@ -180,28 +194,56 @@ const nextPost =
 
     <hr class="my-6 border-dashed" />
 
-    <!-- Previous/Next Post -->
-    <div data-pagefind-ignore class="grid grid-cols-1 gap-6 sm:grid-cols-2">
-      {prevPost && (
+    <!-- Previous/Next Post (category-scoped, default) -->
+    <div id="nav-category" data-pagefind-ignore class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+      {prevCat && (
         <a
-          href={getPath(prevPost.id, prevPost.filePath)}
+          href={getPath(prevCat.id, prevCat.filePath)}
           class="flex w-full gap-1 hover:opacity-75"
         >
           <IconChevronLeft class="inline-block flex-none rtl:rotate-180" />
           <div>
             <span class="text-xs text-text-secondary">上一篇</span>
-            <div class="text-sm text-accent/85">{prevPost.title}</div>
+            <div class="text-sm text-accent/85">{prevCat.title}</div>
           </div>
         </a>
       )}
-      {nextPost && (
+      {nextCat && (
         <a
-          href={getPath(nextPost.id, nextPost.filePath)}
+          href={getPath(nextCat.id, nextCat.filePath)}
           class="flex w-full justify-end gap-1 text-end hover:opacity-75 sm:col-start-2"
         >
           <div>
             <span class="text-xs text-text-secondary">下一篇</span>
-            <div class="text-sm text-accent/85">{nextPost.title}</div>
+            <div class="text-sm text-accent/85">{nextCat.title}</div>
+          </div>
+          <IconChevronRight class="inline-block flex-none rtl:rotate-180" />
+        </a>
+      )}
+    </div>
+
+    <!-- Previous/Next Post (global, shown when ?from=all) -->
+    <div id="nav-global" data-pagefind-ignore class="hidden grid grid-cols-1 gap-6 sm:grid-cols-2">
+      {prevAll && (
+        <a
+          href={`${getPath(prevAll.id, prevAll.filePath)}?from=all`}
+          class="flex w-full gap-1 hover:opacity-75"
+        >
+          <IconChevronLeft class="inline-block flex-none rtl:rotate-180" />
+          <div>
+            <span class="text-xs text-text-secondary">上一篇</span>
+            <div class="text-sm text-accent/85">{prevAll.title}</div>
+          </div>
+        </a>
+      )}
+      {nextAll && (
+        <a
+          href={`${getPath(nextAll.id, nextAll.filePath)}?from=all`}
+          class="flex w-full justify-end gap-1 text-end hover:opacity-75 sm:col-start-2"
+        >
+          <div>
+            <span class="text-xs text-text-secondary">下一篇</span>
+            <div class="text-sm text-accent/85">{nextAll.title}</div>
           </div>
           <IconChevronRight class="inline-block flex-none rtl:rotate-180" />
         </a>
@@ -212,6 +254,25 @@ const nextPost =
 </Layout>
 
 <script is:inline data-astro-rerun>
+  // Swap prev/next nav + breadcrumb when ?from=all (coming from 文章库)
+  function swapNavIfGlobal() {
+    if (new URLSearchParams(window.location.search).has('from')) {
+      const catNav = document.getElementById('nav-category');
+      const globalNav = document.getElementById('nav-global');
+      if (catNav && globalNav) {
+        catNav.classList.add('hidden');
+        globalNav.classList.remove('hidden');
+      }
+      const bcCat = document.getElementById('bc-category');
+      const bcGlobal = document.getElementById('bc-global');
+      if (bcCat && bcGlobal) {
+        bcCat.classList.add('hidden');
+        bcGlobal.classList.remove('hidden');
+      }
+    }
+  }
+  swapNavIfGlobal();
+
   function createProgressBar() {
     const progressContainer = document.createElement("div");
     progressContainer.className =
