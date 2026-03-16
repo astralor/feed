@@ -29,7 +29,7 @@ const navCategories = CATEGORIES.filter(c => c.key !== "深度观点");
 </a>
 
 <header class="border-b border-border bg-background sticky top-0 z-40">
-  <div class="app-layout flex items-center justify-between h-14">
+  <div class="app-layout flex items-center h-14 gap-8">
     <!-- Logo -->
     <a
       href="/"
@@ -38,8 +38,8 @@ const navCategories = CATEGORIES.filter(c => c.key !== "深度观点");
       {SITE.title}
     </a>
 
-    <!-- Center: Category tabs -->
-    <nav class="hidden sm:flex items-center gap-0 overflow-x-auto -mb-px h-full">
+    <!-- Category tabs (right after logo) -->
+    <nav class="hidden sm:flex items-center gap-0 overflow-x-auto -mb-px h-full flex-1">
       {navCategories.map(cat => (
         <a
           href={`/categories/${cat.slug}/`}

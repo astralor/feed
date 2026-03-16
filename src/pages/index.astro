@@ -14,10 +14,10 @@ import { CATEGORIES } from "@/constants";
 const posts = await getCollection("blog");
 const sortedPosts = getSortedPosts(posts);
 
-// Featured: top 3 highest-score posts from last 7 days
-const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+// Featured: top 3 highest-score posts from last 24 hours
+const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
 const featured = sortedPosts
-  .filter(p => p.data.score != null && new Date(p.data.pubDatetime) >= sevenDaysAgo)
+  .filter(p => p.data.score != null && new Date(p.data.pubDatetime) >= oneDayAgo)
   .sort((a, b) => (b.data.score ?? 0) - (a.data.score ?? 0))
   .slice(0, 3);
 
