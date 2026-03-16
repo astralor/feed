@@ -21,20 +21,19 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
     );
     return paginate(catPosts, {
       params: { category: cat.slug },
-      props: { categoryName: cat.label, categoryColor: cat.color },
+      props: { categoryName: cat.label },
       pageSize: SITE.postPerPage,
     });
   });
 }
 
-const { category } = Astro.params;
-const { page, categoryName, categoryColor } = Astro.props;
+const { page, categoryName } = Astro.props;
 ---
 
 <Layout title={`${categoryName} | ${SITE.title}`}>
   <Header />
   <Main
-    pageTitle={[categoryName]}
+    pageTitle={categoryName}
     pageDesc={`「${categoryName}」分类下的所有文章`}
   >
     <ul>
