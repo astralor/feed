@@ -15,76 +15,131 @@ dayjs.extend(tz);
 type Props = {
   variant?: "h2" | "h3";
   showCategory?: boolean;
+  featured?: boolean;
 } & CollectionEntry<"blog">;
 
-const { variant: Heading = "h2", id, data, filePath, showCategory = false } = Astro.props;
+const { variant: Heading = "h2", id, data, filePath, showCategory = false, featured = false } = Astro.props;
 
 const { title, description, score, sourceUrl, sourceName, category, collectedAt, ...props } = data;
 
 const categoryInfo = category ? CATEGORY_LABELS[category] : null;
 const scoreDisplay = score != null ? score.toFixed(1) : null;
 const scoreColor = score != null
-  ? score >= 8 ? "text-red-500" : score >= 6 ? "text-amber-500" : "text-gray-400"
+  ? score >= 8 ? "text-red-500 dark:text-red-400" : score >= 6 ? "text-amber-500 dark:text-amber-400" : "text-text-secondary"
   : "";
 const collectedStr = collectedAt
   ? dayjs(collectedAt).tz(SITE.timezone).format("MM/DD HH:mm") + " 采集"
   : null;
 ---
 
-<li class="py-3 first:pt-1 transition-colors hover:bg-muted/30 -mx-2 px-2 rounded-lg">
-  <div class="flex items-start gap-2.5">
-    {scoreDisplay && (
-      <span class:list={["shrink-0 font-mono text-xs font-bold mt-0.5 tabular-nums", scoreColor]}>
-        {scoreDisplay}
-      </span>
-    )}
-    <div class="min-w-0 flex-1">
-      <a
-        href={getPath(id, filePath)}
-        class:list={[
-          "inline text-sm font-medium text-foreground leading-snug",
-          "decoration-accent/40 underline-offset-4 hover:underline hover:text-accent transition-colors",
-          "focus-visible:no-underline focus-visible:underline-offset-0",
-        ]}
+{featured ? (
+  <!-- Featured card: large layout -->
+  <li class="group">
+    <a
+      href={getPath(id, filePath)}
+      class="block rounded-xl border border-border bg-card-bg p-6 transition-all hover:border-accent/30 hover:shadow-md"
+    >
+      <div class="flex items-center gap-2 mb-3">
+        {categoryInfo && (
+          <span
+            class="inline-block rounded-full px-2.5 py-0.5 text-xs font-medium text-white"
+            style={`background-color: ${categoryInfo.color}`}
+          >
+            {categoryInfo.label}
+          </span>
+        )}
+        {scoreDisplay && (
+          <span class:list={["font-mono text-sm font-bold tabular-nums", scoreColor]}>
+            {scoreDisplay}
+          </span>
+        )}
+      </div>
+      <Heading
+        style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
+        class="text-lg font-bold leading-snug text-foreground group-hover:text-accent transition-colors mb-2"
       >
-        <Heading
-          style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
-          class="inline"
-        >
-          {title}
-        </Heading>
-      </a>
-      {showCategory && categoryInfo && (
-        <span
-          class="ml-1.5 inline-block rounded px-1.5 py-px text-[10px] font-medium text-white align-middle"
-          style={`background-color: ${categoryInfo.color}`}
-        >
-          {categoryInfo.label}
-        </span>
-      )}
-      <div class="mt-0.5 flex items-center gap-1.5 text-[11px] opacity-50 flex-wrap">
+        {title}
+      </Heading>
+      <p class="text-sm text-text-secondary line-clamp-2 leading-relaxed mb-3">{description}</p>
+      <div class="flex items-center gap-2 text-xs text-text-secondary">
         <Datetime {...props} size="sm" />
         {sourceName && sourceUrl && (
           <span class="flex items-center gap-1">
             ·
-            <a
-              href={sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="hover:text-accent hover:underline underline-offset-4 decoration-dashed transition-colors"
-            >
-              {sourceName}
-            </a>
+            <span class="hover:text-accent transition-colors">{sourceName}</span>
           </span>
         )}
         {sourceName && !sourceUrl && (
           <span>· {sourceName}</span>
         )}
-        {collectedStr && (
-          <span>· {collectedStr}</span>
-        )}
       </div>
-      <p class="mt-0.5 text-xs opacity-60 line-clamp-2 leading-relaxed">{description}</p>
+    </a>
+  </li>
+) : (
+  <!-- Standard card: compact horizontal layout -->
+  <li class="group py-3.5 first:pt-1.5 transition-colors">
+    <div class="flex items-start gap-3">
+      <!-- Category color bar -->
+      {categoryInfo && showCategory && (
+        <span
+          class="shrink-0 mt-1 w-1 h-10 rounded-full"
+          style={`background-color: ${categoryInfo.color}`}
+        />
+      )}
+      {!showCategory && scoreDisplay && (
+        <span class:list={["shrink-0 mt-0.5 font-mono text-xs font-bold tabular-nums w-7 text-right", scoreColor]}>
+          {scoreDisplay}
+        </span>
+      )}
+      <div class="min-w-0 flex-1">
+        <a
+          href={getPath(id, filePath)}
+          class="block group-hover:translate-x-0.5 transition-transform"
+        >
+          <Heading
+            style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
+            class="text-sm font-semibold leading-snug text-foreground group-hover:text-accent transition-colors"
+          >
+            {title}
+          </Heading>
+        </a>
+        {showCategory && categoryInfo && scoreDisplay && (
+          <div class="flex items-center gap-1.5 mt-0.5">
+            <span
+              class="inline-block rounded-full px-2 py-px text-[10px] font-medium text-white"
+              style={`background-color: ${categoryInfo.color}`}
+            >
+              {categoryInfo.label}
+            </span>
+            <span class:list={["font-mono text-xs font-bold tabular-nums", scoreColor]}>
+              {scoreDisplay}
+            </span>
+          </div>
+        )}
+        <div class="mt-1 flex items-center gap-1.5 text-[11px] text-text-secondary flex-wrap">
+          <Datetime {...props} size="sm" />
+          {sourceName && sourceUrl && (
+            <span class="flex items-center gap-1">
+              ·
+              <a
+                href={sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-accent hover:underline underline-offset-4 decoration-dashed transition-colors"
+              >
+                {sourceName}
+              </a>
+            </span>
+          )}
+          {sourceName && !sourceUrl && (
+            <span>· {sourceName}</span>
+          )}
+          {collectedStr && (
+            <span>· {collectedStr}</span>
+          )}
+        </div>
+        <p class="mt-1 text-xs text-text-secondary line-clamp-2 leading-relaxed">{description}</p>
+      </div>
     </div>
-  </div>
-</li>
+  </li>
+)}
