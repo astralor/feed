@@ -33,11 +33,11 @@ const collectedStr = collectedAt
 ---
 
 {featured ? (
-  <!-- Featured card: large layout -->
-  <li class="group">
+  <!-- Featured card: large layout, equal height -->
+  <li class="group h-full">
     <a
       href={getPath(id, filePath)}
-      class="block rounded-xl border border-border bg-card-bg p-6 transition-all hover:border-accent/30 hover:shadow-md"
+      class="flex flex-col h-full rounded-xl border border-border bg-card-bg p-6 transition-all hover:border-accent/30 hover:shadow-md"
     >
       <div class="flex items-center gap-2 mb-3">
         {categoryInfo && (
@@ -56,12 +56,12 @@ const collectedStr = collectedAt
       </div>
       <Heading
         style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
-        class="text-lg font-bold leading-snug text-foreground group-hover:text-accent transition-colors mb-2"
+        class="text-base font-bold leading-snug text-foreground group-hover:text-accent transition-colors mb-2"
       >
         {title}
       </Heading>
-      <p class="text-sm text-text-secondary line-clamp-2 leading-relaxed mb-3">{description}</p>
-      <div class="flex items-center gap-2 text-xs text-text-secondary">
+      <p class="text-sm text-text-secondary line-clamp-3 leading-relaxed mb-3 flex-1">{description}</p>
+      <div class="flex items-center gap-2 text-xs text-text-secondary mt-auto pt-2 border-t border-border/50">
         <Datetime {...props} size="sm" />
         {sourceName && sourceUrl && (
           <span class="flex items-center gap-1">
