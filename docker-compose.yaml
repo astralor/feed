@@ -1,0 +1,15 @@
+services:
+  feed:
+    container_name: astralor-feed
+    image: ghcr.io/astralor/feed:latest
+    network_mode: bridge
+    ports:
+      - "${FEED_PORT:-8081}:80"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
