@@ -47,6 +47,7 @@ const blog = defineCollection({
         "other",
       ]).optional(),
       sourceName: z.string().optional(),
+      collectedAt: z.date().optional(),
       scoreReason: z.string().optional(),
     }),
 });

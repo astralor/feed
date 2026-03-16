@@ -3,7 +3,14 @@ import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@/utils/slugify";
 import { getPath } from "@/utils/getPath";
 import Datetime from "./Datetime.astro";
+import dayjs from "dayjs";
+import utc from "dayjs/plugin/utc";
+import tz from "dayjs/plugin/timezone";
 import { CATEGORY_LABELS } from "@/constants";
+import { SITE } from "@/config";
+
+dayjs.extend(utc);
+dayjs.extend(tz);
 
 type Props = {
   variant?: "h2" | "h3";
@@ -12,13 +19,16 @@ type Props = {
 
 const { variant: Heading = "h2", id, data, filePath, showCategory = false } = Astro.props;
 
-const { title, description, score, sourceUrl, sourceName, category, ...props } = data;
+const { title, description, score, sourceUrl, sourceName, category, collectedAt, ...props } = data;
 
 const categoryInfo = category ? CATEGORY_LABELS[category] : null;
 const scoreDisplay = score != null ? score.toFixed(1) : null;
 const scoreColor = score != null
   ? score >= 8 ? "text-red-500" : score >= 6 ? "text-amber-500" : "text-gray-400"
   : "";
+const collectedStr = collectedAt
+  ? dayjs(collectedAt).tz(SITE.timezone).format("MM/DD HH:mm") + " 采集"
+  : null;
 ---
 
 <li class="my-4">
@@ -68,6 +78,9 @@ const scoreColor = score != null
         )}
         {sourceName && !sourceUrl && (
           <span>· {sourceName}</span>
+        )}
+        {collectedStr && (
+          <span>· {collectedStr}</span>
         )}
       </div>
       <p class="mt-1 text-sm opacity-90 line-clamp-2">{description}</p>

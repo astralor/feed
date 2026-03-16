@@ -31,12 +31,8 @@ const datetime = dayjs(isModified ? modDatetime : pubDatetime).tz(
   postTimezone || SITE.timezone
 );
 
-// Chinese format: 3月16日 or 2025年3月16日 (show year if not current year)
-const now = dayjs().tz(SITE.timezone);
-const showYear = datetime.year() !== now.year();
-const date = showYear
-  ? `${datetime.year()}年${datetime.month() + 1}月${datetime.date()}日`
-  : `${datetime.month() + 1}月${datetime.date()}日`;
+// Chinese format: 2026年03月16日
+const date = `${datetime.year()}年${String(datetime.month() + 1).padStart(2, '0')}月${String(datetime.date()).padStart(2, '0')}日`;
 ---
 
 <div class:list={["flex items-center gap-x-2 opacity-80", className]}>
