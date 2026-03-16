@@ -16,6 +16,9 @@ const isActive = (path: string) => {
   const pathArray = path.split("/").filter(p => p.trim());
   return currentPath === path || currentPathArray[0] === pathArray[0];
 };
+
+// Nav categories: exclude 深度观点 (shown in sidebar)
+const navCategories = CATEGORIES.filter(c => c.key !== "深度观点");
 ---
 
 <a
@@ -27,48 +30,22 @@ const isActive = (path: string) => {
 </a>
 
 <header class="border-b border-border bg-background sticky top-0 z-40">
-  <div class="app-layout">
-    <!-- Top row: logo + utilities -->
-    <div class="flex items-center justify-between py-3">
-      <a
-        href="/"
-        class="text-xl font-bold tracking-tight text-foreground hover:text-accent transition-colors"
-      >
-        {SITE.title}
-      </a>
-      <div class="flex items-center gap-1">
-        <LinkButton
-          href="/search"
-          class:list={[
-            "focus-outline flex p-2 rounded-lg hover:bg-muted transition-colors",
-            { "[&>svg]:stroke-accent": isActive("/search") },
-          ]}
-          title="Search"
-          aria-label="search"
-        >
-          <IconSearch />
-        </LinkButton>
-        {SITE.lightAndDarkMode && (
-          <button
-            id="theme-btn"
-            class="focus-outline relative size-9 p-2 rounded-lg hover:bg-muted transition-colors hover:[&>svg]:stroke-accent"
-            title="Toggles light & dark"
-            aria-label="auto"
-            aria-live="polite"
-          >
-            <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-            <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
-          </button>
-        )}
-      </div>
-    </div>
-    <!-- Category tabs -->
-    <nav class="flex items-center gap-0 overflow-x-auto -mb-px">
-      {CATEGORIES.map(cat => (
+  <div class="app-layout flex items-center justify-between h-14">
+    <!-- Logo -->
+    <a
+      href="/"
+      class="text-lg font-bold tracking-tight text-foreground hover:text-accent transition-colors shrink-0"
+    >
+      {SITE.title}
+    </a>
+
+    <!-- Center: Category tabs -->
+    <nav class="hidden sm:flex items-center gap-0 overflow-x-auto -mb-px h-full">
+      {navCategories.map(cat => (
         <a
           href={`/categories/${cat.slug}/`}
           class:list={[
-            "whitespace-nowrap px-4 py-2.5 text-sm font-medium border-b-2 transition-colors",
+            "whitespace-nowrap px-4 h-full flex items-center text-sm font-medium border-b-2 transition-colors",
             isActive(`/categories/${cat.slug}`)
               ? "border-accent text-accent"
               : "border-transparent text-text-secondary hover:text-foreground hover:border-border",
@@ -80,7 +57,7 @@ const isActive = (path: string) => {
       <a
         href="/posts"
         class:list={[
-          "whitespace-nowrap px-4 py-2.5 text-sm font-medium border-b-2 transition-colors",
+          "whitespace-nowrap px-4 h-full flex items-center text-sm font-medium border-b-2 transition-colors",
           isActive("/posts")
             ? "border-accent text-accent"
             : "border-transparent text-text-secondary hover:text-foreground hover:border-border",
@@ -88,24 +65,33 @@ const isActive = (path: string) => {
       >
         文章库
       </a>
-      {SITE.showArchives && (
-        <a
-          href="/archives"
-          class:list={[
-            "whitespace-nowrap px-4 py-2.5 text-sm font-medium border-b-2 transition-colors",
-            isActive("/archives")
-              ? "border-accent text-accent"
-              : "border-transparent text-text-secondary hover:text-foreground hover:border-border",
-          ]}
-        >
-          归档
-        </a>
-      )}
     </nav>
+
+    <!-- Right: utilities -->
+    <div class="flex items-center gap-1 shrink-0">
+      <LinkButton
+        href="/search"
+        class:list={[
+          "focus-outline flex p-2 rounded-lg hover:bg-muted transition-colors",
+          { "[&>svg]:stroke-accent": isActive("/search") },
+        ]}
+        title="Search"
+        aria-label="search"
+      >
+        <IconSearch />
+      </LinkButton>
+      {SITE.lightAndDarkMode && (
+        <button
+          id="theme-btn"
+          class="focus-outline relative size-9 p-2 rounded-lg hover:bg-muted transition-colors hover:[&>svg]:stroke-accent"
+          title="Toggles light & dark"
+          aria-label="auto"
+          aria-live="polite"
+        >
+          <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
+          <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
+        </button>
+      )}
+    </div>
   </div>
 </header>
-
-<script>
-  // Mobile menu no longer needed — tabs are scrollable
-  // Theme toggle is still present in top bar
-</script>
