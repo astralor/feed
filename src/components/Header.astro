@@ -38,7 +38,7 @@ const navCategories = CATEGORIES;
       {SITE.title}
     </a>
 
-    <!-- Category tabs (right after logo) -->
+    <!-- Category tabs (desktop) -->
     <nav class="hidden sm:flex items-center gap-0 overflow-x-auto -mb-px h-full flex-1">
       {navCategories.map(cat => (
         <a
@@ -93,4 +93,32 @@ const navCategories = CATEGORIES;
       )}
     </div>
   </div>
+
+  <!-- Mobile category tabs (horizontal scroll) -->
+  <nav class="sm:hidden flex items-center gap-0 overflow-x-auto border-t border-border/50 -mb-px">
+    {navCategories.map(cat => (
+      <a
+        href={`/categories/${cat.slug}/`}
+        class:list={[
+          "whitespace-nowrap px-3 py-2 text-xs font-medium border-b-2 transition-colors",
+          isActive(`/categories/${cat.slug}`)
+            ? "border-accent text-accent"
+            : "border-transparent text-text-secondary",
+        ]}
+      >
+        {cat.label}
+      </a>
+    ))}
+    <a
+      href="/posts"
+      class:list={[
+        "whitespace-nowrap px-3 py-2 text-xs font-medium border-b-2 transition-colors",
+        isActive("/posts")
+          ? "border-accent text-accent"
+          : "border-transparent text-text-secondary",
+      ]}
+    >
+      文章库
+    </a>
+  </nav>
 </header>
