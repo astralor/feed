@@ -3,7 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@/utils/slugify";
 import { getPath } from "@/utils/getPath";
 import Datetime from "./Datetime.astro";
-import { SOURCE_LABELS, CATEGORY_LABELS } from "@/constants";
+import { CATEGORY_LABELS } from "@/constants";
 
 type Props = {
   variant?: "h2" | "h3";
@@ -12,9 +12,8 @@ type Props = {
 
 const { variant: Heading = "h2", id, data, filePath, showCategory = false } = Astro.props;
 
-const { title, description, score, sourceType, sourceUrl, category, ...props } = data;
+const { title, description, score, sourceUrl, sourceName, category, ...props } = data;
 
-const sourceInfo = sourceType ? SOURCE_LABELS[sourceType] : null;
 const categoryInfo = category ? CATEGORY_LABELS[category] : null;
 const scoreDisplay = score != null ? score.toFixed(1) : null;
 const scoreColor = score != null
@@ -22,7 +21,7 @@ const scoreColor = score != null
   : "";
 ---
 
-<li class="my-6">
+<li class="my-4">
   <div class="flex items-start gap-3">
     {scoreDisplay && (
       <span class:list={["shrink-0 font-mono text-sm font-bold mt-1", scoreColor]}>
@@ -30,50 +29,48 @@ const scoreColor = score != null
       </span>
     )}
     <div class="min-w-0 flex-1">
-      <div class="flex items-center gap-2 flex-wrap">
-        <a
-          href={getPath(id, filePath)}
-          class:list={[
-            "inline-block text-lg font-medium text-accent",
-            "decoration-dashed underline-offset-4 hover:underline",
-            "focus-visible:no-underline focus-visible:underline-offset-0",
-          ]}
+      <a
+        href={getPath(id, filePath)}
+        class:list={[
+          "inline-block text-base font-medium text-accent leading-snug",
+          "decoration-dashed underline-offset-4 hover:underline",
+          "focus-visible:no-underline focus-visible:underline-offset-0",
+        ]}
+      >
+        <Heading
+          style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
         >
-          <Heading
-            style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
-          >
-            {title}
-          </Heading>
-        </a>
-        {sourceInfo && (
-          <span
-            class="shrink-0 rounded-full px-2 py-0.5 text-xs font-medium text-white"
-            style={`background-color: ${sourceInfo.color}`}
-          >
-            {sourceInfo.label}
+          {title}
+        </Heading>
+      </a>
+      {showCategory && categoryInfo && (
+        <span
+          class="ml-2 inline-block rounded-full px-2 py-0.5 text-xs font-medium text-white align-middle"
+          style={`background-color: ${categoryInfo.color}`}
+        >
+          {categoryInfo.label}
+        </span>
+      )}
+      <div class="mt-1 flex items-center gap-2 text-xs opacity-70">
+        <Datetime {...props} size="sm" />
+        {sourceName && sourceUrl && (
+          <span class="flex items-center gap-1">
+            ·
+            <a
+              href={sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-accent hover:underline underline-offset-4 decoration-dashed"
+            >
+              {sourceName}
+            </a>
           </span>
         )}
-        {showCategory && categoryInfo && (
-          <span
-            class="shrink-0 rounded-full px-2 py-0.5 text-xs font-medium text-white"
-            style={`background-color: ${categoryInfo.color}`}
-          >
-            {categoryInfo.label}
-          </span>
+        {sourceName && !sourceUrl && (
+          <span>· {sourceName}</span>
         )}
       </div>
-      <Datetime {...props} />
-      <p class="text-sm">{description}</p>
-      {sourceUrl && (
-        <a
-          href={sourceUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="text-xs text-gray-400 hover:text-accent decoration-dashed underline-offset-4 hover:underline"
-        >
-          → 原文链接
-        </a>
-      )}
+      <p class="mt-1 text-sm opacity-90 line-clamp-2">{description}</p>
     </div>
   </div>
 </li>

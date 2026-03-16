@@ -21,7 +21,7 @@ const categoryPosts = CATEGORIES.map(cat => ({
     .slice(0, 5),
 }));
 
-// Uncategorized posts (no category or unknown category)
+// Uncategorized posts
 const uncategorized = sortedPosts.filter(
   ({ data }) => !data.category || !CATEGORIES.some(c => c.key === data.category)
 );
@@ -31,60 +31,63 @@ const uncategorized = sortedPosts.filter(
   <Header />
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
-      <h1 class="my-4 inline-block text-3xl font-bold sm:my-8 sm:text-4xl">
-        AI Feed
-      </h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="inline-block"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <IconRss
-          width={20}
-          height={20}
-          class="scale-125 stroke-accent stroke-3 rtl:-rotate-90"
-        />
-        <span class="sr-only">RSS Feed</span>
-      </a>
-      <p class="text-sm opacity-80">
+      <div class="flex items-center gap-3">
+        <h1 class="inline-block text-3xl font-bold sm:text-4xl">
+          AI Feed
+        </h1>
+        <a
+          target="_blank"
+          href="/rss.xml"
+          class="inline-block"
+          aria-label="rss feed"
+          title="RSS Feed"
+        >
+          <IconRss
+            width={20}
+            height={20}
+            class="scale-125 stroke-accent stroke-3 rtl:-rotate-90"
+          />
+        </a>
+      </div>
+      <p class="mt-2 text-sm opacity-80">
         每日精选 AI 领域动态 · 论文 · 开源项目 · 行业趋势
       </p>
     </section>
 
-    {categoryPosts.map(cat =>
-      cat.posts.length > 0 && (
-        <section class="pt-10 pb-4 border-b border-border">
-          <div class="flex items-center justify-between mb-2">
-            <h2 class="text-xl font-semibold tracking-wide flex items-center gap-2">
-              <span
-                class="inline-block w-1 h-5 rounded-sm"
-                style={`background-color: ${cat.color}`}
-              />
-              {cat.label}
-            </h2>
-            <a
-              href={`/categories/${cat.slug}/`}
-              class="text-sm text-accent hover:underline underline-offset-4 decoration-dashed"
-            >
-              更多 →
-            </a>
-          </div>
-          <ul>
-            {cat.posts.map(data => (
-              <Card variant="h3" {...data} />
-            ))}
-          </ul>
-        </section>
-      )
-    )}
+    <div class="grid grid-cols-1 gap-x-8 md:grid-cols-2">
+      {categoryPosts.map(cat =>
+        cat.posts.length > 0 && (
+          <section class="pt-8 pb-4 border-b border-border">
+            <div class="flex items-center justify-between mb-1">
+              <h2 class="text-lg font-semibold tracking-wide flex items-center gap-2">
+                <span
+                  class="inline-block w-1 h-5 rounded-sm"
+                  style={`background-color: ${cat.color}`}
+                />
+                {cat.label}
+              </h2>
+              <a
+                href={`/categories/${cat.slug}/`}
+                class="text-xs text-accent hover:underline underline-offset-4 decoration-dashed"
+              >
+                更多 →
+              </a>
+            </div>
+            <ul>
+              {cat.posts.map(data => (
+                <Card variant="h3" {...data} />
+              ))}
+            </ul>
+          </section>
+        )
+      )}
+    </div>
 
     {uncategorized.length > 0 && (
-      <section class="pt-10 pb-4 border-b border-border">
-        <h2 class="text-xl font-semibold tracking-wide mb-2">其他</h2>
+      <section class="pt-8 pb-4 border-b border-border">
+        <h2 class="text-lg font-semibold tracking-wide mb-1">其他</h2>
         <ul>
-          {uncategorized.slice(0, 10).map(data => (
+          {uncategorized.slice(0, 5).map(data => (
             <Card variant="h3" {...data} showCategory />
           ))}
         </ul>
