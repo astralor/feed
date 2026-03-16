@@ -31,10 +31,10 @@ const collectedStr = collectedAt
   : null;
 ---
 
-<li class="my-4">
-  <div class="flex items-start gap-3">
+<li class="py-3 first:pt-1 transition-colors hover:bg-muted/30 -mx-2 px-2 rounded-lg">
+  <div class="flex items-start gap-2.5">
     {scoreDisplay && (
-      <span class:list={["shrink-0 font-mono text-sm font-bold mt-1", scoreColor]}>
+      <span class:list={["shrink-0 font-mono text-xs font-bold mt-0.5 tabular-nums", scoreColor]}>
         {scoreDisplay}
       </span>
     )}
@@ -42,26 +42,27 @@ const collectedStr = collectedAt
       <a
         href={getPath(id, filePath)}
         class:list={[
-          "inline-block text-base font-medium text-accent leading-snug",
-          "decoration-dashed underline-offset-4 hover:underline",
+          "inline text-sm font-medium text-foreground leading-snug",
+          "decoration-accent/40 underline-offset-4 hover:underline hover:text-accent transition-colors",
           "focus-visible:no-underline focus-visible:underline-offset-0",
         ]}
       >
         <Heading
           style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
+          class="inline"
         >
           {title}
         </Heading>
       </a>
       {showCategory && categoryInfo && (
         <span
-          class="ml-2 inline-block rounded-full px-2 py-0.5 text-xs font-medium text-white align-middle"
+          class="ml-1.5 inline-block rounded px-1.5 py-px text-[10px] font-medium text-white align-middle"
           style={`background-color: ${categoryInfo.color}`}
         >
           {categoryInfo.label}
         </span>
       )}
-      <div class="mt-1 flex items-center gap-2 text-xs opacity-70">
+      <div class="mt-0.5 flex items-center gap-1.5 text-[11px] opacity-50 flex-wrap">
         <Datetime {...props} size="sm" />
         {sourceName && sourceUrl && (
           <span class="flex items-center gap-1">
@@ -70,7 +71,7 @@ const collectedStr = collectedAt
               href={sourceUrl}
               target="_blank"
               rel="noopener noreferrer"
-              class="hover:text-accent hover:underline underline-offset-4 decoration-dashed"
+              class="hover:text-accent hover:underline underline-offset-4 decoration-dashed transition-colors"
             >
               {sourceName}
             </a>
@@ -83,7 +84,7 @@ const collectedStr = collectedAt
           <span>· {collectedStr}</span>
         )}
       </div>
-      <p class="mt-1 text-sm opacity-90 line-clamp-2">{description}</p>
+      <p class="mt-0.5 text-xs opacity-60 line-clamp-2 leading-relaxed">{description}</p>
     </div>
   </div>
 </li>

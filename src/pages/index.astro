@@ -13,7 +13,6 @@ import { CATEGORIES } from "@/constants";
 const posts = await getCollection("blog");
 const sortedPosts = getSortedPosts(posts);
 
-// Group posts by category
 const categoryPosts = CATEGORIES.map(cat => ({
   ...cat,
   posts: sortedPosts
@@ -21,7 +20,6 @@ const categoryPosts = CATEGORIES.map(cat => ({
     .slice(0, 5),
 }));
 
-// Uncategorized posts
 const uncategorized = sortedPosts.filter(
   ({ data }) => !data.category || !CATEGORIES.some(c => c.key === data.category)
 );
@@ -30,7 +28,7 @@ const uncategorized = sortedPosts.filter(
 <Layout>
   <Header />
   <main id="main-content" data-layout="index" class="app-layout">
-    <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
+    <section id="hero" class="pt-8 pb-6">
       <div class="flex items-center gap-3">
         <h1 class="inline-block text-3xl font-bold sm:text-4xl">
           AI Feed
@@ -49,31 +47,31 @@ const uncategorized = sortedPosts.filter(
           />
         </a>
       </div>
-      <p class="mt-2 text-sm opacity-80">
+      <p class="mt-2 text-sm opacity-60">
         每日精选 AI 领域动态 · 论文 · 开源项目 · 行业趋势
       </p>
     </section>
 
-    <div class="grid grid-cols-1 gap-x-8 md:grid-cols-2">
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 pb-8">
       {categoryPosts.map(cat =>
         cat.posts.length > 0 && (
-          <section class="pt-8 pb-4 border-b border-border">
-            <div class="flex items-center justify-between mb-1">
-              <h2 class="text-lg font-semibold tracking-wide flex items-center gap-2">
+          <section class="rounded-xl border border-border bg-muted/20 p-5">
+            <div class="flex items-center justify-between mb-2">
+              <h2 class="text-base font-semibold tracking-wide flex items-center gap-2">
                 <span
-                  class="inline-block w-1 h-5 rounded-sm"
+                  class="inline-block w-1 h-4 rounded-sm"
                   style={`background-color: ${cat.color}`}
                 />
                 {cat.label}
               </h2>
               <a
                 href={`/categories/${cat.slug}/`}
-                class="text-xs text-accent hover:underline underline-offset-4 decoration-dashed"
+                class="text-xs text-accent/70 hover:text-accent hover:underline underline-offset-4 decoration-dashed transition-colors"
               >
                 更多 →
               </a>
             </div>
-            <ul>
+            <ul class="divide-y divide-border/50">
               {cat.posts.map(data => (
                 <Card variant="h3" {...data} />
               ))}
@@ -84,9 +82,9 @@ const uncategorized = sortedPosts.filter(
     </div>
 
     {uncategorized.length > 0 && (
-      <section class="pt-8 pb-4 border-b border-border">
-        <h2 class="text-lg font-semibold tracking-wide mb-1">其他</h2>
-        <ul>
+      <section class="rounded-xl border border-border bg-muted/20 p-5 mb-6">
+        <h2 class="text-base font-semibold tracking-wide mb-2">其他</h2>
+        <ul class="divide-y divide-border/50">
           {uncategorized.slice(0, 5).map(data => (
             <Card variant="h3" {...data} showCategory />
           ))}
