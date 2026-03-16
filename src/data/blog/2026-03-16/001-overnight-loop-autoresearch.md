@@ -4,7 +4,7 @@ description: "Karpathy AutoResearch 在 Blackwell GB10 上的实践，展示了 
 pubDatetime: 2026-03-16T04:00:00+08:00
 tags: [AutoResearch, AI-Agent, 自动化研究, GPU优化, 强化学习]
 featured: true
-category: "学术前沿"
+category: "深度观点"
 score: 8.2
 sourceUrl: "https://rundatarun.io/p/the-overnight-loop"
 sourceType: "web-search"

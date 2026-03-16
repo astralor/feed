@@ -30,11 +30,13 @@ export const SHARE_LINKS: Social[] = [
 
 // Category display config
 export const CATEGORIES = [
-  { key: "行业格局", slug: "industry", label: "行业格局", color: "#3b82f6" },
-  { key: "工程实践", slug: "engineering", label: "工程实践", color: "#8b5cf6" },
   { key: "模型动态", slug: "models", label: "模型动态", color: "#f59e0b" },
+  { key: "工程实践", slug: "engineering", label: "工程实践", color: "#8b5cf6" },
   { key: "学术前沿", slug: "research", label: "学术前沿", color: "#06b6d4" },
+  { key: "行业动态", slug: "industry", label: "行业动态", color: "#3b82f6" },
   { key: "深度观点", slug: "opinions", label: "深度观点", color: "#ef4444" },
+  { key: "算力硬件", slug: "infrastructure", label: "算力硬件", color: "#10b981" },
+  { key: "政策伦理", slug: "policy", label: "政策伦理", color: "#f97316" },
 ] as const;
 
 export const CATEGORY_LABELS: Record<string, { label: string; color: string }> =

@@ -4,7 +4,7 @@ description: "Perplexity 推出 Agent API，单一端点整合 OpenAI、Anthropi
 pubDatetime: 2026-03-13T07:00:00+08:00
 tags: [perplexity, api, agent, openai, anthropic, google, developer]
 featured: false
-category: "工程实践"
+category: "行业动态"
 score: 7.0
 sourceUrl: "https://thenewstack.io/perplexity-agent-api/"
 sourceType: "web-search"

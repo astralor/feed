@@ -4,7 +4,7 @@ description: "Anthropic 推出 Claude 交互可视化功能，可在对话中实
 pubDatetime: 2026-03-13T14:21:00+08:00
 tags: [anthropic, claude, ux, visualization, feature]
 featured: true
-category: "行业格局"
+category: "行业动态"
 score: 8.5
 sourceUrl: "https://claude.com/blog/claude-builds-visuals"
 sourceType: "anthropic-blog"

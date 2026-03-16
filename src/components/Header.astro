@@ -16,8 +16,8 @@ const isActive = (path: string) => {
   return currentPath === cleanPath || currentPath.startsWith(cleanPath + "/");
 };
 
-// Nav categories: exclude 深度观点 (shown in sidebar)
-const navCategories = CATEGORIES.filter(c => c.key !== "深度观点");
+// Nav categories: all categories shown in nav
+const navCategories = CATEGORIES;
 ---
 
 <a

@@ -4,7 +4,7 @@ description: "36kr 报道 OpenRouter 数据：全球 token 调用量一年增长
 pubDatetime: 2026-03-16T09:00:00+08:00
 tags: [china-ai, llm-usage, market-data, openrouter, global-ai]
 featured: true
-category: "行业格局"
+category: "行业动态"
 score: 8.0
 sourceUrl: "https://36kr.com/p/3700980530851712"
 sourceType: "36kr"

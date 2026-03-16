@@ -4,7 +4,7 @@ description: "Apple 发布搭载 M5 Pro 和 M5 Max 的 MacBook Pro，与上代�
 pubDatetime: 2026-03-16T09:00:00+08:00
 tags: [apple, hardware, local-llm, m5, inference]
 featured: false
-category: "行业格局"
+category: "算力硬件"
 score: 7.8
 sourceUrl: "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/"
 sourceType: "other"

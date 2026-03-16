@@ -4,7 +4,7 @@ description: "Perplexity 开放 Personal Computer 候补名单，一台由 Perpl
 pubDatetime: 2026-03-12T16:00:00+08:00
 tags: [perplexity, hardware, ai-pc, product]
 featured: true
-category: "行业格局"
+category: "算力硬件"
 score: 8.0
 sourceUrl: "https://www.perplexity.ai/personal-computer-waitlist"
 sourceType: "web-search"

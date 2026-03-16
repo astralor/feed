@@ -4,7 +4,7 @@ description: "CNBC 报道：腾讯、智谱 AI 等中国科技巨头正争相基
 pubDatetime: 2026-03-15T09:00:00+08:00
 tags: [openclaw, china, agent, tencent, adoption]
 featured: false
-category: "行业格局"
+category: "行业动态"
 score: 7.5
 sourceUrl: "https://www.cnbc.com/2026/03/12/china-openclaw-ai-agent-adoption-tech-companies-government-support-lobster-shrimp.html"
 sourceType: "web-search"

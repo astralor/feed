@@ -4,7 +4,7 @@ description: "据 The Information 报道，OpenAI 即将在 ChatGPT 界面内上
 pubDatetime: 2026-03-12T21:00:00+08:00
 tags: [openai, sora, chatgpt, video-generation]
 featured: false
-category: "行业格局"
+category: "行业动态"
 score: 7.5
 sourceUrl: "https://www.reuters.com/business/openai-plans-launch-its-sora-video-tool-chatgpt-information-reports-2026-03-11/"
 sourceType: "web-search"

@@ -4,7 +4,7 @@ description: "NVIDIA GTC 2026 于下周在圣何塞举行，Jensen Huang 提出 
 pubDatetime: 2026-03-13T16:00:00+08:00
 tags: [nvidia, gtc, jensen-huang, infrastructure, ai-scaling]
 featured: false
-category: "行业格局"
+category: "算力硬件"
 score: 7.5
 sourceUrl: "https://fortune.com/2026/03/12/nvidia-gtc-preview-the-real-march-madness-jensen-huang/"
 sourceType: "other"

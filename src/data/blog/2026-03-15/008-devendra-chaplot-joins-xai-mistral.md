@@ -4,7 +4,7 @@ description: "强化学习和导航领域顶尖研究者 Devendra Singh Chaplot 
 pubDatetime: 2026-03-15T09:00:00+08:00
 tags: [xai, talent, mistral, superintelligence, grok]
 featured: false
-category: "行业格局"
+category: "行业动态"
 score: 6.5
 sourceUrl: "https://www.fintechweekly.com/news/xai-superintelligence-devendra-chaplot-mistral-thinking-machines-lab-grok-march-2026"
 sourceType: "web-search"

@@ -4,7 +4,7 @@ description: "MIT Technology Review 深度报道：OpenClaw 在中国被昵称�
 pubDatetime: 2026-03-13T21:00:00+08:00
 tags: [openclaw, china, ai-agent, adoption, security, geopolitics]
 featured: true
-category: "深度观点"
+category: "行业动态"
 score: 8.5
 sourceUrl: "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/"
 sourceType: "web-search"

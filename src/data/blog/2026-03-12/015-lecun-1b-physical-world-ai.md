@@ -4,7 +4,7 @@ description: "Meta 首席 AI 科学家 Yann LeCun 的独立 AI 公司完成 10 �
 pubDatetime: 2026-03-12T14:00:00+08:00
 tags: [lecun, funding, physical-ai, world-model, startup]
 featured: true
-category: "行业格局"
+category: "行业动态"
 score: 8.5
 sourceUrl: "https://www.wired.com/story/yann-lecun-raises-dollar1-billion-to-build-ai-that-understands-the-physical-world/"
 sourceType: "web-search"

@@ -4,7 +4,7 @@ description: "《卫报》深度报道：美军在伊朗冲突中大规模部署
 pubDatetime: 2026-03-16T09:00:00+08:00
 tags: [ai-safety, military-ai, ethics, policy, geopolitics]
 featured: true
-category: "深度观点"
+category: "政策伦理"
 score: 8.5
 sourceUrl: "https://www.theguardian.com/technology/2026/mar/03/iran-war-heralds-era-of-ai-powered-bombing-quicker-than-speed-of-thought"
 sourceType: "other"

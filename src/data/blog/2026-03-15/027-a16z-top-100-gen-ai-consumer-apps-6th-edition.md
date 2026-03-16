@@ -4,7 +4,7 @@ description: "ChatGPT 网页用户仍是 Claude 的 30 倍，但 AI Agent 正在
 pubDatetime: 2026-03-15T19:00:00+08:00
 tags: [a16z, consumer-ai, chatgpt, claude, gemini, market-analysis]
 featured: true
-category: "行业格局"
+category: "行业动态"
 score: 8.5
 sourceUrl: "https://a16z.com/100-gen-ai-apps-6/"
 sourceType: "web-search"

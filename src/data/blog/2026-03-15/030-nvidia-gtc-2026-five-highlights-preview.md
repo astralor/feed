@@ -4,7 +4,7 @@ description: "Jensen Huang 将于 3 月 16 日发表主题演讲，焦点在于 
 pubDatetime: 2026-03-15T19:00:00+08:00
 tags: [nvidia, gtc, blackwell, vera-rubin, ai-infrastructure, jensen-huang]
 featured: false
-category: "行业格局"
+category: "行业动态"
 score: 7.5
 sourceUrl: "https://www.forbes.com/sites/timkeary/2026/03/14/5-highlights-to-watch-at-nvidia-gtc-2026/"
 sourceType: "web-search"

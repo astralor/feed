@@ -4,7 +4,7 @@ description: "Anthropic 宣布成立 Anthropic Institute，由联合创始人 Ja
 pubDatetime: 2026-03-12T21:00:00+08:00
 tags: [anthropic, ai-safety, ai-governance, research]
 featured: true
-category: "行业格局"
+category: "行业动态"
 score: 8.5
 sourceUrl: "https://www.theverge.com/ai-artificial-intelligence/892478/anthropic-institute-think-tank-claude-pentagon-jack-clark"
 sourceType: "web-search"

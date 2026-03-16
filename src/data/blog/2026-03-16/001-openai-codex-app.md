@@ -4,7 +4,7 @@ description: "OpenAI 发布 Codex 桌面应用，支持多 Agent 并行工作、
 pubDatetime: 2026-03-04T00:00:00+08:00
 tags: [openai, codex, agent, desktop-app, automation]
 featured: true
-category: "行业格局"
+category: "行业动态"
 score: 9.3
 sourceUrl: "https://openai.com/index/introducing-the-codex-app/"
 sourceType: "openai-blog"

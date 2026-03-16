@@ -23,8 +23,10 @@ const featured = sortedPosts
 
 const featuredIds = new Set(featured.map(p => p.id));
 
-// Main categories (exclude 深度观点, goes to sidebar)
-const mainCategories = CATEGORIES.filter(c => c.key !== "深度观点");
+// Main categories for grid (high interest ones)
+const mainCategories = CATEGORIES.filter(c =>
+  ["模型动态", "工程实践", "学术前沿", "行业动态"].includes(c.key)
+);
 const categoryPosts = mainCategories.map(cat => ({
   ...cat,
   posts: sortedPosts
@@ -36,6 +38,16 @@ const categoryPosts = mainCategories.map(cat => ({
 const opinionPosts = sortedPosts
   .filter(({ data, id }) => data.category === "深度观点" && !featuredIds.has(id))
   .slice(0, 8);
+
+// Sidebar: 算力硬件
+const infraPosts = sortedPosts
+  .filter(({ data, id }) => data.category === "算力硬件" && !featuredIds.has(id))
+  .slice(0, 5);
+
+// Sidebar: 政策伦理
+const policyPosts = sortedPosts
+  .filter(({ data, id }) => data.category === "政策伦理" && !featuredIds.has(id))
+  .slice(0, 5);
 
 // Sidebar: 热门文章 (top scored, not in featured or opinions)
 const opinionIds = new Set(opinionPosts.map(p => p.id));
@@ -142,6 +154,82 @@ const hotPosts = sortedPosts
                     <span class:list={[
                       "shrink-0 w-5 h-5 rounded text-center text-xs font-bold leading-5",
                       i < 3 ? "bg-accent text-white" : "bg-muted text-text-secondary",
+                    ]}>
+                      {i + 1}
+                    </span>
+                    <span class="text-xs font-medium leading-snug text-foreground group-hover:text-accent transition-colors line-clamp-2">
+                      {post.data.title}
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        <!-- 算力硬件 -->
+        {infraPosts.length > 0 && (
+          <section>
+            <div class="flex items-center justify-between mb-3 pb-2 border-b-2 border-border">
+              <h2 class="text-sm font-bold flex items-center gap-2">
+                <span class="inline-block w-1 h-4 rounded-sm bg-emerald-500" />
+                算力硬件
+              </h2>
+              <a
+                href="/categories/infrastructure/"
+                class="text-xs text-text-secondary hover:text-accent transition-colors"
+              >
+                更多 →
+              </a>
+            </div>
+            <ul class="space-y-0">
+              {infraPosts.map((post, i) => (
+                <li class="py-2 group">
+                  <a
+                    href={getPath(post.id, post.filePath)}
+                    class="flex items-start gap-2.5"
+                  >
+                    <span class:list={[
+                      "shrink-0 w-5 h-5 rounded text-center text-xs font-bold leading-5",
+                      i < 3 ? "bg-emerald-500 text-white" : "bg-muted text-text-secondary",
+                    ]}>
+                      {i + 1}
+                    </span>
+                    <span class="text-xs font-medium leading-snug text-foreground group-hover:text-accent transition-colors line-clamp-2">
+                      {post.data.title}
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        <!-- 政策伦理 -->
+        {policyPosts.length > 0 && (
+          <section>
+            <div class="flex items-center justify-between mb-3 pb-2 border-b-2 border-border">
+              <h2 class="text-sm font-bold flex items-center gap-2">
+                <span class="inline-block w-1 h-4 rounded-sm bg-orange-500" />
+                政策伦理
+              </h2>
+              <a
+                href="/categories/policy/"
+                class="text-xs text-text-secondary hover:text-accent transition-colors"
+              >
+                更多 →
+              </a>
+            </div>
+            <ul class="space-y-0">
+              {policyPosts.map((post, i) => (
+                <li class="py-2 group">
+                  <a
+                    href={getPath(post.id, post.filePath)}
+                    class="flex items-start gap-2.5"
+                  >
+                    <span class:list={[
+                      "shrink-0 w-5 h-5 rounded text-center text-xs font-bold leading-5",
+                      i < 3 ? "bg-orange-500 text-white" : "bg-muted text-text-secondary",
                     ]}>
                       {i + 1}
                     </span>

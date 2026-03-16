@@ -4,7 +4,7 @@ description: "Anthropic 发布基于真实 Claude 使用数据的劳动力市场
 pubDatetime: 2026-03-15T16:00:00+08:00
 tags: [anthropic, economics, labor-market, jobs, research]
 featured: true
-category: "深度观点"
+category: "学术前沿"
 score: 8.5
 sourceUrl: "https://www.euronews.com/business/2026/03/14/how-ai-will-reshape-work-anthropic-identifies-the-most-exposed-jobs"
 sourceType: "other"

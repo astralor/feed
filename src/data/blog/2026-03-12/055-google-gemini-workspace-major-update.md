@@ -4,7 +4,7 @@ description: "Google 将 Gemini 深度集成至 Docs、Sheets、Slides 和 Drive
 pubDatetime: 2026-03-12T21:00:00+08:00
 tags: [google, gemini, workspace, productivity, enterprise]
 featured: false
-category: "行业格局"
+category: "行业动态"
 score: 7.5
 sourceUrl: "https://blog.google/products-and-platforms/products/workspace/gemini-workspace-updates-march-2026/"
 sourceType: "web-search"

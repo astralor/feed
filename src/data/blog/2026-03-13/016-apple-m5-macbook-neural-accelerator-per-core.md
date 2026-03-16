@@ -4,7 +4,7 @@ description: "苹果今日发布搭载 M5 / M5 Pro / M5 Max 芯片的全新 MacB
 pubDatetime: 2026-03-13T14:00:00+08:00
 tags: [hardware, apple, on-device-ai, m5, inference]
 featured: true
-category: "行业格局"
+category: "算力硬件"
 score: 8.5
 sourceUrl: "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/"
 sourceType: "other"

@@ -4,7 +4,7 @@ description: "OpenAI 研究副总裁 Aidan Clark 在 X 上发出神秘推文：�
 pubDatetime: 2026-03-12T21:00:00+08:00
 tags: [openai, agi, research, industry-signal]
 featured: true
-category: "行业格局"
+category: "行业动态"
 score: 8.0
 sourceUrl: "https://officechai.com/ai/openai-vp-of-research-aidan-clark-hints-that-agi-has-already-arrived/"
 sourceType: "web-search"

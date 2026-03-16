@@ -3,7 +3,7 @@ title: "OpenAI 完成 400 亿美元融资，估值 3000 亿美元"
 description: "OpenAI 宣布完成 400 亿美元新融资，投后估值达 3000 亿美元，创 AI 领域融资记录。"
 pubDatetime: 2026-03-08T12:00:00+08:00
 tags: [openai, funding, business]
-category: "行业格局"
+category: "行业动态"
 score: 7.8
 sourceUrl: "https://openai.com/index/march-funding-updates/"
 sourceType: "openai-blog"
