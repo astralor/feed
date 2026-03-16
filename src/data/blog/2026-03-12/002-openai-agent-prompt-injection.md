@@ -4,7 +4,7 @@ description: "OpenAI 安全团队发布关于设计 AI Agent 抵御 prompt injec
 pubDatetime: 2026-03-11T12:00:00+08:00
 tags: [openai, agent, security, prompt-injection]
 featured: true
-category: "工程实践"
+category: "学术前沿"
 score: 9.0
 sourceUrl: "https://openai.com/index/designing-ai-agents-to-resist-prompt-injection/"
 sourceType: "openai-blog"

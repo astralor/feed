@@ -4,7 +4,7 @@ description: "Anthropic 发布 AI Fluency Index（AI 流利度指数），提供
 pubDatetime: 2026-03-12T16:00:00+08:00
 tags: [anthropic, ai-education, research, ai-literacy]
 featured: false
-category: "工程实践"
+category: "学术前沿"
 score: 7.0
 sourceUrl: "https://www.anthropic.com/research/AI-fluency-index"
 sourceType: "anthropic-blog"

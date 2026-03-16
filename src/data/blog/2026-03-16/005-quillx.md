@@ -4,7 +4,7 @@ description: "开源标准，用 5 级评分（Verse/Prose/Adapted/Ghostwritten/
 pubDatetime: 2026-03-16T06:00:00+08:00
 tags: [ai-disclosure, open-standard, transparency]
 featured: false
-category: "深度观点"
+category: "工程实践"
 score: 6.5
 scoreReason: "有趣的透明度标准尝试，用文学隐喻让 AI 参与度可视化，但实际采用度和效果有待观察"
 sourceUrl: "https://github.com/QAInsights/Quillx"

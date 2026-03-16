@@ -4,7 +4,7 @@ description: "从简单聊天机器人到自主执行系统，企业如何避免
 pubDatetime: 2026-03-16T04:00:00+08:00
 tags: [Perplexity, AI-Agent, 企业部署, 自动化, 治理]
 featured: false
-category: "行业格局"
+category: "深度观点"
 score: 7.0
 sourceUrl: "https://www.ability.ai/blog/perplexity-computer-super-agent-playbook"
 sourceType: "web-search"

@@ -4,7 +4,7 @@ description: "Sebastian Raschka 发布 LLM Architecture Gallery，用可视化�
 pubDatetime: 2026-03-16T09:00:00+08:00
 tags: [llm, architecture, education, visualization, open-source]
 featured: false
-category: "模型动态"
+category: "工程实践"
 score: 7.5
 sourceUrl: "https://sebastianraschka.com/llm-architecture-gallery/"
 sourceType: "other"

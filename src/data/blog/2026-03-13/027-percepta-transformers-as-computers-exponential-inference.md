@@ -4,7 +4,7 @@ description: "Percepta AI 提出全新架构：将程序直接编码进 Transfor
 pubDatetime: 2026-03-13T11:00:00+08:00
 tags: [inference, transformer, llm, architecture, research]
 featured: true
-category: "模型动态"
+category: "学术前沿"
 score: 8.5
 sourceUrl: "https://www.percepta.ai/blog/can-llms-be-computers"
 sourceType: "hacker-news"

@@ -3,7 +3,7 @@ title: "Anthropic 发布 AI Agent 自主性实践度量方法"
 description: "Anthropic 社会影响团队提出衡量 AI Agent 自主程度的实用框架，为 Agent 安全治理提供量化依据。"
 pubDatetime: 2026-02-18T12:00:00+08:00
 tags: [anthropic, agent, autonomy, safety, measurement]
-category: "行业格局"
+category: "学术前沿"
 score: 7.8
 sourceUrl: "https://www.anthropic.com/research/measuring-agent-autonomy"
 sourceType: "anthropic-blog"

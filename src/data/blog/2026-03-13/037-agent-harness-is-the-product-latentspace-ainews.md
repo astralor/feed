@@ -4,7 +4,7 @@ description: "Latent Space AINews 3/11-12 期综述：多篇文章汇聚到同�
 pubDatetime: 2026-03-13T21:00:00+08:00
 tags: [agent, harness, llm, infrastructure, mcp, developer-tools]
 featured: true
-category: "工程实践"
+category: "深度观点"
 score: 8.0
 sourceUrl: "https://www.latent.space/p/ainews-the-high-return-activity-of"
 sourceType: "web-search"

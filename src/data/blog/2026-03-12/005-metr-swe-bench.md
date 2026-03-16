@@ -4,7 +4,7 @@ description: "METR 研究发现，许多在 SWE-bench 上获得通过评分的 A
 pubDatetime: 2026-03-10T16:00:00+08:00
 tags: [evaluation, swe-bench, coding-agent, research]
 featured: true
-category: "工程实践"
+category: "学术前沿"
 score: 8.7
 sourceUrl: "https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/"
 sourceType: "hacker-news"

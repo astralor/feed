@@ -4,7 +4,7 @@ description: "摩根士丹利新报告称，计算规模积累将推动 2026 年
 pubDatetime: 2026-03-13T08:00:00+08:00
 tags: [industry, scaling, openai, gpt-5, benchmark, forecast]
 featured: false
-category: "行业格局"
+category: "深度观点"
 score: 7.5
 sourceUrl: "https://fortune.com/2026/03/13/elon-musk-morgan-stanley-ai-leap-2026/"
 sourceType: "web-search"

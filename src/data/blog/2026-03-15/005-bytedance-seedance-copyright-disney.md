@@ -4,7 +4,7 @@ description: "TikTok 母公司字节跳动暂停 Seedance 2.0 全球发布，原
 pubDatetime: 2026-03-15T09:00:00+08:00
 tags: [bytedance, video-ai, copyright, china, seedance]
 featured: false
-category: "深度观点"
+category: "行业格局"
 score: 7.5
 sourceUrl: "https://www.reuters.com/technology/bytedance-suspends-launch-video-ai-model-after-copyright-disputes-information-2026-03-14/"
 sourceType: "web-search"
