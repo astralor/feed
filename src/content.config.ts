@@ -40,6 +40,7 @@ const blog = defineCollection({
         "other",
       ]).optional(),
       sourceName: z.string().optional(),
+      scoreReason: z.string().optional(),
     }),
 });
 
