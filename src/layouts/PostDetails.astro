@@ -86,11 +86,26 @@ const nextPost =
 ---
 
 <Layout {...layoutProps}>
-  <Header />
-  <BackButton />
+  <Header activeCategory={categorySlug} />
+  <!-- Breadcrumb: category path -->
+  <div class="app-layout flex items-center gap-2 mt-6 mb-2 text-sm">
+    <a href="/" class="text-text-secondary hover:text-accent transition-colors">首页</a>
+    <span class="text-text-secondary">/</span>
+    {catInfo && categorySlug ? (
+      <a
+        href={`/categories/${categorySlug}/`}
+        class="hover:text-accent transition-colors"
+        style={`color: ${catInfo.color}`}
+      >
+        {catInfo.label}
+      </a>
+    ) : (
+      <a href="/posts/" class="text-text-secondary hover:text-accent transition-colors">文章库</a>
+    )}
+  </div>
   <main
     id="main-content"
-    class:list={["app-layout pb-12", { "mt-8": !SITE.showBackButton }]}
+    class:list={["app-layout pb-12"]}
     data-pagefind-body
   >
     <!-- Article header -->

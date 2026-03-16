@@ -6,12 +6,21 @@ import LinkButton from "./LinkButton.astro";
 import { SITE } from "@/config";
 import { CATEGORIES } from "@/constants";
 
+type Props = {
+  activeCategory?: string | null;
+};
+
+const { activeCategory } = Astro.props;
 const { pathname } = Astro.url;
 
 const currentPath =
   pathname.endsWith("/") && pathname !== "/" ? pathname.slice(0, -1) : pathname;
 
-const isActive = (path: string) => {
+const isActive = (path: string, slug?: string) => {
+  // If activeCategory is set (from article page), use it for category matching
+  if (activeCategory && slug) {
+    return slug === activeCategory;
+  }
   const cleanPath = path.endsWith("/") && path !== "/" ? path.slice(0, -1) : path;
   return currentPath === cleanPath || currentPath.startsWith(cleanPath + "/");
 };
@@ -45,7 +54,7 @@ const navCategories = CATEGORIES;
           href={`/categories/${cat.slug}/`}
           class:list={[
             "whitespace-nowrap px-4 h-full flex items-center text-sm font-medium border-b-2 transition-colors",
-            isActive(`/categories/${cat.slug}`)
+            isActive(`/categories/${cat.slug}`, cat.slug)
               ? "border-accent text-accent"
               : "border-transparent text-text-secondary hover:text-foreground hover:border-border",
           ]}
@@ -57,7 +66,7 @@ const navCategories = CATEGORIES;
         href="/posts"
         class:list={[
           "whitespace-nowrap px-4 h-full flex items-center text-sm font-medium border-b-2 transition-colors",
-          isActive("/posts")
+          !activeCategory && isActive("/posts")
             ? "border-accent text-accent"
             : "border-transparent text-text-secondary hover:text-foreground hover:border-border",
         ]}
@@ -101,7 +110,7 @@ const navCategories = CATEGORIES;
         href={`/categories/${cat.slug}/`}
         class:list={[
           "whitespace-nowrap px-3 py-2 text-xs font-medium border-b-2 transition-colors",
-          isActive(`/categories/${cat.slug}`)
+          isActive(`/categories/${cat.slug}`, cat.slug)
             ? "border-accent text-accent"
             : "border-transparent text-text-secondary",
         ]}
@@ -113,7 +122,7 @@ const navCategories = CATEGORIES;
       href="/posts"
       class:list={[
         "whitespace-nowrap px-3 py-2 text-xs font-medium border-b-2 transition-colors",
-        isActive("/posts")
+        !activeCategory && isActive("/posts")
           ? "border-accent text-accent"
           : "border-transparent text-text-secondary",
       ]}
