@@ -1,0 +1,433 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import { SITE } from "@/config";
+import { CATEGORIES } from "@/constants";
+---
+
+<Layout title={`文章库 | ${SITE.title}`}>
+  <Header />
+  <div id="library" class="flex h-[calc(100vh-3.5rem)] overflow-hidden">
+    <!-- Desktop sidebar -->
+    <aside id="sidebar" class="hidden lg:flex flex-col w-80 border-r border-border bg-background shrink-0">
+      <!-- Search + filters -->
+      <div class="p-3 space-y-2.5 border-b border-border">
+        <div class="relative">
+          <input
+            id="search"
+            type="text"
+            placeholder="搜索文章..."
+            class="w-full pl-8 pr-3 py-1.5 text-sm rounded-lg border border-border bg-background text-foreground placeholder:text-text-secondary focus:outline-none focus:border-accent transition-colors"
+          />
+          <svg class="absolute left-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-text-secondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+          </svg>
+        </div>
+        <div id="cat-tabs" class="flex flex-wrap gap-1">
+          <button data-cat="all" class="cat-tab active">全部</button>
+          {CATEGORIES.map(cat => (
+            <button data-cat={cat.key} data-color={cat.color} class="cat-tab">{cat.label}</button>
+          ))}
+        </div>
+        <div class="flex items-center gap-2">
+          <select id="sort-select" class="text-xs bg-background border border-border rounded px-2 py-1 text-text-secondary focus:outline-none">
+            <option value="date">按时间</option>
+            <option value="score">按评分</option>
+          </select>
+          <span id="count" class="text-xs text-text-secondary ml-auto">0 篇</span>
+        </div>
+      </div>
+      <!-- Article list -->
+      <ul id="list" class="flex-1 overflow-y-auto"></ul>
+    </aside>
+
+    <!-- Content area -->
+    <main id="content" class="flex-1 overflow-y-auto bg-background">
+      <div id="placeholder" class="flex flex-col items-center justify-center h-full text-text-secondary gap-3">
+        <svg class="w-16 h-16 opacity-30" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24">
+          <path d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"/>
+        </svg>
+        <p class="text-sm">选择一篇文章开始阅读</p>
+      </div>
+      <div id="loading" class="hidden flex items-center justify-center h-full">
+        <div class="w-6 h-6 border-2 border-accent border-t-transparent rounded-full animate-spin"></div>
+      </div>
+      <div id="article-view" class="hidden">
+        <!-- Article header (built from JSON metadata) -->
+        <div class="max-w-3xl mx-auto px-6 pt-8">
+          <h1 id="art-title" class="text-2xl font-bold text-accent sm:text-3xl"></h1>
+          <div id="art-meta" class="my-3 flex flex-wrap items-center gap-3 text-sm"></div>
+          <div id="art-source" class="mb-4 flex items-center gap-2 text-sm"></div>
+        </div>
+        <!-- Article body (fetched HTML) -->
+        <article id="art-body" class="max-w-3xl mx-auto px-6 pb-12 app-prose w-full prose-pre:bg-(--shiki-light-bg) dark:prose-pre:bg-(--shiki-dark-bg)"></article>
+        <!-- Tags -->
+        <div id="art-tags" class="max-w-3xl mx-auto px-6 pb-8"></div>
+      </div>
+    </main>
+
+    <!-- Mobile FAB -->
+    <button
+      id="fab"
+      class="lg:hidden fixed bottom-6 right-6 z-40 w-14 h-14 rounded-full bg-accent text-white shadow-lg hover:shadow-xl active:scale-95 transition-all flex items-center justify-center"
+      aria-label="文章列表"
+    >
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round"/>
+      </svg>
+    </button>
+
+    <!-- Mobile bottom sheet -->
+    <div id="sheet-overlay" class="lg:hidden fixed inset-0 z-50 hidden">
+      <div id="sheet-bg" class="absolute inset-0 bg-black/40"></div>
+      <div id="sheet" class="absolute bottom-0 left-0 right-0 bg-background rounded-t-2xl shadow-2xl flex flex-col" style="max-height: 85vh; transform: translateY(100%);">
+        <!-- Drag handle -->
+        <div class="flex justify-center py-2.5 cursor-grab" id="sheet-handle">
+          <div class="w-10 h-1 rounded-full bg-border"></div>
+        </div>
+        <!-- Search + filters -->
+        <div class="px-4 pb-3 space-y-2.5 border-b border-border">
+          <div class="relative">
+            <input
+              id="m-search"
+              type="text"
+              placeholder="搜索文章..."
+              class="w-full pl-8 pr-3 py-1.5 text-sm rounded-lg border border-border bg-background text-foreground placeholder:text-text-secondary focus:outline-none focus:border-accent"
+            />
+            <svg class="absolute left-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-text-secondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+            </svg>
+          </div>
+          <div id="m-cats" class="flex flex-wrap gap-1">
+            <button data-cat="all" class="cat-tab active">全部</button>
+            {CATEGORIES.map(cat => (
+              <button data-cat={cat.key} data-color={cat.color} class="cat-tab">{cat.label}</button>
+            ))}
+          </div>
+          <div class="flex items-center gap-2">
+            <select id="m-sort" class="text-xs bg-background border border-border rounded px-2 py-1 text-text-secondary focus:outline-none">
+              <option value="date">按时间</option>
+              <option value="score">按评分</option>
+            </select>
+            <span id="m-count" class="text-xs text-text-secondary ml-auto">0 篇</span>
+          </div>
+        </div>
+        <!-- Article list -->
+        <ul id="m-list" class="flex-1 overflow-y-auto"></ul>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  @reference "@/styles/global.css";
+
+  .cat-tab {
+    @apply px-2 py-0.5 text-xs rounded-full border border-border text-text-secondary cursor-pointer transition-all hover:border-accent/50;
+  }
+  .cat-tab.active {
+    @apply bg-accent text-white border-accent;
+  }
+  .list-item {
+    @apply block px-4 py-3 border-b border-border/50 cursor-pointer transition-colors hover:bg-card-hover;
+  }
+  .list-item.active {
+    @apply bg-card-hover border-l-2 border-l-accent;
+  }
+  .list-item-title {
+    @apply text-sm font-medium text-foreground leading-snug line-clamp-2;
+  }
+  .list-item.active .list-item-title {
+    @apply text-accent;
+  }
+  .list-item-meta {
+    @apply mt-1 flex items-center gap-2 text-xs text-text-secondary;
+  }
+  .list-item-cat {
+    @apply inline-block w-1.5 h-1.5 rounded-full shrink-0;
+  }
+  .score-high { @apply text-red-500; }
+  .score-mid { @apply text-amber-500; }
+  .score-low { @apply text-text-secondary; }
+</style>
+
+<script is:inline define:vars={{ categories: CATEGORIES }}>
+(function() {
+  const CAT_MAP = {};
+  categories.forEach(c => { CAT_MAP[c.key] = c; });
+
+  let articles = [];
+  let activeSlug = null;
+  let activeCat = 'all';
+  let searchQuery = '';
+  let sortBy = 'date';
+  const contentCache = {};
+
+  // DOM refs
+  const $ = id => document.getElementById(id);
+  const list = $('list');
+  const mList = $('m-list');
+  const countEl = $('count');
+  const mCountEl = $('m-count');
+  const searchInput = $('search');
+  const mSearchInput = $('m-search');
+  const sortSelect = $('sort-select');
+  const mSortSelect = $('m-sort');
+  const placeholder = $('placeholder');
+  const loading = $('loading');
+  const articleView = $('article-view');
+  const fab = $('fab');
+  const sheetOverlay = $('sheet-overlay');
+  const sheetBg = $('sheet-bg');
+  const sheet = $('sheet');
+
+  // -- Data loading --
+  async function loadFeed() {
+    const resp = await fetch('/api/feed.json');
+    articles = await resp.json();
+    render();
+
+    // Check URL for pre-selected article
+    const params = new URLSearchParams(location.search);
+    const slug = params.get('article');
+    if (slug) {
+      const match = articles.find(a => a.slug === slug || a.slug === '/posts/' + slug);
+      if (match) loadArticle(match);
+    }
+  }
+
+  // -- Filtering & sorting --
+  function filtered() {
+    let result = articles;
+    if (activeCat !== 'all') {
+      result = result.filter(a => a.category === activeCat);
+    }
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      result = result.filter(a =>
+        a.title.toLowerCase().includes(q) ||
+        a.description.toLowerCase().includes(q) ||
+        (a.tags || []).some(t => t.toLowerCase().includes(q))
+      );
+    }
+    if (sortBy === 'score') {
+      result = [...result].sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+    }
+    return result;
+  }
+
+  // -- Rendering --
+  function formatDate(iso) {
+    const d = new Date(iso);
+    return `${d.getMonth() + 1}月${d.getDate()}日`;
+  }
+
+  function scoreClass(s) {
+    if (s == null) return '';
+    return s >= 8 ? 'score-high' : s >= 6 ? 'score-mid' : 'score-low';
+  }
+
+  function renderListItem(a) {
+    const cat = CAT_MAP[a.category];
+    const isActive = a.slug === activeSlug;
+    return `<li class="list-item${isActive ? ' active' : ''}" data-slug="${a.slug}">
+      <div class="list-item-title">${a.title}</div>
+      <div class="list-item-meta">
+        ${cat ? `<span class="list-item-cat" style="background:${cat.color}"></span><span>${cat.label}</span>` : ''}
+        <span>${formatDate(a.pubDatetime)}</span>
+        ${a.score != null ? `<span class="${scoreClass(a.score)} font-mono font-bold">${a.score.toFixed(1)}</span>` : ''}
+        ${a.sourceName ? `<span class="truncate">${a.sourceName}</span>` : ''}
+      </div>
+    </li>`;
+  }
+
+  function render() {
+    const items = filtered();
+    const html = items.map(renderListItem).join('');
+    if (list) list.innerHTML = html;
+    if (mList) mList.innerHTML = html;
+    const countText = `${items.length} 篇`;
+    if (countEl) countEl.textContent = countText;
+    if (mCountEl) mCountEl.textContent = countText;
+    bindListClicks();
+  }
+
+  function bindListClicks() {
+    document.querySelectorAll('.list-item').forEach(el => {
+      el.addEventListener('click', () => {
+        const slug = el.dataset.slug;
+        const article = articles.find(a => a.slug === slug);
+        if (article) loadArticle(article);
+      });
+    });
+  }
+
+  // -- Article loading --
+  async function loadArticle(article) {
+    activeSlug = article.slug;
+    render(); // update active state
+
+    // Update URL
+    history.replaceState(null, '', `/library?article=${encodeURIComponent(article.slug.replace('/posts/', ''))}`);
+
+    // Close mobile sheet
+    closeSheet();
+
+    // Show loading
+    placeholder.classList.add('hidden');
+    articleView.classList.add('hidden');
+    loading.classList.remove('hidden');
+
+    try {
+      // Build header from metadata
+      const cat = CAT_MAP[article.category];
+      $('art-title').textContent = article.title;
+
+      let metaHtml = `<span class="text-text-secondary">${formatDate(article.pubDatetime)}</span>`;
+      if (cat) {
+        metaHtml += `<a href="/categories/${cat.slug}/" class="inline-block rounded-full px-3 py-0.5 text-xs font-medium text-white hover:opacity-80" style="background:${cat.color}">${cat.label}</a>`;
+      }
+      if (article.score != null) {
+        metaHtml += `<span class="${scoreClass(article.score)} font-mono font-bold">${article.score.toFixed(1)} 分</span>`;
+      }
+      if (article.scoreReason) {
+        metaHtml += `<span class="text-xs text-text-secondary">— ${article.scoreReason}</span>`;
+      }
+      $('art-meta').innerHTML = metaHtml;
+
+      if (article.sourceUrl) {
+        $('art-source').innerHTML = `<span class="text-text-secondary">原文：</span><a href="${article.sourceUrl}" target="_blank" rel="noopener" class="text-accent hover:underline underline-offset-4 decoration-dashed truncate max-w-lg">${article.sourceName || new URL(article.sourceUrl).hostname}</a>`;
+        $('art-source').classList.remove('hidden');
+      } else {
+        $('art-source').innerHTML = '';
+        $('art-source').classList.add('hidden');
+      }
+
+      // Fetch article body
+      let bodyHtml = contentCache[article.slug];
+      if (!bodyHtml) {
+        const resp = await fetch(article.slug);
+        const html = await resp.text();
+        const doc = new DOMParser().parseFromString(html, 'text/html');
+        const artEl = doc.getElementById('article');
+        bodyHtml = artEl ? artEl.innerHTML : '<p>无法加载文章内容</p>';
+        contentCache[article.slug] = bodyHtml;
+      }
+      $('art-body').innerHTML = bodyHtml;
+
+      // Tags
+      if (article.tags && article.tags.length > 0) {
+        $('art-tags').innerHTML = `<span class="text-sm font-medium text-text-secondary mr-2">标签：</span>` +
+          article.tags.map(t => `<span class="inline-block mr-2 mb-1 px-2.5 py-0.5 text-xs rounded-full border border-border text-text-secondary">${t}</span>`).join('');
+      } else {
+        $('art-tags').innerHTML = '';
+      }
+
+      loading.classList.add('hidden');
+      articleView.classList.remove('hidden');
+
+      // Scroll content to top
+      $('content').scrollTop = 0;
+
+      // Re-run code highlighting if needed
+      attachCopyButtons();
+
+    } catch (err) {
+      loading.classList.add('hidden');
+      placeholder.classList.remove('hidden');
+      console.error('Failed to load article:', err);
+    }
+  }
+
+  function attachCopyButtons() {
+    const label = 'Copy';
+    $('art-body').querySelectorAll('pre').forEach(block => {
+      if (block.querySelector('.copy-code')) return;
+      const btn = document.createElement('button');
+      btn.className = 'copy-code absolute end-3 -top-3 rounded bg-muted border border-muted px-2 py-1 text-xs leading-4 text-foreground font-medium';
+      btn.textContent = label;
+      block.style.position = 'relative';
+      block.appendChild(btn);
+      btn.addEventListener('click', async () => {
+        const code = block.querySelector('code');
+        await navigator.clipboard.writeText(code?.innerText ?? '');
+        btn.textContent = 'Copied';
+        setTimeout(() => { btn.textContent = label; }, 700);
+      });
+    });
+  }
+
+  // -- Category tabs --
+  function initCatTabs(container) {
+    container.querySelectorAll('.cat-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        container.querySelectorAll('.cat-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeCat = btn.dataset.cat;
+        // Sync the other tab set
+        syncTabs(container === $('cat-tabs') ? $('m-cats') : $('cat-tabs'));
+        render();
+      });
+    });
+  }
+
+  function syncTabs(otherContainer) {
+    if (!otherContainer) return;
+    otherContainer.querySelectorAll('.cat-tab').forEach(b => {
+      b.classList.toggle('active', b.dataset.cat === activeCat);
+    });
+  }
+
+  // -- Search --
+  function initSearch(input) {
+    if (!input) return;
+    input.addEventListener('input', () => {
+      searchQuery = input.value.trim();
+      // Sync other search input
+      const other = input === searchInput ? mSearchInput : searchInput;
+      if (other) other.value = searchQuery;
+      render();
+    });
+  }
+
+  // -- Sort --
+  function initSort(select) {
+    if (!select) return;
+    select.addEventListener('change', () => {
+      sortBy = select.value;
+      const other = select === sortSelect ? mSortSelect : sortSelect;
+      if (other) other.value = sortBy;
+      render();
+    });
+  }
+
+  // -- Mobile sheet --
+  function openSheet() {
+    sheetOverlay.classList.remove('hidden');
+    requestAnimationFrame(() => {
+      sheet.style.transform = 'translateY(0)';
+      sheet.style.transition = 'transform 0.3s ease-out';
+    });
+  }
+
+  function closeSheet() {
+    if (!sheetOverlay || sheetOverlay.classList.contains('hidden')) return;
+    sheet.style.transform = 'translateY(100%)';
+    sheet.style.transition = 'transform 0.3s ease-in';
+    setTimeout(() => sheetOverlay.classList.add('hidden'), 300);
+  }
+
+  // -- Init --
+  if (fab) fab.addEventListener('click', openSheet);
+  if (sheetBg) sheetBg.addEventListener('click', closeSheet);
+
+  initCatTabs($('cat-tabs'));
+  initCatTabs($('m-cats'));
+  initSearch(searchInput);
+  initSearch(mSearchInput);
+  initSort(sortSelect);
+  initSort(mSortSelect);
+
+  loadFeed();
+})();
+</script>

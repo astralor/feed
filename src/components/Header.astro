@@ -63,10 +63,10 @@ const navCategories = CATEGORIES;
         </a>
       ))}
       <a
-        href="/posts"
+        href="/library"
         class:list={[
           "whitespace-nowrap px-4 h-full flex items-center text-sm font-medium border-b-2 transition-colors",
-          !activeCategory && isActive("/posts")
+          !activeCategory && isActive("/library")
             ? "border-accent text-accent"
             : "border-transparent text-text-secondary hover:text-foreground hover:border-border",
         ]}
@@ -119,10 +119,10 @@ const navCategories = CATEGORIES;
       </a>
     ))}
     <a
-      href="/posts"
+      href="/library"
       class:list={[
         "whitespace-nowrap px-3 py-2 text-xs font-medium border-b-2 transition-colors",
-        !activeCategory && isActive("/posts")
+        !activeCategory && isActive("/library")
           ? "border-accent text-accent"
           : "border-transparent text-text-secondary",
       ]}
