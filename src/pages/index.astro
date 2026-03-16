@@ -8,25 +8,41 @@ import Card from "@/components/Card.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
+import { getPath } from "@/utils/getPath";
 import { CATEGORIES } from "@/constants";
 
 const posts = await getCollection("blog");
 const sortedPosts = getSortedPosts(posts);
 
-// Featured: top 3 highest-score recent posts
+// Featured: top 3 highest-score posts from last 7 days
+const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
 const featured = sortedPosts
-  .filter(p => p.data.score != null)
+  .filter(p => p.data.score != null && new Date(p.data.pubDatetime) >= sevenDaysAgo)
   .sort((a, b) => (b.data.score ?? 0) - (a.data.score ?? 0))
   .slice(0, 3);
 
 const featuredIds = new Set(featured.map(p => p.id));
 
-const categoryPosts = CATEGORIES.map(cat => ({
+// Main categories (exclude 深度观点, goes to sidebar)
+const mainCategories = CATEGORIES.filter(c => c.key !== "深度观点");
+const categoryPosts = mainCategories.map(cat => ({
   ...cat,
   posts: sortedPosts
     .filter(({ data, id }) => data.category === cat.key && !featuredIds.has(id))
     .slice(0, 5),
 }));
+
+// Sidebar: 深度观点
+const opinionPosts = sortedPosts
+  .filter(({ data, id }) => data.category === "深度观点" && !featuredIds.has(id))
+  .slice(0, 8);
+
+// Sidebar: 热门文章 (top scored, not in featured or opinions)
+const opinionIds = new Set(opinionPosts.map(p => p.id));
+const hotPosts = sortedPosts
+  .filter(p => p.data.score != null && !featuredIds.has(p.id) && !opinionIds.has(p.id))
+  .sort((a, b) => (b.data.score ?? 0) - (a.data.score ?? 0))
+  .slice(0, 5);
 ---
 
 <Layout>
@@ -71,34 +87,119 @@ const categoryPosts = CATEGORIES.map(cat => ({
     <!-- Divider -->
     <hr class="border-border mb-6" />
 
-    <!-- Category sections: 2-column grid -->
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 pb-8">
-      {categoryPosts.map(cat =>
-        cat.posts.length > 0 && (
-          <section>
+    <!-- Main content + Sidebar layout -->
+    <div class="flex gap-8 pb-8">
+      <!-- Left: Main category sections (2-column grid) -->
+      <div class="flex-1 min-w-0">
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+          {categoryPosts.map(cat =>
+            cat.posts.length > 0 && (
+              <section>
+                <div class="flex items-center justify-between mb-3 pb-2 border-b-2 border-border">
+                  <h2 class="text-base font-bold flex items-center gap-2">
+                    <span
+                      class="inline-block w-1 h-4 rounded-sm"
+                      style={`background-color: ${cat.color}`}
+                    />
+                    {cat.label}
+                  </h2>
+                  <a
+                    href={`/categories/${cat.slug}/`}
+                    class="text-xs text-text-secondary hover:text-accent transition-colors"
+                  >
+                    更多 →
+                  </a>
+                </div>
+                <ul class="divide-y divide-border/40">
+                  {cat.posts.map(data => (
+                    <Card variant="h3" {...data} />
+                  ))}
+                </ul>
+              </section>
+            )
+          )}
+        </div>
+      </div>
+
+      <!-- Right: Sidebar -->
+      <aside class="hidden lg:block w-72 shrink-0">
+        <!-- 深度观点 -->
+        {opinionPosts.length > 0 && (
+          <section class="mb-8">
             <div class="flex items-center justify-between mb-3 pb-2 border-b-2 border-border">
-              <h2 class="text-base font-bold flex items-center gap-2">
-                <span
-                  class="inline-block w-1 h-4 rounded-sm"
-                  style={`background-color: ${cat.color}`}
-                />
-                {cat.label}
+              <h2 class="text-sm font-bold flex items-center gap-2">
+                <span class="inline-block w-1 h-4 rounded-sm bg-red-500" />
+                深度观点
               </h2>
               <a
-                href={`/categories/${cat.slug}/`}
+                href="/categories/opinions/"
                 class="text-xs text-text-secondary hover:text-accent transition-colors"
               >
                 更多 →
               </a>
             </div>
             <ul class="divide-y divide-border/40">
-              {cat.posts.map(data => (
-                <Card variant="h3" {...data} />
+              {opinionPosts.map((post, i) => (
+                <li class="py-2.5 first:pt-1 group">
+                  <a
+                    href={getPath(post.id, post.filePath)}
+                    class="flex items-start gap-2"
+                  >
+                    <span class:list={[
+                      "shrink-0 w-5 h-5 rounded text-center text-xs font-bold leading-5",
+                      i < 3 ? "bg-accent text-white" : "bg-muted text-text-secondary",
+                    ]}>
+                      {i + 1}
+                    </span>
+                    <span class="text-xs font-medium leading-snug text-foreground group-hover:text-accent transition-colors line-clamp-2">
+                      {post.data.title}
+                    </span>
+                  </a>
+                </li>
               ))}
             </ul>
           </section>
-        )
-      )}
+        )}
+
+        <!-- 热门文章 -->
+        {hotPosts.length > 0 && (
+          <section>
+            <div class="flex items-center mb-3 pb-2 border-b-2 border-border">
+              <h2 class="text-sm font-bold flex items-center gap-2">
+                <span class="inline-block w-1 h-4 rounded-sm bg-amber-500" />
+                热门文章
+              </h2>
+            </div>
+            <ul class="divide-y divide-border/40">
+              {hotPosts.map((post, i) => (
+                <li class="py-2.5 first:pt-1 group">
+                  <a
+                    href={getPath(post.id, post.filePath)}
+                    class="flex items-start gap-2"
+                  >
+                    <span class:list={[
+                      "shrink-0 w-5 h-5 rounded text-center text-xs font-bold leading-5",
+                      i < 3 ? "bg-amber-500 text-white" : "bg-muted text-text-secondary",
+                    ]}>
+                      {i + 1}
+                    </span>
+                    <div class="min-w-0">
+                      <span class="text-xs font-medium leading-snug text-foreground group-hover:text-accent transition-colors line-clamp-2 block">
+                        {post.data.title}
+                      </span>
+                      {post.data.score != null && (
+                        <span class="text-[10px] text-amber-500 font-mono font-bold">
+                          {post.data.score.toFixed(1)}
+                        </span>
+                      )}
+                    </div>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </aside>
     </div>
 
     <div class="my-8 text-center">
@@ -106,7 +207,7 @@ const categoryPosts = CATEGORIES.map(cat => ({
         href="/posts/"
         class="inline-flex items-center gap-1.5 rounded-lg border border-border px-5 py-2.5 text-sm font-medium text-foreground hover:bg-muted hover:border-accent/30 transition-all"
       >
-        查看全部动态
+        浏览文章库
         <IconArrowRight class="inline-block rtl:rotate-180" />
       </LinkButton>
     </div>
