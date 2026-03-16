@@ -270,6 +270,14 @@
     "https://github.com/Crosstalk-Solutions/project-nomad": {
       "seen_at": "2026-03-16T01:09:48.581773+00:00",
       "date": "2026-03-16"
+    },
+    "https://openai.com/index/introducing-the-codex-app/": {
+      "seen_at": "2026-03-16T01:40:00.000000+00:00",
+      "date": "2026-03-16"
+    },
+    "https://openai.com/index/unrolling-the-codex-agent-loop/": {
+      "seen_at": "2026-03-16T01:40:00.000000+00:00",
+      "date": "2026-03-16"
     }
   }
 }
