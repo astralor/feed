@@ -366,10 +366,7 @@
     "https://www.digit.in/news/general/openai-declares-code-red-calls-anthropics-success-a-wake-up-call.html": "2026-03-17T12:32:00+08:00",
     "https://www.tomshardware.com/pc-components/gpus/nvidia-unveils-details-of-new-88-core-vera-cpus-positioned-to-compete-with-amd-and-intel-new-vera-cpu-rack-features-256-liquid-cooled-chips-that-deliver-up-to-a-6x-gain-in-cpu-throughput": "2026-03-17T13:52:00+08:00",
     "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidias-nemoclaw-coalition-brings-eight-ai-labs-together-to-build-open-frontier-models": "2026-03-17T13:52:00+08:00",
-    "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/": {
-      "seen_at": "2026-03-17T08:31:45.868Z",
-      "date": "2026-03-17"
-    },
+    "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/": "2026-03-17T23:51:00+08:00",
     "https://huggingface.co/blog/nvidia/physical-ai-for-healthcare-robotics": {
       "seen_at": "2026-03-17T08:31:45.868Z",
       "date": "2026-03-17"
@@ -422,10 +419,7 @@
       "seen_at": "2026-03-17T14:37:51.697Z",
       "date": "2026-03-17"
     },
-    "https://huggingface.co/blog/Hcompany/holotron-12b": {
-      "seen_at": "2026-03-17T14:37:51.697Z",
-      "date": "2026-03-17"
-    },
+    "https://huggingface.co/blog/Hcompany/holotron-12b": "2026-03-17T23:51:00+08:00",
     "https://github.com/jarrodwatts/claude-hud": {
       "seen_at": "2026-03-17T14:37:51.697Z",
       "date": "2026-03-17"
@@ -449,6 +443,10 @@
     "https://www.wired.com/story/models-are-applying-to-be-the-face-of-ai-scams/": {
       "seen_at": "2026-03-17T14:37:51.697Z",
       "date": "2026-03-17"
-    }
+    },
+    "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/": "2026-03-17T23:51:00+08:00",
+    "https://arxiv.org/abs/2603.15617v1": "2026-03-17T23:51:00+08:00",
+    "https://arxiv.org/abs/2603.15569v1": "2026-03-17T23:51:00+08:00",
+    "https://mistral.ai/news/mistral-small-4": "2026-03-17T23:51:00+08:00"
   }
 }
