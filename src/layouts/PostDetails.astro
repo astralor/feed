@@ -98,7 +98,7 @@ const nextAll = globalIdx < allPosts.length - 1 ? allPosts[globalIdx + 1] : null
 <Layout {...layoutProps}>
   <Header activeCategory={categorySlug} />
   <!-- Breadcrumb: category path (default) / 文章库 (when ?from=all) -->
-  <div id="breadcrumb" class="app-layout flex items-center gap-2 mt-6 mb-2 text-sm">
+  <div id="breadcrumb" class="app-layout flex items-center gap-2 mt-6 text-sm">
     <a href="/" class="text-text-secondary hover:text-accent transition-colors">首页</a>
     <span class="text-text-secondary">/</span>
     <span id="bc-category">
@@ -120,7 +120,7 @@ const nextAll = globalIdx < allPosts.length - 1 ? allPosts[globalIdx + 1] : null
   </div>
   <main
     id="main-content"
-    class:list={["app-layout pb-12"]}
+    class:list={["app-layout pt-6 pb-12"]}
     data-pagefind-body
   >
     <!-- Article header -->
@@ -140,7 +140,12 @@ const nextAll = globalIdx < allPosts.length - 1 ? allPosts[globalIdx + 1] : null
       {collectedAt && (
         <div class="flex items-center gap-1.5 text-text-secondary">
           <span>采集</span>
-          <Datetime pubDatetime={collectedAt} size="lg" />
+          <time
+            class="text-sm sm:text-base"
+            datetime={collectedAt.toISOString()}
+          >
+            {`${collectedAt.getFullYear()}年${String(collectedAt.getMonth() + 1).padStart(2, '0')}月${String(collectedAt.getDate()).padStart(2, '0')}日 ${String(collectedAt.getHours()).padStart(2, '0')}:${String(collectedAt.getMinutes()).padStart(2, '0')}`}
+          </time>
         </div>
       )}
       {catInfo && categorySlug && (
