@@ -1,7 +1,6 @@
 ---
 import { getCollection } from "astro:content";
 import type { GetStaticPathsOptions } from "astro";
-import Main from "@/layouts/Main.astro";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
@@ -21,25 +20,27 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
     );
     return paginate(catPosts, {
       params: { category: cat.slug },
-      props: { categoryName: cat.label },
+      props: { categoryName: cat.label, categoryColor: cat.color },
       pageSize: SITE.postPerPage,
     });
   });
 }
 
-const { page, categoryName } = Astro.props;
+const { page, categoryName, categoryColor } = Astro.props;
 ---
 
 <Layout title={`${categoryName} | ${SITE.title}`}>
   <Header />
-  <Main
-    pageTitle={categoryName}
-    pageDesc={`「${categoryName}」分类下的所有文章`}
-  >
+  <main id="main-content" class="app-layout pt-8 pb-4">
+    <h1 class="text-2xl font-semibold sm:text-3xl">
+      <span class="inline-block w-3 h-3 rounded-full mr-2 align-middle" style={`background:${categoryColor}`}></span>
+      {categoryName}
+    </h1>
+    <p class="mt-2 mb-6 text-sm text-text-secondary">{page.total} 篇文章</p>
     <ul>
       {page.data.map(data => <Card {...data} />)}
     </ul>
-  </Main>
+  </main>
 
   <Pagination {page} />
 
