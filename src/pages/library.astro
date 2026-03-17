@@ -119,36 +119,36 @@ import { CATEGORIES } from "@/constants";
   </div>
 </Layout>
 
-<style>
+<style is:global>
   @reference "@/styles/global.css";
 
-  .cat-tab {
+  #library .cat-tab {
     @apply px-2 py-0.5 text-xs rounded-full border border-border text-text-secondary cursor-pointer transition-all hover:border-accent/50;
   }
-  .cat-tab.active {
+  #library .cat-tab.active {
     @apply bg-accent text-white border-accent;
   }
-  .list-item {
+  #library .list-item {
     @apply block px-4 py-3 border-b border-border/50 cursor-pointer transition-colors hover:bg-card-hover;
   }
-  .list-item.active {
+  #library .list-item.active {
     @apply bg-card-hover border-l-2 border-l-accent;
   }
-  .list-item-title {
+  #library .list-item-title {
     @apply text-sm font-medium text-foreground leading-snug line-clamp-2;
   }
-  .list-item.active .list-item-title {
+  #library .list-item.active .list-item-title {
     @apply text-accent;
   }
-  .list-item-meta {
+  #library .list-item-meta {
     @apply mt-1 flex items-center gap-2 text-xs text-text-secondary;
   }
-  .list-item-cat {
+  #library .list-item-cat {
     @apply inline-block w-1.5 h-1.5 rounded-full shrink-0;
   }
-  .score-high { @apply text-red-500; }
-  .score-mid { @apply text-amber-500; }
-  .score-low { @apply text-text-secondary; }
+  #library .score-high { @apply text-red-500; }
+  #library .score-mid { @apply text-amber-500; }
+  #library .score-low { @apply text-text-secondary; }
 </style>
 
 <script is:inline define:vars={{ categories: CATEGORIES }}>
