@@ -450,7 +450,7 @@
     "https://mistral.ai/news/mistral-small-4": "2026-03-17T23:51:00+08:00"
   },
   "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/": {
-    "seen_at": "2026-03-17T20:38:04.807Z",
+    "seen_at": "2026-03-17T22:37:13.302Z",
     "date": "2026-03-17"
   },
   "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/": {
@@ -462,7 +462,7 @@
     "date": "2026-03-16"
   },
   "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026": {
-    "seen_at": "2026-03-17T20:38:04.807Z",
+    "seen_at": "2026-03-17T22:37:13.302Z",
     "date": "2026-03-17"
   },
   "https://huggingface.co/blog/Hcompany/holotron-12b": {
@@ -478,7 +478,7 @@
     "date": "2026-03-16"
   },
   "https://arxiv.org/abs/2603.15617": {
-    "seen_at": "2026-03-17T20:38:04.807Z",
+    "seen_at": "2026-03-17T22:37:13.302Z",
     "date": "2026-03-16"
   },
   "https://arxiv.org/abs/2603.15594": {
@@ -487,6 +487,22 @@
   },
   "https://arxiv.org/abs/2603.15569": {
     "seen_at": "2026-03-17T20:38:04.807Z",
+    "date": "2026-03-16"
+  },
+  "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/": {
+    "seen_at": "2026-03-17T22:37:13.302Z",
+    "date": "2026-03-17"
+  },
+  "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/": {
+    "seen_at": "2026-03-17T22:37:13.302Z",
+    "date": "2026-03-17"
+  },
+  "https://simonwillison.net/2026/Mar/17/mini-and-nano/": {
+    "seen_at": "2026-03-17T22:37:13.302Z",
+    "date": "2026-03-17"
+  },
+  "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/": {
+    "seen_at": "2026-03-17T22:37:13.302Z",
     "date": "2026-03-16"
   }
 }
