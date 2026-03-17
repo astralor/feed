@@ -448,5 +448,45 @@
     "https://arxiv.org/abs/2603.15617v1": "2026-03-17T23:51:00+08:00",
     "https://arxiv.org/abs/2603.15569v1": "2026-03-17T23:51:00+08:00",
     "https://mistral.ai/news/mistral-small-4": "2026-03-17T23:51:00+08:00"
+  },
+  "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/": {
+    "seen_at": "2026-03-17T20:38:04.807Z",
+    "date": "2026-03-17"
+  },
+  "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/": {
+    "seen_at": "2026-03-17T20:38:04.807Z",
+    "date": "2026-03-17"
+  },
+  "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/": {
+    "seen_at": "2026-03-17T20:38:04.807Z",
+    "date": "2026-03-16"
+  },
+  "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026": {
+    "seen_at": "2026-03-17T20:38:04.807Z",
+    "date": "2026-03-17"
+  },
+  "https://huggingface.co/blog/Hcompany/holotron-12b": {
+    "seen_at": "2026-03-17T20:38:04.807Z",
+    "date": "2026-03-17"
+  },
+  "https://huggingface.co/blog/nvidia/physical-ai-for-healthcare-robotics": {
+    "seen_at": "2026-03-17T20:38:04.807Z",
+    "date": "2026-03-16"
+  },
+  "https://arxiv.org/abs/2603.15619": {
+    "seen_at": "2026-03-17T20:38:04.807Z",
+    "date": "2026-03-16"
+  },
+  "https://arxiv.org/abs/2603.15617": {
+    "seen_at": "2026-03-17T20:38:04.807Z",
+    "date": "2026-03-16"
+  },
+  "https://arxiv.org/abs/2603.15594": {
+    "seen_at": "2026-03-17T20:38:04.807Z",
+    "date": "2026-03-16"
+  },
+  "https://arxiv.org/abs/2603.15569": {
+    "seen_at": "2026-03-17T20:38:04.807Z",
+    "date": "2026-03-16"
   }
 }
