@@ -140,9 +140,7 @@ const nextAll = globalIdx < allPosts.length - 1 ? allPosts[globalIdx + 1] : null
       {collectedAt && (
         <div class="flex items-center gap-1.5 text-text-secondary">
           <span>采集</span>
-          <time datetime={collectedAt.toISOString()} class="text-foreground">
-            {`${collectedAt.getFullYear()}/${collectedAt.getMonth() + 1}/${collectedAt.getDate()} ${String(collectedAt.getHours()).padStart(2, '0')}:${String(collectedAt.getMinutes()).padStart(2, '0')}`}
-          </time>
+          <Datetime pubDatetime={collectedAt} size="lg" />
         </div>
       )}
       {catInfo && categorySlug && (
