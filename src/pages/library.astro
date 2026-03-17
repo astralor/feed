@@ -149,15 +149,19 @@ import { CATEGORIES } from "@/constants";
 
 <script is:inline define:vars={{ categories: CATEGORIES }}>
 (function() {
-  const CAT_MAP = {};
-  categories.forEach(c => { CAT_MAP[c.key] = c; });
+  function initLibrary() {
+    // Guard: only run on library page
+    if (!document.getElementById('library')) return;
 
-  let articles = [];
-  let activeSlug = null;
-  let activeCat = 'all';
-  let searchQuery = '';
-  let sortBy = 'date';
-  const contentCache = {};
+    const CAT_MAP = {};
+    categories.forEach(c => { CAT_MAP[c.key] = c; });
+
+    let articles = [];
+    let activeSlug = null;
+    let activeCat = 'all';
+    let searchQuery = '';
+    let sortBy = 'date';
+    const contentCache = {};
 
   // DOM refs
   const $ = id => document.getElementById(id);
@@ -446,5 +450,9 @@ import { CATEGORIES } from "@/constants";
   initSort(mSortSelect);
 
   loadFeed();
+  } // end initLibrary
+
+  // astro:page-load fires on initial load AND on client-side navigation
+  document.addEventListener('astro:page-load', initLibrary);
 })();
 </script>
