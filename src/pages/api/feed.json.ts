@@ -12,6 +12,7 @@ export const GET: APIRoute = async () => {
     title: data.title,
     description: data.description || "",
     pubDatetime: data.pubDatetime.toISOString(),
+    collectedAt: data.collectedAt ? data.collectedAt.toISOString() : null,
     category: data.category || "",
     score: data.score ?? null,
     scoreReason: data.scoreReason || "",

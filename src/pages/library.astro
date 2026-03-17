@@ -9,17 +9,17 @@ import { CATEGORIES } from "@/constants";
   <Header />
   <div id="library" class="flex h-[calc(100vh-3.5rem)] overflow-hidden">
     <!-- Desktop sidebar -->
-    <aside id="sidebar" class="hidden lg:flex flex-col w-80 border-r border-border bg-background shrink-0">
+    <aside id="sidebar" class="hidden lg:flex flex-col border-r border-border bg-background shrink-0 relative" style="width: 320px; min-width: 240px; max-width: 500px;">
       <!-- Search + filters -->
-      <div class="p-3 space-y-2.5 border-b border-border">
+      <div class="px-3 pt-3 pb-2 space-y-2 border-b border-border">
         <div class="relative">
           <input
             id="search"
             type="text"
-            placeholder="搜索文章..."
-            class="w-full pl-8 pr-3 py-1.5 text-sm rounded-lg border border-border bg-background text-foreground placeholder:text-text-secondary focus:outline-none focus:border-accent transition-colors"
+            placeholder="搜索标题、描述、标签..."
+            class="w-full pl-8 pr-3 py-2 text-sm rounded-md bg-muted/50 text-foreground placeholder:text-text-secondary/60 focus:outline-none focus:ring-1 focus:ring-accent/40 transition-all"
           />
-          <svg class="absolute left-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-text-secondary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <svg class="absolute left-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-text-secondary/50" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
           </svg>
         </div>
@@ -30,15 +30,18 @@ import { CATEGORIES } from "@/constants";
           ))}
         </div>
         <div class="flex items-center gap-2">
-          <select id="sort-select" class="text-xs bg-background border border-border rounded px-2 py-1 text-text-secondary focus:outline-none">
-            <option value="date">按时间</option>
-            <option value="score">按评分</option>
+          <select id="sort-select" class="text-xs bg-muted/50 rounded px-2 py-1 text-text-secondary focus:outline-none cursor-pointer">
+            <option value="date">发布时间</option>
+            <option value="collected">采集时间</option>
+            <option value="score">评分</option>
           </select>
-          <span id="count" class="text-xs text-text-secondary ml-auto">0 篇</span>
+          <span id="count" class="text-xs text-text-secondary/60 ml-auto">0 篇</span>
         </div>
       </div>
       <!-- Article list -->
       <ul id="list" class="flex-1 overflow-y-auto"></ul>
+      <!-- Resize handle -->
+      <div id="resize-handle" class="absolute top-0 right-0 w-1 h-full cursor-col-resize hover:bg-accent/30 active:bg-accent/50 transition-colors z-10"></div>
     </aside>
 
     <!-- Content area -->
@@ -105,9 +108,10 @@ import { CATEGORIES } from "@/constants";
             ))}
           </div>
           <div class="flex items-center gap-2">
-            <select id="m-sort" class="text-xs bg-background border border-border rounded px-2 py-1 text-text-secondary focus:outline-none">
-              <option value="date">按时间</option>
-              <option value="score">按评分</option>
+            <select id="m-sort" class="text-xs bg-muted/50 rounded px-2 py-1 text-text-secondary focus:outline-none cursor-pointer">
+              <option value="date">发布时间</option>
+              <option value="collected">采集时间</option>
+              <option value="score">评分</option>
             </select>
             <span id="m-count" class="text-xs text-text-secondary ml-auto">0 篇</span>
           </div>
@@ -141,7 +145,7 @@ import { CATEGORIES } from "@/constants";
     @apply text-accent;
   }
   #library .list-item-meta {
-    @apply mt-1 flex items-center gap-2 text-xs text-text-secondary;
+    @apply mt-1 flex items-center gap-1.5 text-xs text-text-secondary overflow-hidden whitespace-nowrap;
   }
   #library .list-item-cat {
     @apply inline-block w-1.5 h-1.5 rounded-full shrink-0;
@@ -212,14 +216,28 @@ import { CATEGORIES } from "@/constants";
     }
     if (sortBy === 'score') {
       result = [...result].sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+    } else if (sortBy === 'collected') {
+      result = [...result].sort((a, b) => {
+        const ca = a.collectedAt || a.pubDatetime;
+        const cb = b.collectedAt || b.pubDatetime;
+        return new Date(cb) - new Date(ca);
+      });
     }
+    // default: date (pubDatetime) - already sorted from API
     return result;
   }
 
   // -- Rendering --
   function formatDate(iso) {
+    if (!iso) return '';
     const d = new Date(iso);
-    return `${d.getMonth() + 1}月${d.getDate()}日`;
+    return `${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()}`;
+  }
+
+  function formatShortDate(iso) {
+    if (!iso) return '';
+    const d = new Date(iso);
+    return `${d.getMonth() + 1}/${d.getDate()}`;
   }
 
   function scoreClass(s) {
@@ -230,13 +248,15 @@ import { CATEGORIES } from "@/constants";
   function renderListItem(a) {
     const cat = CAT_MAP[a.category];
     const isActive = a.slug === activeSlug;
+    const dateStr = formatShortDate(a.pubDatetime);
+    const scoreStr = a.score != null ? a.score.toFixed(1) : '';
     return `<li class="list-item${isActive ? ' active' : ''}" data-slug="${a.slug}">
       <div class="list-item-title">${a.title}</div>
       <div class="list-item-meta">
-        ${cat ? `<span class="list-item-cat" style="background:${cat.color}"></span><span>${cat.label}</span>` : ''}
-        <span>${formatDate(a.pubDatetime)}</span>
-        ${a.score != null ? `<span class="${scoreClass(a.score)} font-mono font-bold">${a.score.toFixed(1)}</span>` : ''}
-        ${a.sourceName ? `<span class="truncate">${a.sourceName}</span>` : ''}
+        ${cat ? `<span class="list-item-cat" style="background:${cat.color}"></span>` : ''}
+        <span>${dateStr}</span>
+        ${scoreStr ? `<span class="${scoreClass(a.score)} font-mono" style="font-weight:600">${scoreStr}</span>` : ''}
+        ${a.sourceName ? `<span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100px">${a.sourceName}</span>` : ''}
       </div>
     </li>`;
   }
@@ -415,6 +435,32 @@ import { CATEGORIES } from "@/constants";
     sheet.style.transform = 'translateY(100%)';
     sheet.style.transition = 'transform 0.3s ease-in';
     setTimeout(() => sheetOverlay.classList.add('hidden'), 300);
+  }
+
+  // -- Sidebar resize --
+  const resizeHandle = $('resize-handle');
+  const sidebar = $('sidebar');
+  if (resizeHandle && sidebar) {
+    let startX, startW;
+    resizeHandle.addEventListener('mousedown', (e) => {
+      startX = e.clientX;
+      startW = sidebar.offsetWidth;
+      document.body.style.cursor = 'col-resize';
+      document.body.style.userSelect = 'none';
+      const onMove = (e) => {
+        const diff = e.clientX - startX;
+        const newW = Math.min(Math.max(startW + diff, 240), 500);
+        sidebar.style.width = newW + 'px';
+      };
+      const onUp = () => {
+        document.removeEventListener('mousemove', onMove);
+        document.removeEventListener('mouseup', onUp);
+        document.body.style.cursor = '';
+        document.body.style.userSelect = '';
+      };
+      document.addEventListener('mousemove', onMove);
+      document.addEventListener('mouseup', onUp);
+    });
   }
 
   // -- Init --
