@@ -303,7 +303,10 @@ import { CATEGORIES } from "@/constants";
       const cat = CAT_MAP[article.category];
       $('art-title').textContent = article.title;
 
-      let metaHtml = `<span class="text-text-secondary">${formatDate(article.pubDatetime)}</span>`;
+      let metaHtml = `<span class="text-text-secondary">发布</span> <span>${formatDate(article.pubDatetime)}</span>`;
+      if (article.collectedAt) {
+        metaHtml += `<span class="text-text-secondary ml-2">采集</span> <span>${formatDate(article.collectedAt)}</span>`;
+      }
       if (cat) {
         metaHtml += `<a href="/categories/${cat.slug}/" class="inline-block rounded-full px-3 py-0.5 text-xs font-medium text-white hover:opacity-80" style="background:${cat.color}">${cat.label}</a>`;
       }
