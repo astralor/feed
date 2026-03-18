@@ -405,6 +405,91 @@
       "seen_at": "2026-03-18T16:34:08Z",
       "date": "2026-03-19",
       "title": "Microsoft hires the team of Sequoia-backed AI collaboration platform Cove"
+    },
+    "https://deepmind.google/blog/rss.xml": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "DeepMind Blog RSS Feed"
+    },
+    "https://news.ycombinator.com/item?id=47427017": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "Snowflake Cortex AI Escapes Sandbox"
+    },
+    "https://github.com/trending": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "GitHub Trending Repositories"
+    },
+    "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors/": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "The Pentagon's new AI plans and next-gen nuclear reactors"
+    },
+    "https://www.technologyreview.com/2026/03/18/1134345/advanced-nuclear-reactors-waste/": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "What do new nuclear reactors mean for waste?"
+    },
+    "https://www.wired.com/story/ai-lab-walmart-openai-shaking-up-agentic-shopping-deal/": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal"
+    },
+    "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "Snowflake Cortex AI Escapes Sandbox and Executes Malware"
+    },
+    "https://arxiv.org/abs/2603.16870v1": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "Demystifing Video Reasoning"
+    },
+    "https://arxiv.org/abs/2603.16867v1": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "Efficient Reasoning on the Edge"
+    },
+    "https://arxiv.org/abs/2603.16862v1": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "Chronos: Temporal-Aware Conversational Agents"
+    },
+    "https://arxiv.org/abs/2603.16859v1": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "SocialOmni: Benchmarking Audio-Visual Social Interactivity"
+    },
+    "https://36kr.com/p/3622234576585991": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "AI优化办会全流程，小鸥AI办会获200万元天使轮融资"
+    },
+    "https://36kr.com/p/3676032461546116": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "2026年AI的40个狂热风口"
+    },
+    "https://www.36kr.com/p/3705032837788040": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "AI大模型Claude入列美军始末"
+    },
+    "https://36kr.com/p/3726975529008004": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "黄仁勋再预言：AI结合实体经济，市场90万亿美元"
+    },
+    "https://blog.jetbrains.com/junie/2026/03/junie-cli-the-llm-agnostic-coding-agent-is-now-in-beta/": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "Junie CLI, the LLM-agnostic coding agent, is now in Beta"
+    },
+    "https://venturebeat.com/orchestration/google-finds-that-ai-agents-learn-to-cooperate-when-trained-against": {
+      "seen_at": "2026-03-18T18:33:44Z",
+      "date": "2026-03-19",
+      "title": "Google finds that AI agents learn to cooperate"
     }
   }
 }
