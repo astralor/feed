@@ -1,1 +1,128 @@
-[]
+[
+  {
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.009905"
+  },
+  {
+    "url": "https://github.com/jarrodwatts/claude-hud",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010062"
+  },
+  {
+    "url": "https://github.com/cloudflare/workerd",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010076"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010087"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010097"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010106"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010115"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010124"
+  },
+  {
+    "url": "https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010134"
+  },
+  {
+    "url": "https://www.wired.com/story/china-is-going-all-in-on-openclaw",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010143"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010172"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010185"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Mar/17/mini-and-nano",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010195"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Mar/16/mistral-small-4",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010207"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Mar/16/codex-subagents",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010216"
+  },
+  {
+    "url": "https://36kr.com/p/2182025084516354",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010226"
+  },
+  {
+    "url": "https://36kr.com/p/3725086033590916",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010238"
+  },
+  {
+    "url": "https://36kr.com/p/3715653109200263",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010247"
+  },
+  {
+    "url": "https://thediplomat.com/2026/03/why-chinas-openclaw-mania-is-more-than-just-a-tech-craze",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010256"
+  },
+  {
+    "url": "https://www.reuters.com/world/asia-pacific/alibaba-launches-new-ai-agent-platform-enterprises-2026-03-17",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010270"
+  },
+  {
+    "url": "https://www.reuters.com/business/media-telecom/mystery-ai-model-has-developers-buzzing-is-this-deepseeks-latest-blockbuster-2026-03-18",
+    "title": "",
+    "source": "feed-collect",
+    "collected_at": "2026-03-18T14:34:33.010280"
+  }
+]
