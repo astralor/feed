@@ -1,1 +1,121 @@
-[]
+[
+  {
+    "title": "Launch HN: Kita (YC W26) – Automate credit review in emerging markets",
+    "url": "https://news.ycombinator.com/item?id=47417335",
+    "source": "Hacker News",
+    "date": "2026-03-17",
+    "snippet": "Kita uses VLM-based agents to parse documents, detect fraud, and extract underwriting signals from messy financial files in emerging markets like Philippines and Mexico. Supports 50+ document types across PDFs, scans, photos, and screenshots. Architecture uses model-agnostic base VLM with finetuned language models for hyperlocalized credit signals. Links document-level signals to repayment outcomes for continuous improvement in fraud detection and risk assessment."
+  },
+  {
+    "title": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
+    "url": "https://github.com/Compresr-ai/Context-Gateway",
+    "source": "Hacker News",
+    "date": "2026-03-13",
+    "snippet": "Open-source proxy that compresses tool outputs before entering LLM context window. Uses small language models (SLMs) to detect signal in context and strip noise. Compresses conditioned on tool call intent. Includes expand() function, background compaction at 85% capacity, lazy-load tool descriptions, spending caps, and session tracking dashboard."
+  },
+  {
+    "title": "Launch HN: Spine Swarm (YC S23) – AI agents that collaborate on a visual canvas",
+    "url": "https://www.getspine.ai/",
+    "source": "Hacker News",
+    "date": "2026-03-13",
+    "snippet": "Multi-agent system on infinite visual canvas for complex non-coding projects: competitive analysis, financial modeling, SEO audits, pitch decks, prototypes. Block-based architecture where each block is an abstraction on AI models (LLM calls, image gen, web browsing, apps, slides, spreadsheets). Agents store intermediary results in blocks rather than holding everything in memory. Scored 87.6% on DeepMind's DeepSearchQA benchmark with zero human intervention."
+  },
+  {
+    "title": "Show HN: OpenClaw-class agents on ESP32 (and the IDE that makes it possible)",
+    "url": "https://pycoclaw.com/",
+    "source": "Hacker News",
+    "date": "2026-03-12",
+    "snippet": "pycoClaw bridges high-level AI reasoning and bare-metal execution on MicroPython hardware. PFC Agent (~26k LOC) uses LLM to self-program local MicroPython scripts that run locally without requiring LLM after solving. Includes ScriptoStudio IDE (PWA with single-step debugger), ScriptoHub repository with malware checking, IANA-registered WebSocket subprotocol, and ~18k LOC custom C extensions for ESP32 memory optimization."
+  },
+  {
+    "title": "Show HN: Axe – A 12MB binary that replaces your AI framework",
+    "url": "https://github.com/jrswab/axe",
+    "source": "Hacker News",
+    "date": "2026-03-12",
+    "snippet": "Treats LLM agents like Unix programs. Each agent is TOML config with focused job. Supports stdin piping (git diff | axe run reviewer), sub-agent delegation, persistent memory, MCP support, built-in web_search and url_fetch, multi-provider (Anthropic, OpenAI, Ollama), path-sandboxed file ops. Written in Go, 12MB binary, no daemon, no GUI."
+  },
+  {
+    "title": "Show HN: Open-source browser for AI agents",
+    "url": "https://github.com/theredsix/agent-browser-protocol",
+    "source": "Hacker News",
+    "date": "2026-03-11",
+    "snippet": "Forked Chromium to build agent-browser-protocol (ABP). Keeps acting agent synchronized with browser at every step by freezing JavaScript execution and rendering after each action, capturing resulting state with screenshot and structured event summary (navigation, file pickers, permissions, alerts, downloads). Makes browser interaction feel like multimodal chat loop. ABP with Opus 4.6 scores 90.5% on Online Mind2Web benchmark."
+  },
+  {
+    "title": "Mistral bets on 'build-your-own AI' as it takes on OpenAI, Anthropic in the enterprise",
+    "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+    "source": "TechCrunch",
+    "date": "2026-03-17",
+    "snippet": "Mistral Forge lets enterprises train custom AI models from scratch on their own data, challenging rivals that rely on fine-tuning and retrieval-based approaches."
+  },
+  {
+    "title": "Why Garry Tan's Claude Code setup has gotten so much love, and hate",
+    "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
+    "source": "TechCrunch",
+    "date": "2026-03-17",
+    "snippet": "Thousands of people are trying Garry Tan's Claude Code setup shared on GitHub. Everyone has an opinion: even Claude, ChatGPT, and Gemini."
+  },
+  {
+    "title": "Nvidia's version of OpenClaw could solve its biggest problem: security",
+    "url": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/",
+    "source": "TechCrunch",
+    "date": "2026-03-16",
+    "snippet": "Nvidia announced NemoClaw, an open enterprise AI agent platform built off viral OpenClaw, addressing security concerns for enterprise deployment."
+  },
+  {
+    "title": "Justice Department Says Anthropic Can't Be Trusted With Warfighting Systems",
+    "url": "https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/",
+    "source": "Wired",
+    "date": "2026-03-18",
+    "snippet": "In response to Anthropic's lawsuit, the government said it lawfully penalized the company for trying to limit how its Claude AI models could be used by the military."
+  },
+  {
+    "title": "China's OpenClaw Boom Is a Gold Rush for AI Companies",
+    "url": "https://www.wired.com/story/china-is-going-all-in-on-openclaw/",
+    "source": "Wired",
+    "date": "2026-03-13",
+    "snippet": "Hype around the open source agent is driving people to rent cloud servers and buy AI subscriptions just to try it, creating a windfall for tech companies in China."
+  },
+  {
+    "title": "Nemotron 3 Nano 4B: A Compact Hybrid Model for Efficient Local AI",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-4b",
+    "source": "HuggingFace",
+    "date": "2026-03-17",
+    "snippet": "Nvidia releases Nemotron 3 Nano 4B, a compact hybrid model designed for efficient local AI deployment."
+  },
+  {
+    "title": "State of Open Source on Hugging Face: Spring 2026",
+    "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+    "source": "HuggingFace",
+    "date": "2026-03-17",
+    "snippet": "Hugging Face releases Spring 2026 state of open source report covering trends in open AI models and community."
+  },
+  {
+    "title": "Holotron-12B - High Throughput Computer Use Agent",
+    "url": "https://huggingface.co/blog/Hcompany/holotron-12b",
+    "source": "HuggingFace",
+    "date": "2026-03-17",
+    "snippet": "H Company releases Holotron-12B, a high throughput computer use agent model."
+  },
+  {
+    "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+    "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+    "source": "MIT Tech Review",
+    "date": "2026-03-17",
+    "snippet": "Pentagon discussing plans to set up secure environments for generative AI companies to train military-specific versions of models on classified data. Would allow models to train on and learn from classified intelligence like surveillance reports or battlefield assessments. Training would be done in accredited secure data centers. Pentagon intends to first evaluate model accuracy on nonclassified data before allowing classified training."
+  },
+  {
+    "title": "Where OpenAI's technology could show up in Iran",
+    "url": "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
+    "source": "MIT Tech Review",
+    "date": "2026-03-16",
+    "snippet": "OpenAI's Pentagon agreement could enable AI to analyze target lists and prioritize strikes, integrate with Anduril's drone defense systems, and power GenAI.mil platform for administrative military tasks. Human analyst could put potential targets into AI model to analyze and prioritize which to strike first. Partnership with Anduril adds conversational AI layer to drone defense. Using generative AI's advice for field actions being tested in earnest for first time in Iran."
+  },
+  {
+    "title": "Now everyone in the US is getting Google's personalized Gemini AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/896107/google-expands-personal-intelligence",
+    "source": "The Verge",
+    "date": "2026-03-17",
+    "snippet": "Google expanding Personal Intelligence AI feature to all US users through AI Mode in Search, Gemini in Chrome, and Gemini app."
+  }
+]
