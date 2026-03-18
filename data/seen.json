@@ -447,78 +447,46 @@
     "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/": "2026-03-17T23:51:00+08:00",
     "https://arxiv.org/abs/2603.15617v1": "2026-03-17T23:51:00+08:00",
     "https://arxiv.org/abs/2603.15569v1": "2026-03-17T23:51:00+08:00",
-    "https://mistral.ai/news/mistral-small-4": "2026-03-17T23:51:00+08:00"
-  },
-  "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/": {
-    "seen_at": "2026-03-17T22:37:13.302Z",
-    "date": "2026-03-17"
-  },
-  "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/": {
-    "seen_at": "2026-03-17T20:38:04.807Z",
-    "date": "2026-03-17"
-  },
-  "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/": {
-    "seen_at": "2026-03-17T20:38:04.807Z",
-    "date": "2026-03-16"
-  },
-  "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026": {
-    "seen_at": "2026-03-17T22:37:13.302Z",
-    "date": "2026-03-17"
-  },
-  "https://huggingface.co/blog/Hcompany/holotron-12b": {
-    "seen_at": "2026-03-17T20:38:04.807Z",
-    "date": "2026-03-17"
-  },
-  "https://huggingface.co/blog/nvidia/physical-ai-for-healthcare-robotics": {
-    "seen_at": "2026-03-17T20:38:04.807Z",
-    "date": "2026-03-16"
-  },
-  "https://arxiv.org/abs/2603.15619": {
-    "seen_at": "2026-03-17T20:38:04.807Z",
-    "date": "2026-03-16"
-  },
-  "https://arxiv.org/abs/2603.15617": {
-    "seen_at": "2026-03-17T22:37:13.302Z",
-    "date": "2026-03-16"
-  },
-  "https://arxiv.org/abs/2603.15594": {
-    "seen_at": "2026-03-17T20:38:04.807Z",
-    "date": "2026-03-16"
-  },
-  "https://arxiv.org/abs/2603.15569": {
-    "seen_at": "2026-03-17T20:38:04.807Z",
-    "date": "2026-03-16"
-  },
-  "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/": {
-    "seen_at": "2026-03-17T22:37:13.302Z",
-    "date": "2026-03-17"
-  },
-  "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/": {
-    "seen_at": "2026-03-17T22:37:13.302Z",
-    "date": "2026-03-17"
-  },
-  "https://simonwillison.net/2026/Mar/17/mini-and-nano/": {
-    "seen_at": "2026-03-17T22:37:13.302Z",
-    "date": "2026-03-17"
-  },
-  "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/": {
-    "seen_at": "2026-03-17T22:37:13.302Z",
-    "date": "2026-03-16"
-  },
-  "https://huggingface.co/blog/nvidia/nemotron-3-nano-4b": {
-    "seen_at": "2026-03-18T00:37:57.097Z",
-    "date": "2026-03-18"
-  },
-  "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/": {
-    "seen_at": "2026-03-18T00:37:57.097Z",
-    "date": "2026-03-18"
-  },
-  "https://www.wired.com/story/sears-exposed-ai-chatbot-phone-calls-and-text-chats-to-anyone-on-the-web/": {
-    "seen_at": "2026-03-18T00:37:57.097Z",
-    "date": "2026-03-18"
-  },
-  "https://www.wired.com/story/china-is-going-all-in-on-openclaw/": {
-    "seen_at": "2026-03-18T00:37:57.097Z",
-    "date": "2026-03-18"
+    "https://mistral.ai/news/mistral-small-4": "2026-03-17T23:51:00+08:00",
+    "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/": {
+      "seen_at": "2026-03-17T22:37:13.302Z",
+      "date": "2026-03-17"
+    },
+    "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026": {
+      "seen_at": "2026-03-17T22:37:13.302Z",
+      "date": "2026-03-17"
+    },
+    "https://arxiv.org/abs/2603.15617": {
+      "seen_at": "2026-03-17T22:37:13.302Z",
+      "date": "2026-03-16"
+    },
+    "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/": {
+      "seen_at": "2026-03-17T22:37:13.302Z",
+      "date": "2026-03-17"
+    },
+    "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/": {
+      "seen_at": "2026-03-17T22:37:13.302Z",
+      "date": "2026-03-17"
+    },
+    "https://simonwillison.net/2026/Mar/17/mini-and-nano/": {
+      "seen_at": "2026-03-17T22:37:13.302Z",
+      "date": "2026-03-17"
+    },
+    "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/": {
+      "seen_at": "2026-03-17T22:37:13.302Z",
+      "date": "2026-03-16"
+    },
+    "https://huggingface.co/blog/nvidia/nemotron-3-nano-4b": {
+      "seen_at": "2026-03-18T00:37:57.097Z",
+      "date": "2026-03-18"
+    },
+    "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/": {
+      "seen_at": "2026-03-18T00:37:57.097Z",
+      "date": "2026-03-18"
+    },
+    "https://www.wired.com/story/china-is-going-all-in-on-openclaw/": {
+      "seen_at": "2026-03-18T00:37:57.097Z",
+      "date": "2026-03-18"
+    }
   }
 }
