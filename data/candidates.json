@@ -1,1 +1,188 @@
-[]
+[
+  {
+    "title": "Attention Residuals",
+    "url": "https://huggingface.co/papers/2603.15031",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "AI Can Learn Scientific Taste",
+    "url": "https://huggingface.co/papers/2603.14473",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Fish Audio S2 Technical Report",
+    "url": "https://huggingface.co/papers/2603.08823",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Grounding World Simulation Models in a Real-World Metropolis",
+    "url": "https://huggingface.co/papers/2603.15583",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "OpenClaw-RL: Train Any Agent Simply by Talking",
+    "url": "https://huggingface.co/papers/2603.10165",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "OpenSeeker: Democratizing Frontier Search Agents",
+    "url": "https://huggingface.co/papers/2603.15594",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "EnterpriseOps-Gym: Environments for Stateful Agentic Planning",
+    "url": "https://huggingface.co/papers/2603.13594",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Mixture-of-Depths Attention",
+    "url": "https://huggingface.co/papers/2603.15619",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer",
+    "url": "https://huggingface.co/papers/2603.15478",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Autonomous Agents Coordinating Distributed Discovery",
+    "url": "https://huggingface.co/papers/2603.14312",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Helios: Real Real-Time Long Video Generation Model",
+    "url": "https://huggingface.co/papers/2603.04379",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "SkillNet: Create, Evaluate, and Connect AI Skills",
+    "url": "https://huggingface.co/papers/2603.04448",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Anatomy of a Lie: Tracing Hallucinations in Vision-Language Models",
+    "url": "https://huggingface.co/papers/2603.15557",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "DVD: Deterministic Video Depth Estimation",
+    "url": "https://huggingface.co/papers/2603.12250",
+    "source": "HuggingFace Papers",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "GPT-5.4 mini and GPT-5.4 nano",
+    "url": "https://simonwillison.net/2026/Mar/17/mini-and-nano/",
+    "source": "Simon Willison",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Subagents in Agentic Engineering",
+    "url": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/",
+    "source": "Simon Willison",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Use subagents and custom agents in Codex",
+    "url": "https://simonwillison.net/2026/Mar/16/codex-subagents/",
+    "source": "Simon Willison",
+    "date": "2026-03-16"
+  },
+  {
+    "title": "Introducing Mistral Small 4",
+    "url": "https://simonwillison.net/2026/Mar/16/mistral-small-4/",
+    "source": "Simon Willison",
+    "date": "2026-03-16"
+  },
+  {
+    "title": "Mistral bets on 'build-your-own AI' as it takes on OpenAI",
+    "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+    "source": "TechCrunch",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Why Garry Tan's Claude Code setup has gotten so much love",
+    "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
+    "source": "TechCrunch",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "The Pentagon is developing alternatives to Anthropic",
+    "url": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/",
+    "source": "TechCrunch",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "BuzzFeed debuts AI slop apps in bid for new revenue",
+    "url": "https://techcrunch.com/2026/03/17/buzzfeed-ai-slop-apps-sxsw-bf-island-conjure/",
+    "source": "TechCrunch",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Google's Personal Intelligence feature expanding to all US users",
+    "url": "https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/",
+    "source": "TechCrunch",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "OpenAI expands government footprint with AWS deal",
+    "url": "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/",
+    "source": "TechCrunch",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Pentagon planning for AI companies to train on classified data",
+    "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+    "source": "MIT Technology Review",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Where OpenAI's technology could show up in Iran",
+    "url": "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
+    "source": "MIT Technology Review",
+    "date": "2026-03-16"
+  },
+  {
+    "title": "Justice Department Says Anthropic Can't Be Trusted With Warfighting Systems",
+    "url": "https://www.wired.com/story/department-of-defense-responds-to-anthropic-lawsuit/",
+    "source": "Wired",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "Sears Exposed AI Chatbot Phone Calls to Anyone on the Web",
+    "url": "https://www.wired.com/story/sears-exposed-ai-chatbot-phone-calls-and-text-chats-to-anyone-on-the-web/",
+    "source": "Wired",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "MuleRun: Self-evolving personal AI",
+    "url": "https://www.producthunt.com/products/mulerun",
+    "source": "Product Hunt",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "Clawi.ai: OpenClaw in the Cloud",
+    "url": "https://www.producthunt.com/products/clawi-ai",
+    "source": "Product Hunt",
+    "date": "2026-03-17"
+  },
+  {
+    "title": "ElevenCreative: AI creative platform",
+    "url": "https://www.producthunt.com/products/elevencreative-by-elevenlabs",
+    "source": "Product Hunt",
+    "date": "2026-03-17"
+  }
+]
