@@ -375,6 +375,16 @@
       "seen_at": "2026-03-18T07:04:40Z",
       "date": "2026-03-18",
       "title": ""
+    },
+    "https://github.com/langchain-ai/open-swe": {
+      "seen_at": "2026-03-18T14:34:04Z",
+      "date": "2026-03-18",
+      "title": "open-swe: Open-Source Asynchronous Coding Agent"
+    },
+    "https://techcrunch.com/2026/03/18/dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security/": {
+      "seen_at": "2026-03-18T14:34:04Z",
+      "date": "2026-03-18",
+      "title": "DOD says Anthropic red lines make it unacceptable risk to national security"
     }
   }
 }
