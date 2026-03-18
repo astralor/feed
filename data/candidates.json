@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "title": "Introducing Claude 3.7 Opus",
+    "url": "https://www.anthropic.com/research/claude-3-7-opus",
+    "date": "2026-03-05",
+    "source": "Anthropic Research"
+  },
+  {
+    "title": "AgentRM: OS-Inspired Resource Manager for LLM Agent Systems",
+    "url": "https://arxiv.org/abs/2603.13110",
+    "date": "2026-03-13",
+    "source": "arXiv"
+  },
+  {
+    "title": "AEGIS: Pre-Execution Firewall for AI Agents",
+    "url": "https://arxiv.org/abs/2603.12621",
+    "date": "2026-03-13",
+    "source": "arXiv"
+  },
+  {
+    "title": "阿里AI发布企业级Agent平台悟空",
+    "url": "https://www.36kr.com/information/technology/",
+    "date": "2026-03-17",
+    "source": "36氪"
+  },
+  {
+    "title": "2026年AI的40个狂热风口",
+    "url": "https://36kr.com/p/3676032461546116",
+    "date": "2026-03-12",
+    "source": "36氪"
+  }
+]
