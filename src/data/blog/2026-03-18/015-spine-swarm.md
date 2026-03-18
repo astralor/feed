@@ -8,7 +8,7 @@ tags: ["多智能体", "产品设计", "可视化"]
 featured: false
 score: 6.7
 scoreReason: "产品形态有创新（画布 vs 聊天），但技术细节披露有限，87.6% DeepSearchQA 成绩中规中矩"
-scoreBreakdown: "信息增量:7 内容质量:6 实用价值:7"
+scoreBreakdown: "信息增量:7 内容质量:6 实用价值:7 减分:0"
 sourceUrl: "https://www.getspine.ai/"
 sourceType: "hacker-news"
 sourceName: "Hacker News"

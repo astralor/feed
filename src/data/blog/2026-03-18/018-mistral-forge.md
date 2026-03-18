@@ -8,7 +8,7 @@ tags: ["企业AI", "模型训练", "Mistral"]
 featured: false
 score: 6.7
 scoreReason: "技术路线有差异化（从零训练 vs 微调/RAG），但 TechCrunch 报道缺乏技术细节和定价信息"
-scoreBreakdown: "信息增量:7 内容质量:6 实用价值:7"
+scoreBreakdown: "信息增量:7 内容质量:6 实用价值:7 减分:0"
 sourceUrl: "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/"
 sourceType: "techcrunch"
 sourceName: "TechCrunch"

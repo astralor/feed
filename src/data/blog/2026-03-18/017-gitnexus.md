@@ -8,7 +8,7 @@ tags: ["知识图谱", "RAG", "开源工具"]
 featured: false
 score: 7.0
 scoreReason: "纯客户端实现降低部署门槛，Graph RAG Agent 提供实用价值，16k+ stars 显示社区认可"
-scoreBreakdown: "信息增量:7 内容质量:6 实用价值:8"
+scoreBreakdown: "信息增量:7 内容质量:6 实用价值:8 减分:0"
 sourceUrl: "https://github.com/abhigyanpatwari/GitNexus"
 sourceType: "github-trending"
 sourceName: "GitHub Trending"

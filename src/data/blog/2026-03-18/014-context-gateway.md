@@ -8,7 +8,7 @@ tags: ["Agent", "上下文管理", "开源工具"]
 featured: false
 score: 8.0
 scoreReason: "针对实际痛点（GPT-5.4 在 1M tokens 时准确率从 97.2% 降至 36.6%）提供可用方案，技术路径清晰"
-scoreBreakdown: "信息增量:8 内容质量:7 实用价值:9"
+scoreBreakdown: "信息增量:8 内容质量:7 实用价值:9 减分:0"
 sourceUrl: "https://github.com/Compresr-ai/Context-Gateway"
 sourceType: "hacker-news"
 sourceName: "Hacker News"

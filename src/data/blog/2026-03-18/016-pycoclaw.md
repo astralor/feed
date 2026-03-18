@@ -8,7 +8,7 @@ tags: ["嵌入式AI", "边缘计算", "开源工具"]
 featured: true
 score: 7.7
 scoreReason: "将 Agent 能力下沉到嵌入式设备是技术突破，26k LOC 的 PFC Agent 实现和完整工具链（IDE+仓库）展现工程深度"
-scoreBreakdown: "信息增量:8 内容质量:7 实用价值:8"
+scoreBreakdown: "信息增量:8 内容质量:7 实用价值:8 减分:0"
 sourceUrl: "https://pycoclaw.com/"
 sourceType: "hacker-news"
 sourceName: "Hacker News"
