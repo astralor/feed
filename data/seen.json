@@ -385,6 +385,26 @@
       "seen_at": "2026-03-18T14:34:04Z",
       "date": "2026-03-18",
       "title": "DOD says Anthropic red lines make it unacceptable risk to national security"
+    },
+    "https://deepmind.google/blog/measuring-progress-toward-agi-cognitive-framework/": {
+      "seen_at": "2026-03-18T16:34:08Z",
+      "date": "2026-03-19",
+      "title": "Measuring progress toward AGI: A cognitive framework"
+    },
+    "https://github.com/unslothai/unsloth": {
+      "seen_at": "2026-03-18T16:34:08Z",
+      "date": "2026-03-19",
+      "title": "unsloth: Unified web UI for training open models like Qwen, DeepSeek, Gemma"
+    },
+    "https://techcrunch.com/2026/03/18/this-startup-wants-to-make-enterprise-software-look-more-like-a-prompt/": {
+      "seen_at": "2026-03-18T16:34:08Z",
+      "date": "2026-03-19",
+      "title": "Eragon raises $12M to build an AI operating system for enterprise"
+    },
+    "https://techcrunch.com/2026/03/18/microsoft-hires-the-team-of-sequioa-backed-ai-collaboration-platform-cove/": {
+      "seen_at": "2026-03-18T16:34:08Z",
+      "date": "2026-03-19",
+      "title": "Microsoft hires the team of Sequoia-backed AI collaboration platform Cove"
     }
   }
 }
