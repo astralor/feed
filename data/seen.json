@@ -775,6 +775,166 @@
       "seen_at": "2026-03-19T08:34:47Z",
       "date": "2026-03-19",
       "title": "Teens sue xAI over Grok generating sexualized images"
+    },
+    "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Measuring progress toward AGI: A cognitive framework"
+    },
+    "https://openai.com/index/openai-to-acquire-astral/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "OpenAI to Acquire Astral (uv, ruff, ty)"
+    },
+    "https://www.reuters.com/technology/openai/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "OpenAI signs new deal to sell AI models to US defense through Amazon cloud"
+    },
+    "https://github.com/gsd-build/get-shit-done": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "gsd-build/get-shit-done — Meta-prompting and context engineering for Claude Code"
+    },
+    "https://github.com/shareAI-lab/learn-claude-code": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "shareAI-lab/learn-claude-code — Nano claude code-like agent harness built from scratch"
+    },
+    "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says"
+    },
+    "https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Meta rolls out new AI content enforcement systems while reducing reliance on third-party vendors"
+    },
+    "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Meta is having trouble with rogue AI agents"
+    },
+    "https://techcrunch.com/2026/03/18/sam-altmans-thank-you-to-coders-draws-the-memes/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Sam Altman's thank-you to coders draws the memes"
+    },
+    "https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Nothing CEO Carl Pei says smartphone apps will disappear as AI agents take their place"
+    },
+    "https://techcrunch.com/2026/03/18/nvidia-networking-division-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Nvidia is quietly building a multibillion-dollar behemoth to rival its chips business"
+    },
+    "https://techcrunch.com/2026/03/18/patreon-ceo-calls-ai-companies-fair-use-argument-bogus-says-creators-should-be-paid/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Patreon CEO calls AI companies' fair use argument 'bogus,' says creators should be paid"
+    },
+    "https://techcrunch.com/2026/03/18/rebel-audio-is-a-new-ai-podcasting-tool-aimed-at-first-time-creators/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Rebel Audio is a new AI podcasting tool aimed at first-time creators"
+    },
+    "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Multiverse Computing pushes its compressed AI models into the mainstream"
+    },
+    "https://techcrunch.com/2026/03/19/amazon-brings-alexa-to-the-uk/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Amazon brings Alexa+ to the UK"
+    },
+    "https://www.wired.com/story/google-shakes-up-project-mariner-team-web-browsing-agents/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze"
+    },
+    "https://www.wired.com/story/chatgpt-adult-mode-new-era-of-intimate-surveillance/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "ChatGPT's 'Adult Mode' Could Spark a New Era of Intimate Surveillance"
+    },
+    "https://www.wired.com/story/signals-creator-is-helping-encrypt-meta-ai/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Signal's Creator Is Helping Encrypt Meta AI"
+    },
+    "https://www.wired.com/story/how-ai-chatbots-drove-families-to-the-brink-and-the-lawyer-fighting-back/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "The Fight to Hold AI Companies Accountable for Children's Deaths"
+    },
+    "https://huggingface.co/blog/nvidia/speed-bench": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Introducing SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding"
+    },
+    "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty"
+    },
+    "https://www.engadget.com/ai/senator-blackburn-introduces-the-first-draft-of-a-federal-ai-bill-202509852.html": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "The first draft of a federal AI bill has been introduced in the US"
+    },
+    "https://www.nytimes.com/2026/03/18/technology/google-ai-pentagon.html": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "Google is pitching itself to the Pentagon as the perfect defense partner"
+    },
+    "https://36kr.com/p/3664280766968325": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "150万AI agent社交狂欢背后，是一场\"产品大爆炸\""
+    },
+    "https://36kr.com/information/technology/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "稳扎稳打的腾讯也要为AI花大钱了"
+    },
+    "https://36kr.com/p/3624490892461057": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "华为云具身机器人负责人离职创业，想用脑认知\"改造\"机器人大脑"
+    },
+    "https://36kr.com/information/web_news/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "GTC巅峰对话 Jeff Dean x Bill Dally：预训练范式已死"
+    },
+    "https://36kr.com/p/789570667962249": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "能发明会创造的AI，能否拥有专利权？"
+    },
+    "https://blogs.nvidia.com/blog/gtc-2026-news/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "NVIDIA GTC 2026: Live Updates on What's Next in AI"
+    },
+    "https://techcrunch.com/video/the-leaderboard-you-cant-game-funded-by-the-companies-it-ranks/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "The leaderboard 'you can't game,' funded by the companies it ranks"
+    },
+    "https://techcrunch.com/2026/03/19/doordash-launches-a-new-tasks-app-that-pays-couriers-to-submit-videos-to-train-ai/": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "DoorDash launches a new 'Tasks' app that pays couriers to submit videos to train AI"
+    },
+    "https://github.com/opendataloader-project/opendataloader-pdf": {
+      "seen_at": "2026-03-19T20:32:10Z",
+      "date": "2026-03-20",
+      "title": "opendataloader-project/opendataloader-pdf — PDF Parser for AI-ready data"
     }
   }
 }

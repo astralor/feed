@@ -1,1 +1,290 @@
-[]
+[
+  {
+    "title": "Measuring progress toward AGI: A cognitive framework",
+    "url": "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/",
+    "source": "Google DeepMind",
+    "sourceType": "deepmind-blog",
+    "pubDatetime": "2026-03-18T00:03:47+08:00",
+    "snippet": "Google DeepMind introduces a cognitive framework to measure progress toward AGI, launching a Kaggle hackathon to build relevant evaluations. The framework defines cognitive capabilities across different levels and tasks, providing a structured way to benchmark how close AI systems are to general intelligence.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "OpenAI to Acquire Astral (uv, ruff, ty)",
+    "url": "https://openai.com/index/openai-to-acquire-astral/",
+    "source": "OpenAI",
+    "sourceType": "openai-blog",
+    "pubDatetime": "2026-03-20T00:00:00+08:00",
+    "snippet": "OpenAI announced it will acquire Astral, the company behind uv, ruff, and ty — three critical open-source Python tools. The Astral team will join OpenAI's Codex group. OpenAI plans to continue supporting Astral's open-source products. This follows Anthropic's acquisition of Bun in December 2025. Astral's BurntSushi (ripgrep, Rust regex) is highlighted as a key talent.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "OpenAI signs new deal to sell AI models to US defense through Amazon cloud",
+    "url": "https://www.reuters.com/technology/openai/",
+    "source": "Reuters",
+    "sourceType": "web-search",
+    "pubDatetime": "2026-03-19T14:00:00+08:00",
+    "snippet": "OpenAI signed a new deal to sell access to its AI models to US defense and government agencies through Amazon's cloud unit for classified and unclassified work.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "gsd-build/get-shit-done — Meta-prompting and context engineering for Claude Code",
+    "url": "https://github.com/gsd-build/get-shit-done",
+    "source": "GitHub Trending",
+    "sourceType": "github-trending",
+    "pubDatetime": "2026-03-20T04:30:00+08:00",
+    "snippet": "A light-weight meta-prompting, context engineering and spec-driven development system for Claude Code by TACHES. JavaScript. 35,901 stars, 1,414 stars today.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "shareAI-lab/learn-claude-code — Nano claude code-like agent harness built from scratch",
+    "url": "https://github.com/shareAI-lab/learn-claude-code",
+    "source": "GitHub Trending",
+    "sourceType": "github-trending",
+    "pubDatetime": "2026-03-20T04:30:00+08:00",
+    "snippet": "Bash is all you need — a nano claude code-like agent harness built from 0 to 1. TypeScript. 33,508 stars, 1,458 stars today. Built by CrazyBoyM with Claude.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says",
+    "url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/",
+    "source": "TechCrunch",
+    "sourceType": "techcrunch",
+    "pubDatetime": "2026-03-20T03:09:02+08:00",
+    "snippet": "Cloudflare CEO Matthew Prince predicts AI bots may outnumber humans online by 2027, as generative AI agents dramatically increase web traffic and infrastructure demands. Speaking at SXSW.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Meta rolls out new AI content enforcement systems while reducing reliance on third-party vendors",
+    "url": "https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/",
+    "source": "TechCrunch",
+    "sourceType": "techcrunch",
+    "pubDatetime": "2026-03-20T01:24:13+08:00",
+    "snippet": "Meta believes these AI systems can detect more violations with greater accuracy, better prevent scams, respond more quickly to real-world events, and reduce over-enforcement.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Meta is having trouble with rogue AI agents",
+    "url": "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/",
+    "source": "TechCrunch",
+    "sourceType": "techcrunch",
+    "pubDatetime": "2026-03-19T07:42:46+08:00",
+    "snippet": "A rogue AI agent inadvertently exposed Meta company and user data to engineers who didn't have permission to see it. The exposure lasted for hours before being contained.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Sam Altman's thank-you to coders draws the memes",
+    "url": "https://techcrunch.com/2026/03/18/sam-altmans-thank-you-to-coders-draws-the-memes/",
+    "source": "TechCrunch",
+    "sourceType": "techcrunch",
+    "pubDatetime": "2026-03-19T07:12:58+08:00",
+    "snippet": "Sam Altman expresses gratitude for people who knew how to write code from scratch. The internet responds with memes and criticism amid widespread layoffs in the tech industry.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Nothing CEO Carl Pei says smartphone apps will disappear as AI agents take their place",
+    "url": "https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/",
+    "source": "TechCrunch",
+    "sourceType": "techcrunch",
+    "pubDatetime": "2026-03-19T04:30:52+08:00",
+    "snippet": "Nothing CEO Carl Pei predicts AI agents will eventually replace apps, shifting smartphones toward systems that understand intent and act on a user's behalf. Speaking at SXSW.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Nvidia is quietly building a multibillion-dollar behemoth to rival its chips business",
+    "url": "https://techcrunch.com/2026/03/18/nvidia-networking-division-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business/",
+    "source": "TechCrunch",
+    "sourceType": "techcrunch",
+    "pubDatetime": "2026-03-19T04:01:19+08:00",
+    "snippet": "Nvidia's networking business raked in $11 billion last quarter despite getting significantly less fanfare than chips and gaming. GTC 2026 context.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Patreon CEO calls AI companies' fair use argument 'bogus,' says creators should be paid",
+    "url": "https://techcrunch.com/2026/03/18/patreon-ceo-calls-ai-companies-fair-use-argument-bogus-says-creators-should-be-paid/",
+    "source": "TechCrunch",
+    "sourceType": "techcrunch",
+    "pubDatetime": "2026-03-19T01:54:31+08:00",
+    "snippet": "Patreon CEO Jack Conte argues AI companies should pay creators for training data, saying their fair use defense falls apart when they license content from major publishers. SXSW speech.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Rebel Audio is a new AI podcasting tool aimed at first-time creators",
+    "url": "https://techcrunch.com/2026/03/18/rebel-audio-is-a-new-ai-podcasting-tool-aimed-at-first-time-creators/",
+    "source": "TechCrunch",
+    "sourceType": "techcrunch",
+    "pubDatetime": "2026-03-19T01:15:00+08:00",
+    "snippet": "Rebel Audio is an all-in-one podcasting tool that allows creators to record, edit, clip content for social, and publish episodes without leaving the platform. Raised seed funding.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Multiverse Computing pushes its compressed AI models into the mainstream",
+    "url": "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/",
+    "source": "TechCrunch",
+    "sourceType": "techcrunch",
+    "pubDatetime": "2026-03-19T16:00:00+08:00",
+    "snippet": "After compressing models from major AI labs including OpenAI, Meta, DeepSeek, and Mistral AI, Multiverse Computing launched an app showcasing compressed model capabilities and an API. Uses compactifAI technology.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Amazon brings Alexa+ to the UK",
+    "url": "https://techcrunch.com/2026/03/19/amazon-brings-alexa-to-the-uk/",
+    "source": "TechCrunch",
+    "sourceType": "techcrunch",
+    "pubDatetime": "2026-03-19T20:27:24+08:00",
+    "snippet": "Amazon is letting users in the UK try out Alexa+ for free via an early access program, expanding the AI-powered assistant internationally.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze",
+    "url": "https://www.wired.com/story/google-shakes-up-project-mariner-team-web-browsing-agents/",
+    "source": "Wired",
+    "sourceType": "wired",
+    "pubDatetime": "2026-03-20T02:00:00+08:00",
+    "snippet": "As Silicon Valley obsesses over AI coding agents, Google and other AI labs are shifting their bets. Google is restructuring its Project Mariner web browsing agent team amid the broader agentic AI wave.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "ChatGPT's 'Adult Mode' Could Spark a New Era of Intimate Surveillance",
+    "url": "https://www.wired.com/story/chatgpt-adult-mode-new-era-of-intimate-surveillance/",
+    "source": "Wired",
+    "sourceType": "wired",
+    "pubDatetime": "2026-03-20T00:06:49+08:00",
+    "snippet": "OpenAI plans to allow sexting with ChatGPT. A human-AI interaction expert warns of privacy nightmare, raising concerns about intimate data collection by AI companies.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Signal's Creator Is Helping Encrypt Meta AI",
+    "url": "https://www.wired.com/story/signals-creator-is-helping-encrypt-meta-ai/",
+    "source": "Wired",
+    "sourceType": "wired",
+    "pubDatetime": "2026-03-19T22:09:51+08:00",
+    "snippet": "Moxie Marlinspike says the technology powering his encrypted AI chatbot, Confer, will be integrated into Meta AI. The move could protect AI conversations of millions of WhatsApp and Messenger users.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "The Fight to Hold AI Companies Accountable for Children's Deaths",
+    "url": "https://www.wired.com/story/how-ai-chatbots-drove-families-to-the-brink-and-the-lawyer-fighting-back/",
+    "source": "Wired",
+    "sourceType": "wired",
+    "pubDatetime": "2026-03-19T18:00:00+08:00",
+    "snippet": "After a series of suicides allegedly linked to AI chatbots, a lawyer is trying to hold companies like OpenAI and Google accountable for harm caused by their conversational AI products.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Introducing SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding",
+    "url": "https://huggingface.co/blog/nvidia/speed-bench",
+    "source": "HuggingFace Blog",
+    "sourceType": "huggingface-blog",
+    "pubDatetime": "2026-03-19T22:04:54+08:00",
+    "snippet": "NVIDIA introduces SPEED-Bench, a unified benchmark for evaluating speculative decoding methods across diverse model architectures and tasks. Published on HuggingFace Blog.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+    "url": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
+    "source": "Simon Willison",
+    "sourceType": "simon-willison",
+    "pubDatetime": "2026-03-20T00:45:15+08:00",
+    "snippet": "Simon Willison provides detailed analysis of OpenAI acquiring Astral (uv, ruff, ty). Key points: uv is downloaded 126M times/month, Astral has top Rust engineers (BurntSushi), parallels Anthropic acquiring Bun for Claude Code, concerns about OpenAI using uv as competitive leverage, and the credibility of forking as an exit strategy. Astral's undisclosed Series A (Accel) and Series B (a16z) revealed.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "The first draft of a federal AI bill has been introduced in the US",
+    "url": "https://www.engadget.com/ai/senator-blackburn-introduces-the-first-draft-of-a-federal-ai-bill-202509852.html",
+    "source": "MIT Tech Review (referenced)",
+    "sourceType": "mit-tech-review",
+    "pubDatetime": "2026-03-19T12:17:02+08:00",
+    "snippet": "Senator Blackburn introduces the first draft of a federal AI bill aiming to protect 'children, creators, conservatives, and communities.' A war is brewing over AI regulation in the US.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "Google is pitching itself to the Pentagon as the perfect defense partner",
+    "url": "https://www.nytimes.com/2026/03/18/technology/google-ai-pentagon.html",
+    "source": "MIT Tech Review (referenced)",
+    "sourceType": "mit-tech-review",
+    "pubDatetime": "2026-03-19T12:17:02+08:00",
+    "snippet": "Google is framing its AI as a safe alternative to OpenAI and Anthropic for Pentagon defense contracts.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "150万AI agent社交狂欢背后，是一场\"产品大爆炸\"",
+    "url": "https://36kr.com/p/3664280766968325",
+    "source": "36kr",
+    "sourceType": "36kr",
+    "pubDatetime": "2026-03-19T23:00:00+08:00",
+    "snippet": "OpenClaw横空出世后，在AI行业激起海啸。150万AI agent社交狂欢背后，是产品大爆炸时代的到来，AGI从未如此接近。",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "稳扎稳打的腾讯也要为AI花大钱了",
+    "url": "https://36kr.com/information/technology/",
+    "source": "36kr",
+    "sourceType": "36kr",
+    "pubDatetime": "2026-03-19T22:00:00+08:00",
+    "snippet": "2026财年，腾讯将减少股票回购，AI投入翻倍。腾讯在AI领域的投入策略发生重大转变。",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "华为云具身机器人负责人离职创业，想用脑认知\"改造\"机器人大脑",
+    "url": "https://36kr.com/p/3624490892461057",
+    "source": "36kr",
+    "sourceType": "36kr",
+    "pubDatetime": "2026-03-19T21:00:00+08:00",
+    "snippet": "华为云具身机器人负责人朱森华离职创业，希望用人类大脑为蓝本进行技术迭代，打造新一代机器人大脑。",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "GTC巅峰对话 Jeff Dean x Bill Dally：预训练范式已死",
+    "url": "https://36kr.com/information/web_news/",
+    "source": "36kr",
+    "sourceType": "36kr",
+    "pubDatetime": "2026-03-19T22:00:00+08:00",
+    "snippet": "Jeff Dean与Bill Dally在GTC巅峰对话：预训练范式已死、延迟瓶颈不在计算、AI下一前沿正在从训练走向推理，从模型走向系统。",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "能发明会创造的AI，能否拥有专利权？",
+    "url": "https://36kr.com/p/789570667962249",
+    "source": "36kr",
+    "sourceType": "36kr",
+    "pubDatetime": "2026-03-19T22:00:00+08:00",
+    "snippet": "美国专利局和欧洲专利局拒绝了AI独立设计发明的专利申请，现行法律下只有自然人才能申请并持有专利。",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "NVIDIA GTC 2026: Live Updates on What's Next in AI",
+    "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
+    "source": "NVIDIA Blog",
+    "sourceType": "web-search",
+    "pubDatetime": "2026-03-19T13:00:00+08:00",
+    "snippet": "NVIDIA GTC 2026 live coverage from San Jose including Jensen Huang's keynote. Highlights: agentic AI inflection in healthcare, new chips, autonomous vehicles focus. GTC runs through March 19.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "The leaderboard 'you can't game,' funded by the companies it ranks",
+    "url": "https://techcrunch.com/video/the-leaderboard-you-cant-game-funded-by-the-companies-it-ranks/",
+    "source": "TechCrunch",
+    "sourceType": "techcrunch",
+    "pubDatetime": "2026-03-19T00:30:00+08:00",
+    "snippet": "Arena (formerly LM Arena) has emerged as the de facto public leaderboard for frontier LLMs, influencing funding, launches, and PR cycles. In seven months the startup went from UC Berkeley to a central benchmark.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "DoorDash launches a new 'Tasks' app that pays couriers to submit videos to train AI",
+    "url": "https://techcrunch.com/2026/03/19/doordash-launches-a-new-tasks-app-that-pays-couriers-to-submit-videos-to-train-ai/",
+    "source": "TechCrunch",
+    "sourceType": "techcrunch",
+    "pubDatetime": "2026-03-20T00:14:00+08:00",
+    "snippet": "DoorDash launches Tasks app where delivery couriers can earn money by completing activities like filming everyday tasks or recording themselves speaking in another language to train AI models.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  },
+  {
+    "title": "opendataloader-project/opendataloader-pdf — PDF Parser for AI-ready data",
+    "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+    "source": "GitHub Trending",
+    "sourceType": "github-trending",
+    "pubDatetime": "2026-03-20T04:30:00+08:00",
+    "snippet": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source. Java. 5,384 stars, 1,394 stars today. Built by claude.",
+    "collectedAt": "2026-03-20T04:32:10.457899+08:00"
+  }
+]
