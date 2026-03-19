@@ -585,6 +585,196 @@
       "seen_at": "2026-03-19T04:32:42Z",
       "date": "2026-03-19",
       "title": "Alibaba's AI Strategy Shift Comes Into Focus with Big Bets on Agents"
+    },
+    "https://www.anthropic.com/features/81k-interviews": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "What 81,000 people want from AI"
+    },
+    "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Introducing GPT-5.4 mini and nano"
+    },
+    "https://9to5google.com/2026/03/17/openai-gpt-5-4-mini-nano-models/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "ChatGPT free tier gets GPT-5.4 mini"
+    },
+    "https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Meta delays 'Avocado' AI model after performance concerns"
+    },
+    "https://letsdatascience.com/blog/elon-musk-says-xai-was-built-wrong-he-hired-the-two-people-who-built-cursor-to-fix-it": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "xAI hired Cursor engineers to rebuild Grok coding product"
+    },
+    "https://rjcorwin.github.io/cook/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Cook: A simple CLI for orchestrating Claude Code"
+    },
+    "https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "A sufficiently detailed spec is code"
+    },
+    "https://github.com/iliazintchenko/agent-sat": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Autoresearch for SAT Solvers"
+    },
+    "https://nearzero.software/p/warranty-void-if-regenerated": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Warranty Void If Regenerated"
+    },
+    "https://news.ycombinator.com/item?id=47433702": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Ask HN: How do you deal with people who trust LLMs?"
+    },
+    "https://github.com/nicepkg/gpt-runner": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "claude-hud - Claude Code HUD dashboard"
+    },
+    "https://techcrunch.com/2026/03/19/multiverse-computing-compressed-ai-models/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Multiverse Computing compressed AI models"
+    },
+    "https://techcrunch.com/2026/03/18/sam-altman-thank-you-to-coders/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Sam Altman's thank-you to coders"
+    },
+    "https://techcrunch.com/2026/03/18/google-workspace-gemini-features/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Google adds Gemini-powered features to Workspace"
+    },
+    "https://techcrunch.com/2026/03/18/lmarena-leaderboard-conflict-of-interest/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "LMArena leaderboard funded by companies it ranks"
+    },
+    "https://techcrunch.com/2026/03/18/eragon-enterprise-software-prompt/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Eragon: enterprise software like a prompt"
+    },
+    "https://techcrunch.com/2026/03/18/sequen-16m-funding/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Sequen raises $16M for TikTok-style personalization"
+    },
+    "https://techcrunch.com/2026/03/18/microsoft-hires-cove-team/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Microsoft hires Cove team"
+    },
+    "https://techcrunch.com/2026/03/18/dod-anthropic-red-lines/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "DOD says Anthropic red lines are unacceptable risk"
+    },
+    "https://www.wired.com/story/models-applying-face-ai-scams/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "AI models are applying to be the face of AI scams"
+    },
+    "https://www.wired.com/story/google-ai-search-refers-back-to-google/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Google AI Search refers back to Google"
+    },
+    "https://www.wired.com/story/china-openclaw-gold-rush/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "China's OpenClaw boom"
+    },
+    "https://www.wired.com/story/palantir-military-ai-chatbots/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Palantir demos military AI chatbots"
+    },
+    "https://huggingface.co/blog/nemotron-3-nano-4b": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Nemotron 3 Nano 4B"
+    },
+    "https://huggingface.co/blog/open-source-ai-spring-2026": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "State of Open Source AI - Spring 2026"
+    },
+    "https://huggingface.co/blog/holotron-12b": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Holotron-12B: High Throughput Computer Use Agent"
+    },
+    "https://www.reuters.com/business/media-telecom/mystery-ai-model-has-developers-buzzing-is-this-deepseeks-latest-blockbuster-2026-03-18/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "DeepSeek quietly testing next-gen AI model"
+    },
+    "https://www.businessinsider.com/nvidia-ceo-jensen-huang-openclaw-ai-strategy-2026-3": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Nvidia launches NemoClaw with privacy and security"
+    },
+    "https://www.ft.com/content/e814f4c3-4fb5-4e2e-90a6-470044436b39": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Microsoft mulls legal action over Amazon-OpenAI cloud deal"
+    },
+    "https://www.nytimes.com/2026/03/17/technology/china-scrutiny-meta-manus.html": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "China penalizing people linked to Meta's Manus acquisition"
+    },
+    "https://arxiv.org/abs/2603.17973": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "TDAD: Test-Driven Agentic Development"
+    },
+    "https://arxiv.org/abs/2603.17970": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "MUD: MomentUm Decorrelation for Faster Transformer Training"
+    },
+    "https://36kr.com/p/3676078931583876": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "一只小龙虾何以引爆全球AI圈"
+    },
+    "https://36kr.com/p/3715160552878469": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "OpenClaw 史上最猛更新：AI 记忆可自由插拔"
+    },
+    "https://36kr.com/p/3726827610864260": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "春节AI热潮之后，网民真的开始用AI了吗"
+    },
+    "https://www.pcmag.com/news/grok-is-this-true-musk-says-xai-needs-to-be-rebuilt-as-co-founders-flee": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Musk says xAI needs to be rebuilt from foundations up"
+    },
+    "https://theagencyjournal.com/fresh-grok-updates-from-march-2026-whats-new-and-why-youll-love-it/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Grok 4.20 beta with multi-agent smarts"
+    },
+    "https://www.upi.com/Top_News/US/2026/03/16/teens-sue-musk-xai-grok/9401773691425/": {
+      "seen_at": "2026-03-19T08:34:47Z",
+      "date": "2026-03-19",
+      "title": "Teens sue xAI over Grok generating sexualized images"
     }
   }
 }
