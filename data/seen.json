@@ -490,6 +490,101 @@
       "seen_at": "2026-03-18T18:33:44Z",
       "date": "2026-03-19",
       "title": "Google finds that AI agents learn to cooperate"
+    },
+    "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Measuring Progress Toward AGI: A Cognitive Framework"
+    },
+    "https://www.usekita.com": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Launch HN: Kita (YC W26) – Automate Credit Review in Emerging Markets"
+    },
+    "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Meta Is Having Trouble with Rogue AI Agents"
+    },
+    "https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Nothing CEO Carl Pei Says Smartphone Apps Will Disappear as AI Agents Take Their Place"
+    },
+    "https://techcrunch.com/2026/03/18/nvidia-networking-division-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Nvidia Is Quietly Building a Multibillion-Dollar Behemoth to Rival Its Chips Business"
+    },
+    "https://techcrunch.com/2026/03/18/patreon-ceo-calls-ai-companies-fair-use-argument-bogus-says-creators-should-be-paid": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Patreon CEO Calls AI Companies' Fair Use Argument 'Bogus,' Says Creators Should Be Paid"
+    },
+    "https://techcrunch.com/2026/03/18/rebel-audio-is-a-new-ai-podcasting-tool-aimed-at-first-time-creators": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Rebel Audio: A New AI Podcasting Tool Aimed at First-Time Creators"
+    },
+    "https://www.wired.com/story/ai-lab-walmart-openai-shaking-up-agentic-shopping-deal": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal"
+    },
+    "https://www.wired.com/story/sears-exposed-ai-chatbot-phone-calls-and-text-chats-to-anyone-on-the-web": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Sears Exposed AI Chatbot Phone Calls and Text Chats to Anyone on the Web"
+    },
+    "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "The Pentagon Is Planning for AI Companies to Train on Classified Data"
+    },
+    "https://simonwillison.net/2026/Mar/18/llm-in-a-flash": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Autoresearching Apple's \"LLM in a Flash\" to Run Qwen 397B Locally"
+    },
+    "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Snowflake Cortex AI Escapes Sandbox and Executes Malware"
+    },
+    "https://arxiv.org/abs/2603.18000": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse"
+    },
+    "https://36kr.com/p/3727906512714630": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "「日本最强AI」塌房了，扒开代码全是 DeepSeek"
+    },
+    "https://36kr.com/p/3727875874323334": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "8 个月 700 万个 App，AI 把哪道门槛打掉了"
+    },
+    "https://36kr.com/p/3727708818176902": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "别追 AGI 了，这波 AI 浪潮的核心是流程革命"
+    },
+    "https://36kr.com/p/3726975491259267": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "两年复合增长 68%，揭秘工业 AI 智能体第一股"
+    },
+    "https://venturebeat.com/security/nvidia-gtc-2026-agentic-ai-security-five-vendor-governance-framework": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Nvidia's Agentic AI Stack: First Major Platform with Security at Launch"
+    },
+    "https://www.reuters.com/technology/artificial-intelligence": {
+      "seen_at": "2026-03-19T04:32:42Z",
+      "date": "2026-03-19",
+      "title": "Alibaba's AI Strategy Shift Comes Into Focus with Big Bets on Agents"
     }
   }
 }
