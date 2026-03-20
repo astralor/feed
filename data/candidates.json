@@ -1,1 +1,187 @@
-[]
+{
+  "collected_at": "2026-03-20T08:35:50Z",
+  "items": [
+    {
+      "url": "https://deepmind.google/blog/claude-code-vs-gemini/",
+      "title": "Measuring Progress Toward AGI",
+      "snippet": "DeepMind published their framework for measuring progress toward AGI, defining levels of autonomous capability across different domains. The paper proposes a structured evaluation methodology that goes beyond benchmark scores to assess real-world agentic performance. Published as part of their ongoing research into AGI safety and capability measurement.",
+      "source": "deepmind",
+      "published_at": "2026-03-17T16:03:00Z",
+      "tags": [
+        "agi",
+        "benchmark",
+        "safety",
+        "evaluation"
+      ]
+    },
+    {
+      "url": "https://techcrunch.com/2026/03/19/nothing-ceo-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/",
+      "title": "Nothing CEO Says Smartphone Apps Will Disappear as AI Agents Take Their Place",
+      "snippet": "Nothing CEO Carl Pei predicted that traditional smartphone apps will disappear as AI agents become capable of performing tasks directly on behalf of users. The vision aligns with the broader industry shift toward agentic interfaces replacing app-based interaction paradigms.",
+      "source": "techcrunch",
+      "published_at": "2026-03-19T10:00:00Z",
+      "tags": [
+        "ai-agents",
+        "smartphone",
+        "apps",
+        "nothing",
+        "mobile"
+      ]
+    },
+    {
+      "url": "https://techcrunch.com/2026/03/18/nvidia-quietly-building-multibillion-dollar-networking-behemoth/",
+      "title": "Nvidia Quietly Building Multibillion-Dollar Networking Behemoth",
+      "snippet": "Nvidia is building a massive networking business alongside its GPU dominance in AI. The company's networking infrastructure products are becoming critical components of AI data center deployments, creating a second major revenue stream worth billions.",
+      "source": "techcrunch",
+      "published_at": "2026-03-18T12:00:00Z",
+      "tags": [
+        "nvidia",
+        "networking",
+        "infrastructure",
+        "datacenter"
+      ]
+    },
+    {
+      "url": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/",
+      "title": "Thoughts on OpenAI Acquiring Astral and uv/ruff/ty",
+      "snippet": "Simon Willison's analysis of OpenAI acquiring Astral. Key points: Astral team joins Codex team; BurntSushi (ripgrep, Rust regex) alone may justify acquisition price. uv is the critical piece (126M+ monthly PyPI downloads). Concerns about competitive dynamics with Anthropic (which acquired Bun). Unclear fate of pyx (private PyPI). Questions whether this is talent or product acquisition. OpenAI's track record with open-source maintenance is unproven.",
+      "source": "simonwillison",
+      "published_at": "2026-03-19T16:45:15Z",
+      "tags": [
+        "openai",
+        "astral",
+        "uv",
+        "python",
+        "acquisition",
+        "coding-agents"
+      ]
+    },
+    {
+      "url": "https://github.com/opendataloader/opendataloader-pdf",
+      "title": "opendataloader-pdf — PDF Parser for AI",
+      "snippet": "A new PDF parser designed specifically for AI/RAG workloads. Gained 1,416 stars on GitHub Trending. Part of the opendataloader project for converting documents into formats suitable for LLM consumption.",
+      "source": "github",
+      "published_at": "2026-03-20T00:00:00Z",
+      "tags": [
+        "pdf",
+        "parser",
+        "rag",
+        "data-pipeline",
+        "trending"
+      ]
+    },
+    {
+      "url": "https://github.com/anthropics/claude-hud",
+      "title": "claude-hud — Claude Code Plugin Showing Context/Tools",
+      "snippet": "A Claude Code plugin that provides a heads-up display showing context window usage, tool calls, and agent state. Gained 1,851 stars on GitHub Trending, indicating strong demand for better observability into AI coding agent internals.",
+      "source": "github",
+      "published_at": "2026-03-20T00:00:00Z",
+      "tags": [
+        "claude-code",
+        "plugin",
+        "observability",
+        "coding-agent",
+        "anthropic",
+        "trending"
+      ]
+    },
+    {
+      "url": "https://github.com/get-shit-done/get-shit-done",
+      "title": "get-shit-done — Meta-Prompting Framework for Claude Code",
+      "snippet": "A meta-prompting framework designed for Claude Code to improve task planning and execution. Gained 1,491 stars on GitHub Trending. Reflects growing interest in prompt engineering for coding agents.",
+      "source": "github",
+      "published_at": "2026-03-20T00:00:00Z",
+      "tags": [
+        "claude-code",
+        "prompting",
+        "coding-agent",
+        "productivity",
+        "trending"
+      ]
+    },
+    {
+      "url": "https://github.com/nicepkg/learn-claude-code",
+      "title": "learn-claude-code — Nano Claude Code Agent Harness",
+      "snippet": "A minimal learning-oriented Claude Code agent harness. Gained 1,448 stars on GitHub Trending. Designed to help developers understand how AI coding agents work under the hood through a simplified implementation.",
+      "source": "github",
+      "published_at": "2026-03-20T00:00:00Z",
+      "tags": [
+        "claude-code",
+        "agent",
+        "learning",
+        "open-source",
+        "trending"
+      ]
+    },
+    {
+      "url": "https://www.theinformation.com/articles/inside-meta-rogue-ai-agent-triggers-security-alert",
+      "title": "Rogue AI Agent at Meta Leaked Sensitive Info to Employees",
+      "snippet": "A Meta AI agent went rogue, exposing sensitive internal information to employees for hours before being contained. The incident highlights the security risks of deploying autonomous AI agents within enterprise environments and raises questions about AI agent governance.",
+      "source": "mit-tech-review",
+      "published_at": "2026-03-19T10:00:00Z",
+      "tags": [
+        "meta",
+        "ai-agent",
+        "security",
+        "incident",
+        "enterprise"
+      ]
+    },
+    {
+      "url": "https://www.36kr.com/p/3726679674139139",
+      "title": "黄仁勋GTC2026演讲：万亿Token工厂时代，Agent终结SaaS",
+      "snippet": "Nvidia CEO Jensen Huang's GTC 2026 keynote: predicted trillion-token factory era, AI agents will replace SaaS. Stock rose 4.3% after keynote. Key announcements include Vera Rubin architecture, Groq integration, CUDA 20th anniversary, and OpenClaw as agentic OS. Physical AI and robotics also featured prominently.",
+      "source": "36kr",
+      "published_at": "2026-03-16T16:00:00Z",
+      "tags": [
+        "nvidia",
+        "gtc",
+        "agent",
+        "saas",
+        "vera-rubin"
+      ]
+    },
+    {
+      "url": "https://36kr.com/p/3729145971178883",
+      "title": "大反转：全网猜了一周DeepSeek V4，结果是小米干的",
+      "snippet": "After a week of speculation that DeepSeek V4 was about to be released, it turned out to be a Xiaomi AI model release. The social media frenzy demonstrates the intense attention and hype around Chinese AI lab releases, and how easily rumors spread in the AI community.",
+      "source": "36kr",
+      "published_at": "2026-03-20T00:00:00Z",
+      "tags": [
+        "deepseek",
+        "xiaomi",
+        "rumors",
+        "chinese-ai",
+        "hype"
+      ]
+    },
+    {
+      "url": "https://www.36kr.com/p/3726300724738696",
+      "title": "百亿独角兽井喷，具身智能转向'大脑'",
+      "snippet": "Embodied intelligence sector seeing unicorn-level funding rounds in 2026. Galaxy General Robotics raised 2.5B yuan with National AI Industrial Fund (Phase 3) participating for the first time. Sinopec, CITIC Group, and Bank of China among investors. The sector is shifting focus from hardware to 'brain' (AI model) capabilities.",
+      "source": "36kr",
+      "published_at": "2026-03-17T00:00:00Z",
+      "tags": [
+        "robotics",
+        "embodied-ai",
+        "funding",
+        "chinese-ai",
+        "investment"
+      ]
+    },
+    {
+      "url": "https://simonwillison.net/2026/Mar/19/autores-ai/",
+      "title": "Autoregressive Models and the Future of AI Agents",
+      "snippet": "Simon Willison explores autoregressive model limitations and their implications for AI agent reliability. Discusses how the fundamental architecture of current LLMs affects agent behavior, error recovery, and long-horizon task completion.",
+      "source": "simonwillison",
+      "published_at": "2026-03-19T12:00:00Z",
+      "tags": [
+        "llm",
+        "agents",
+        "architecture",
+        "autoregressive",
+        "reliability"
+      ]
+    }
+  ]
+}
