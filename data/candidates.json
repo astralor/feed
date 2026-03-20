@@ -1,1 +1,234 @@
-[]
+[
+  {
+    "url": "https://www.anthropic.com/research/labor-market-impacts-of-ai",
+    "title": "Labor market impacts of AI: A new measure and early evidence",
+    "source": "anthropic",
+    "description": "Anthropic 经济研究团队发布AI对劳动力市场影响的新度量方法和早期证据",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.anthropic.com/research/model-deprecation-claude-opus-3",
+    "title": "An update on our model deprecation commitments for Claude Opus 3",
+    "source": "anthropic",
+    "description": "Anthropic 更新 Claude Opus 3 模型退役承诺",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.anthropic.com/research/persona-selection-model",
+    "title": "The persona selection model",
+    "source": "anthropic",
+    "description": "Anthropic 发布人格选择模型研究",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.anthropic.com/research/measuring-ai-agent-autonomy-in-practice",
+    "title": "Measuring AI agent autonomy in practice",
+    "source": "anthropic",
+    "description": "实际测量 AI Agent 自主性的方法论研究",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://openai.com/index/openai-to-acquire-astral/",
+    "title": "OpenAI to acquire Astral (uv/ruff/ty)",
+    "source": "openai",
+    "description": "OpenAI 收购 Python 生态核心工具公司 Astral，整合进 Codex 团队",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/897778/openai-chatgpt-codex-atlas-browser-superapp",
+    "title": "OpenAI is building a 'super app' merging ChatGPT, browser, and Codex",
+    "source": "openai",
+    "description": "OpenAI 合并 ChatGPT、浏览器和 Codex 为单一超级应用",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/",
+    "title": "OpenAI is throwing everything into building a fully automated researcher",
+    "source": "openai",
+    "description": "OpenAI 设定新目标：2028年构建全自动 AI 研究员，2026年9月先做自主研究实习生",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://arstechnica.com/ai/2026/03/openai-is-acquiring-open-source-python-tool-maker-astral/",
+    "title": "OpenAI is acquiring open-source Python tool maker Astral",
+    "source": "openai",
+    "description": "OpenAI 收购 Astral 以增强 Codex 编码能力",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.libertify.com/interactive-library/training-llms-honesty-confessions-openai/",
+    "title": "Training LLMs for Honesty via Confessions — OpenAI",
+    "source": "openai",
+    "description": "OpenAI 研究论文：通过自白训练 LLM 诚实报告自身缺陷",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-4-mini-nano/",
+    "title": "GPT-5.4 mini and nano release",
+    "source": "openai",
+    "description": "OpenAI 发布 GPT-5.4 mini 和 nano，最快速最便宜的 GPT-5.4 变体",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://deepmind.google/blog/10-years-of-alphago/",
+    "title": "From games to biology and beyond: 10 years of AlphaGo's impact",
+    "source": "deepmind",
+    "description": "AlphaGo 十周年回顾：从游戏到生物学的 AI 突破之路",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/",
+    "title": "Meta rolls out new AI content enforcement systems",
+    "source": "meta",
+    "description": "Meta 推出 AI 内容审核系统替代第三方审核商，检测量翻倍",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/",
+    "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+    "source": "hackernews",
+    "description": "Simon Willison 深度分析 OpenAI 收购 Astral 的影响：uv 对 Python 生态的战略重要性",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://github.com/astral-sh/uv",
+    "title": "uv — Extremely fast Python package and project manager (Astral acquired by OpenAI)",
+    "source": "github",
+    "description": "Astral/uv 被 OpenAI 收购引发 GitHub 热度飙升",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
+    "title": "Jeff Bezos reportedly wants $100 billion to transform manufacturing with AI",
+    "source": "techcrunch",
+    "description": "贝索斯计划筹资1000亿美元收购制造企业并用 AI 改造",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/",
+    "title": "Online bot traffic will exceed human traffic by 2027",
+    "source": "techcrunch",
+    "description": "Cloudflare CEO 预测 2027 年 AI bot 流量将超过人类流量",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/",
+    "title": "Multiverse Computing pushes compressed AI models into the mainstream",
+    "source": "techcrunch",
+    "description": "Multiverse Computing 发布模型压缩 API，已压缩 OpenAI/Meta/DeepSeek/Mistral 等模型",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/18/sam-altmans-thank-you-to-coders-draws-the-memes/",
+    "title": "Sam Altman's thank-you to coders draws the memes",
+    "source": "techcrunch",
+    "description": "Sam Altman 感谢程序员引发网络争议",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.wired.com/story/google-shakes-up-project-mariner-team-web-browsing-agents/",
+    "title": "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze",
+    "source": "wired",
+    "description": "Google 重组 Project Mariner 浏览器 Agent 团队，应对 AI coding agent 热潮",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.wired.com/story/chatgpt-adult-mode-new-era-of-intimate-surveillance/",
+    "title": "ChatGPT's 'Adult Mode' Could Spark a New Era of Intimate Surveillance",
+    "source": "wired",
+    "description": "OpenAI 计划允许 ChatGPT 成人对话，隐私专家警告监控风险",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.wired.com/story/signals-creator-is-helping-encrypt-meta-ai/",
+    "title": "Signal's Creator Is Helping Encrypt Meta AI",
+    "source": "wired",
+    "description": "Moxie Marlinspike 将 Confer 加密 AI 聊天技术整合进 Meta AI",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.wired.com/story/palantir-developer-conference-ai-war-alex-karp/",
+    "title": "At Palantir's Developer Conference, AI Is Built to Win Wars",
+    "source": "wired",
+    "description": "Palantir 开发者大会：AI 为战争优势而建",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.wired.com/story/linkedin-invited-my-ai-cofounder-to-give-a-corporate-talk-then-banned-it/",
+    "title": "My AI Agent 'Cofounder' Conquered LinkedIn. Then It Got Banned",
+    "source": "wired",
+    "description": "AI Agent 联合创始人接管 LinkedIn 后被封禁",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://huggingface.co/blog/ibm-granite/granite-libraries",
+    "title": "What's New in Mellea 0.4.0 + Granite Libraries Release",
+    "source": "huggingface",
+    "description": "IBM 发布 Mellea 0.4.0 和 Granite Libraries",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://36kr.com/p/3724953084637700",
+    "title": "DeepSeek V4迟迟不发，中国开源王者为何越来越慢？",
+    "source": "36kr",
+    "description": "36氪深度分析 DeepSeek V4 延迟发布的原因，对比 OpenAI 月更节奏",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://36kr.com/p/3724955094743682",
+    "title": "AI长出手和脚，中企们夯爆了",
+    "source": "36kr",
+    "description": "2026 MWC 中国科技企业用物理 AI 重写全球竞争规则",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.gizmochina.com/2026/03/19/xiaomi-unveils-mimo-v2-pro-its-flagship-llm-with-over-1tb-of-parameters/",
+    "title": "Xiaomi unveils MiMo-V2-Pro with over 1TB parameters",
+    "source": "misc",
+    "description": "小米发布旗舰大模型 MiMo-V2-Pro，参数量超 1TB，支持长上下文",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.trendingtopics.eu/meta-delays-avocado-ai-model-again-might-even-license-gemini-from-google/",
+    "title": "Meta might license Gemini from Google as Avocado delays",
+    "source": "meta",
+    "description": "Meta Avocado 再次延迟，可能向 Google 授权 Gemini",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates/",
+    "title": "Nvidia GTC 2026: Everything We Learned About AI, Claws, CPUs and Robotics",
+    "source": "misc",
+    "description": "NVIDIA GTC 2026 全面报道：AI、机器人、CPU 等重大发布",
+    "collected_at": "2026-03-20T16:31:39Z",
+    "date": "2026-03-21"
+  }
+]

@@ -1135,6 +1135,151 @@
       "seen_at": "2026-03-20T12:33:26Z",
       "date": "2026-03-20",
       "title": "\u98de\u4e66\u53d1\u5e03\u591a\u6b3e\u4f01\u4e1a\u7ea7Agent\u4ea7\u54c1\uff0c\u5168\u9762\u5347\u7ea7\u667a\u80fd\u4f53\u5e73\u53f0aily"
+    },
+    "https://www.anthropic.com/research/labor-market-impacts-of-ai": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Labor market impacts of AI: A new measure and early evidence"
+    },
+    "https://www.anthropic.com/research/model-deprecation-claude-opus-3": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "An update on our model deprecation commitments for Claude Opus 3"
+    },
+    "https://www.anthropic.com/research/persona-selection-model": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "The persona selection model"
+    },
+    "https://www.anthropic.com/research/measuring-ai-agent-autonomy-in-practice": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Measuring AI agent autonomy in practice"
+    },
+    "https://openai.com/index/openai-to-acquire-astral": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "OpenAI to acquire Astral (uv/ruff/ty)"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/897778/openai-chatgpt-codex-atlas-browser-superapp": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "OpenAI is building a 'super app' merging ChatGPT, browser, and Codex"
+    },
+    "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "OpenAI is throwing everything into building a fully automated researcher"
+    },
+    "https://arstechnica.com/ai/2026/03/openai-is-acquiring-open-source-python-tool-maker-astral": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "OpenAI is acquiring open-source Python tool maker Astral"
+    },
+    "https://www.libertify.com/interactive-library/training-llms-honesty-confessions-openai": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Training LLMs for Honesty via Confessions \u2014 OpenAI"
+    },
+    "https://openai.com/index/gpt-5-4-mini-nano": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "GPT-5.4 mini and nano release"
+    },
+    "https://deepmind.google/blog/10-years-of-alphago": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "From games to biology and beyond: 10 years of AlphaGo's impact"
+    },
+    "https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Meta rolls out new AI content enforcement systems"
+    },
+    "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty"
+    },
+    "https://github.com/astral-sh/uv": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "uv \u2014 Extremely fast Python package and project manager (Astral acquired by OpenAI)"
+    },
+    "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Jeff Bezos reportedly wants $100 billion to transform manufacturing with AI"
+    },
+    "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Online bot traffic will exceed human traffic by 2027"
+    },
+    "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Multiverse Computing pushes compressed AI models into the mainstream"
+    },
+    "https://techcrunch.com/2026/03/18/sam-altmans-thank-you-to-coders-draws-the-memes": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Sam Altman's thank-you to coders draws the memes"
+    },
+    "https://www.wired.com/story/google-shakes-up-project-mariner-team-web-browsing-agents": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze"
+    },
+    "https://www.wired.com/story/chatgpt-adult-mode-new-era-of-intimate-surveillance": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "ChatGPT's 'Adult Mode' Could Spark a New Era of Intimate Surveillance"
+    },
+    "https://www.wired.com/story/signals-creator-is-helping-encrypt-meta-ai": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Signal's Creator Is Helping Encrypt Meta AI"
+    },
+    "https://www.wired.com/story/palantir-developer-conference-ai-war-alex-karp": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "At Palantir's Developer Conference, AI Is Built to Win Wars"
+    },
+    "https://www.wired.com/story/linkedin-invited-my-ai-cofounder-to-give-a-corporate-talk-then-banned-it": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "My AI Agent 'Cofounder' Conquered LinkedIn. Then It Got Banned"
+    },
+    "https://huggingface.co/blog/ibm-granite/granite-libraries": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "What's New in Mellea 0.4.0 + Granite Libraries Release"
+    },
+    "https://36kr.com/p/3724953084637700": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "DeepSeek V4\u8fdf\u8fdf\u4e0d\u53d1\uff0c\u4e2d\u56fd\u5f00\u6e90\u738b\u8005\u4e3a\u4f55\u8d8a\u6765\u8d8a\u6162\uff1f"
+    },
+    "https://36kr.com/p/3724955094743682": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "AI\u957f\u51fa\u624b\u548c\u811a\uff0c\u4e2d\u4f01\u4eec\u592f\u7206\u4e86"
+    },
+    "https://www.gizmochina.com/2026/03/19/xiaomi-unveils-mimo-v2-pro-its-flagship-llm-with-over-1tb-of-parameters": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Xiaomi unveils MiMo-V2-Pro with over 1TB parameters"
+    },
+    "https://www.trendingtopics.eu/meta-delays-avocado-ai-model-again-might-even-license-gemini-from-google": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Meta might license Gemini from Google as Avocado delays"
+    },
+    "https://www.cnet.com/news-live/nvidia-gtc-2026-live-blog-updates": {
+      "seen_at": "2026-03-20T16:31:39Z",
+      "date": "2026-03-21",
+      "title": "Nvidia GTC 2026: Everything We Learned About AI, Claws, CPUs and Robotics"
     }
   }
 }
