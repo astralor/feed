@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "title": "Meta AI will offer broader real-time international news and content",
+    "url": "https://about.fb.com/news/2026/03/bringing-more-international-news-and-content-to-meta-ai/",
+    "source": "meta",
+    "published": "2026-03-13",
+    "description": "Meta AI will now offer a broader range of real-time content including global news, entertainment, and lifestyle stories across apps and devices.",
+    "collected_at": "2026-03-20T12:33:26Z",
+    "collected_date": "2026-03-20",
+    "status": "pending"
+  },
+  {
+    "title": "Launch HN: Kita (YC W26) — Automate credit review in emerging markets with VLMs",
+    "url": "https://www.usekita.com/",
+    "source": "hackernews",
+    "published": "2026-03-17",
+    "description": "Uses VLM-based agents to parse documents, detect fraud, and extract underwriting signals from messy financial files. 55 points.",
+    "collected_at": "2026-03-20T12:33:26Z",
+    "collected_date": "2026-03-20",
+    "status": "pending"
+  },
+  {
+    "title": "TaxHacker — Self-hosted AI accounting app with LLM analyzer",
+    "url": "https://github.com/vas3k/TaxHacker",
+    "source": "github",
+    "published": "2026-03-20",
+    "description": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories. 136 stars today.",
+    "collected_at": "2026-03-20T12:33:26Z",
+    "collected_date": "2026-03-20",
+    "status": "pending"
+  },
+  {
+    "title": "The best AI investment might be in energy tech",
+    "url": "https://techcrunch.com/2026/03/20/the-best-ai-investment-might-be-in-energy-tech/",
+    "source": "techcrunch",
+    "published": "2026-03-20",
+    "description": "Power has become one of the biggest bottlenecks in rolling out new AI data centers, creating an opening for investors.",
+    "collected_at": "2026-03-20T12:33:26Z",
+    "collected_date": "2026-03-20",
+    "status": "pending"
+  },
+  {
+    "title": "OpenAI is throwing everything into building a fully automated researcher",
+    "url": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/",
+    "source": "technologyreview",
+    "published": "2026-03-20",
+    "description": "OpenAI sets 'AI researcher' as its new north star — a fully automated agent system. Plans autonomous research intern by September, full multi-agent system by 2028. Exclusive interview with chief scientist Jakub Pachocki.",
+    "collected_at": "2026-03-20T12:33:26Z",
+    "collected_date": "2026-03-20",
+    "status": "pending"
+  },
+  {
+    "title": "AI-Native 公司怎么建？Cursor CEO：3个反直觉选择，拉开差距",
+    "url": "https://36kr.com/p/3549344710645891",
+    "source": "36kr",
+    "published": "2026-03-20",
+    "description": "Cursor CEO分享AI-Native公司的3个反直觉选择，不到两年时间做到年收入破1亿美元。",
+    "collected_at": "2026-03-20T12:33:26Z",
+    "collected_date": "2026-03-20",
+    "status": "pending"
+  },
+  {
+    "title": "2000万只「龙虾」进入企业，阿里的新企业Agent故事",
+    "url": "https://36kr.com/information/AI/",
+    "source": "36kr",
+    "published": "2026-03-18",
+    "description": "阿里从协同办公工具正式进化为AI原生工作平台，企业Agent规模化落地。",
+    "collected_at": "2026-03-20T12:33:26Z",
+    "collected_date": "2026-03-20",
+    "status": "pending"
+  },
+  {
+    "title": "飞书发布多款企业级Agent产品，全面升级智能体平台aily",
+    "url": "https://36kr.com/newsflashes/",
+    "source": "36kr",
+    "published": "2026-03-19",
+    "description": "飞书发布多款企业级Agent产品，通过升级智能体平台aily，用户只需自然语言描述即可生成复杂业务系统。",
+    "collected_at": "2026-03-20T12:33:26Z",
+    "collected_date": "2026-03-20",
+    "status": "pending"
+  },
+  {
+    "title": "OpenAI sets 'AI researcher' as new north star — autonomous intern by Sept, multi-agent system by 2028",
+    "url": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/",
+    "source": "dynamic",
+    "published": "2026-03-20",
+    "description": "Already captured above, but this is the trending topic of the day — OpenAI's ambitious AI researcher timeline from MIT Tech Review exclusive.",
+    "collected_at": "2026-03-20T12:33:26Z",
+    "collected_date": "2026-03-20",
+    "status": "pending"
+  }
+]
