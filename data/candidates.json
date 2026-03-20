@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "title": "GPT-5.4 mini rollout in ChatGPT \u2014 available to Free and Go users",
+    "url": "https://releasebot.io/updates/openai",
+    "source": "openai",
+    "source_name": "OpenAI Blog / Releasebot",
+    "date": "2026-03-19",
+    "type": "product_release",
+    "summary": "OpenAI rolls out GPT-5.4 mini to ChatGPT Free and Go users via the Thinking feature. Paid users retain access during high usage; enterprises can keep Auto routing."
+  },
+  {
+    "title": "Meta's $14.3 billion Scale AI data deal to power Avocado model",
+    "url": "https://www.financialcontent.com/article/marketminute-2026-3-19-the-data-moat-metas-143-billion-bet-on-scale-ai-redefines-the-generative-race",
+    "source": "meta",
+    "source_name": "Financial Content",
+    "date": "2026-03-19",
+    "type": "business",
+    "summary": "Meta leverages $14.3B Scale AI data partnership as a 'data foundry' to accelerate Avocado model development, aiming to bypass performance plateaus that plagued other LLMs."
+  },
+  {
+    "title": "Google leases custom AI chips to Meta for LLM training",
+    "url": "https://www.wral.com/business/technology/google-meta-leasing-intelligence-capacity-march-2026/",
+    "source": "meta",
+    "source_name": "WRAL",
+    "date": "2026-03-16",
+    "type": "business",
+    "summary": "Google signed a major agreement to lease access to its custom AI chips (TPUs) to Meta for training large AI models. Signals shift to intelligence as a utility in the data economy."
+  },
+  {
+    "title": "arnis: Generate real-world Minecraft locations with high detail via AI",
+    "url": "https://github.com/louis-e/arnis",
+    "source": "github",
+    "source_name": "GitHub Trending",
+    "date": "2026-03-20",
+    "type": "open_source",
+    "summary": "Generates any real-world location in Minecraft with high level of detail using AI. Rust, 1,073 stars today. Demonstrates AI-driven 3D world generation."
+  },
+  {
+    "title": "Newton: Open-source GPU-accelerated physics simulation engine (NVIDIA Warp)",
+    "url": "https://github.com/newton-physics/newton",
+    "source": "github",
+    "source_name": "GitHub Trending",
+    "date": "2026-03-20",
+    "type": "open_source",
+    "summary": "Open-source GPU-accelerated physics simulation engine built on NVIDIA Warp, targeting roboticists and simulation researchers. Python, 267 stars today."
+  },
+  {
+    "title": "Nvidia GTC 2026: NemoClaw, Robot Olaf, $1 trillion AI chip projection",
+    "url": "https://techcrunch.com/video/what-happened-at-nvidia-gtc-nemoclaw-robot-olaf-and-a-1-trillion-bet/",
+    "source": "techcrunch",
+    "source_name": "TechCrunch",
+    "date": "2026-03-20",
+    "type": "event",
+    "summary": "Jensen Huang's GTC keynote: $1 trillion AI chip sales projection through 2027, 'every company needs an OpenClaw strategy,' Robot Olaf mic cut, Travis Kalanick appearance."
+  },
+  {
+    "title": "Build a Domain-Specific Embedding Model in Under a Day (NVIDIA)",
+    "url": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+    "source": "huggingface",
+    "source_name": "HuggingFace Blog",
+    "date": "2026-03-20",
+    "type": "tutorial",
+    "summary": "NVIDIA blog post on how to build domain-specific embedding models in under a day. Practical guide for fine-tuning embeddings for specialized use cases."
+  },
+  {
+    "title": "Cursor Composer 2 built on Kimi K2.5 via Fireworks AI",
+    "url": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/",
+    "source": "simonwillison",
+    "source_name": "Simon Willison",
+    "date": "2026-03-20",
+    "type": "industry",
+    "summary": "Kimi.ai confirms Cursor's Composer 2 is built on Kimi K2.5, accessed via Fireworks AI hosted RL and inference platform as part of an authorized commercial partnership."
+  },
+  {
+    "title": "MiniMax M2.7: 'self-evolving' model performing 30-50% of RL research workflow",
+    "url": "https://venturebeat.com/technology/new-minimax-m2-7-proprietary-ai-model-is-self-evolving-and-can-perform-30-50",
+    "source": "dynamic",
+    "source_name": "VentureBeat",
+    "date": "2026-03-19",
+    "type": "model_release",
+    "summary": "MiniMax releases M2.7, a proprietary LLM designed for AI agents and third-party harnesses (Claude Code, Kilo Code, OpenClaw). Can perform 30-50% of reinforcement learning research workflow autonomously."
+  },
+  {
+    "title": "EverMind's MSA breaks 100M token limit for LLM long-term memory",
+    "url": "http://www.prnewswire.com/news-releases/breaking-the-100m-token-limit-everminds-msa-architecture-achieves-efficient-end-to-end-long-term-memory-for-llms-302718382.html",
+    "source": "dynamic",
+    "source_name": "PR Newswire",
+    "date": "2026-03-19",
+    "type": "research",
+    "summary": "EverMind introduces MSA (Memory Sparse Attention) architecture achieving 100M token long-term memory. Performance degrades less than 9% scaling from 16K to 100M tokens. Potential 'Memory-as-a-Service' milestone."
+  },
+  {
+    "title": "NVIDIA DGX Spark: Scaling autonomous AI agents and workloads",
+    "url": "https://developer.nvidia.com/blog/scaling-autonomous-ai-agents-and-workloads-with-nvidia-dgx-spark/",
+    "source": "dynamic",
+    "source_name": "NVIDIA Technical Blog",
+    "date": "2026-03-20",
+    "type": "product_release",
+    "summary": "NVIDIA DGX Spark enables efficient autonomous AI agent workflows with Grace Blackwell Superchip. Supports up to 4 nodes, models up to 700B parameters, near-linear performance scaling."
+  },
+  {
+    "title": "Anthropic acquired Bun JS runtime as Claude Code reaches $1B milestone",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone",
+    "source": "dynamic",
+    "source_name": "Anthropic",
+    "date": "2025-12-01",
+    "type": "acquisition",
+    "summary": "Anthropic acquired Bun JS runtime to support Claude Code. Claude Code reached $1B revenue milestone. Bun's Jarred Sumner significantly improved Claude Code performance."
+  }
+]
