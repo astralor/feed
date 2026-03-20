@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "url": "https://www.anthropic.com/research",
+    "title": "Anthropic Research Page",
+    "source": "anthropic",
+    "snippet": "Anthropic research page - latest publications",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://www.indiatoday.in/technology/news/story/mark-zuckerberg-is-teaming-up-with-signal-founder-to-bring-end-to-end-encrypted-chats-to-meta-ai-2884761-2026-03-20",
+    "title": "Meta Teams with Signal Founder to Encrypt Meta AI Chats",
+    "source": "meta",
+    "snippet": "Zuckerberg collaborating with Moxie Marlinspike to bring E2E encryption to Meta AI via Confer.",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://github.com/louis-e/arnis",
+    "title": "arnis: Generate Real-World Locations in Minecraft with AI",
+    "source": "github",
+    "snippet": "Generate any real-world location in Minecraft with high detail. Rust. 11,539 stars.",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://github.com/newton-physics/newton",
+    "title": "newton: GPU-Accelerated Physics Engine (NVIDIA Warp)",
+    "source": "github",
+    "snippet": "Open-source GPU-accelerated physics simulation on NVIDIA Warp for roboticists.",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
+    "title": "Microsoft Rolls Back Copilot AI Bloat on Windows",
+    "source": "techcrunch",
+    "snippet": "Reducing Copilot entry points on Windows: Photos, Widgets, Notepad, and other apps.",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://techcrunch.com/video/what-happened-at-nvidia-gtc-nemoclaw-robot-olaf-and-a-1-trillion-bet/",
+    "title": "Nvidia GTC: NemoClaw, Robot Olaf, and a $1 Trillion Bet",
+    "source": "techcrunch",
+    "snippet": "Jensen Huang projects $1T in AI chip sales through 2027, declares every company needs an OpenClaw strategy.",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
+    "title": "WordPress.com Now Lets AI Agents Write and Publish Posts",
+    "source": "techcrunch",
+    "snippet": "New AI agents on WordPress.com could lower barriers to publishing.",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/",
+    "title": "Trump AI Framework: Federal Preemption of State Laws",
+    "source": "techcrunch",
+    "snippet": "Federal preemption of state AI laws, lighter-touch rules for tech, child safety shifted to parents.",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+    "title": "Build Domain-Specific Embedding Model in Under a Day (NVIDIA)",
+    "source": "huggingface",
+    "snippet": "NVIDIA guide on building domain-specific embedding models quickly on HuggingFace.",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/",
+    "title": "Kimi Confirms Foundation for Cursor Composer 2 (via FireworksAI)",
+    "source": "simonwillison",
+    "snippet": "Moonshot AI confirms Kimi-k2.5 powers Cursor Composer 2 via FireworksAI hosted RL platform.",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://36kr.com/p/3729737950477959",
+    "title": "中国AI资产将全面爆发",
+    "source": "36kr",
+    "snippet": "AI Agent爆发刺激下全球拼算力转向拼云服务，中国AI云服务资产估值预计上升。",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://www.devflokers.com/blog/new-ai-model-releases-open-source-projects-march-18-19-2026",
+    "title": "AI Models & Open Source Releases Roundup: March 18-19",
+    "source": "dynamic",
+    "snippet": "Xiaomi trillion-param model, GPT-5.4 mini to free users, GitHub agent tools trending.",
+    "date": "2026-03-19",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://www.gizmochina.com/2026/03/19/xiaomi-unveils-mimo-v2-pro-its-flagship-llm-with-over-1tb-of-parameters/",
+    "title": "Xiaomi MiMo-V2-Pro: Flagship LLM with 1TB+ Parameters",
+    "source": "dynamic",
+    "snippet": "Over 1TB params, long context, lower-cost API for AI agent tasks. Agent era focused.",
+    "date": "2026-03-19",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://harness-engineering.ai/blog/daily-ai-agent-news-roundup-march-20-2026-3/",
+    "title": "Skylos: Security Tool with Static Analysis + Local LLM Agents",
+    "source": "dynamic",
+    "snippet": "Skylos combines static analysis with local LLM agents for vulnerability detection in agent systems.",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  },
+  {
+    "url": "https://aitoolly.com/ai-news/article/2026-03-20-unsloth-ai-launches-unified-web-ui-for-local-training-and-deployment-of-open-source-models",
+    "title": "Unsloth Launches Unified Web UI for Local LLM Training",
+    "source": "dynamic",
+    "snippet": "Unsloth AI unified Web UI for local training and execution of open-source LLMs.",
+    "date": "2026-03-20",
+    "collected_at": "2026-03-21 06:32"
+  }
+]

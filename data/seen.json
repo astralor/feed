@@ -1420,6 +1420,81 @@
       "seen_at": "2026-03-20T20:31:37Z",
       "date": "2026-03-21",
       "title": "Anthropic acquired Bun JS runtime as Claude Code reaches $1B milestone"
+    },
+    "https://www.anthropic.com/research": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "Anthropic Research Page"
+    },
+    "https://www.indiatoday.in/technology/news/story/mark-zuckerberg-is-teaming-up-with-signal-founder-to-bring-end-to-end-encrypted-chats-to-meta-ai-2884761-2026-03-20": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "Meta Teams with Signal Founder to Encrypt Meta AI Chats"
+    },
+    "https://github.com/louis-e/arnis": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "arnis: Generate Real-World Locations in Minecraft with AI"
+    },
+    "https://github.com/newton-physics/newton": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "newton: GPU-Accelerated Physics Engine (NVIDIA Warp)"
+    },
+    "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "Microsoft Rolls Back Copilot AI Bloat on Windows"
+    },
+    "https://techcrunch.com/video/what-happened-at-nvidia-gtc-nemoclaw-robot-olaf-and-a-1-trillion-bet/": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "Nvidia GTC: NemoClaw, Robot Olaf, and a $1 Trillion Bet"
+    },
+    "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "WordPress.com Now Lets AI Agents Write and Publish Posts"
+    },
+    "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "Trump AI Framework: Federal Preemption of State Laws"
+    },
+    "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "Build Domain-Specific Embedding Model in Under a Day (NVIDIA)"
+    },
+    "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "Kimi Confirms Foundation for Cursor Composer 2 (via FireworksAI)"
+    },
+    "https://36kr.com/p/3729737950477959": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "\u4e2d\u56fdAI\u8d44\u4ea7\u5c06\u5168\u9762\u7206\u53d1"
+    },
+    "https://www.devflokers.com/blog/new-ai-model-releases-open-source-projects-march-18-19-2026": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "AI Models & Open Source Releases Roundup: March 18-19"
+    },
+    "https://www.gizmochina.com/2026/03/19/xiaomi-unveils-mimo-v2-pro-its-flagship-llm-with-over-1tb-of-parameters/": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "Xiaomi MiMo-V2-Pro: Flagship LLM with 1TB+ Parameters"
+    },
+    "https://harness-engineering.ai/blog/daily-ai-agent-news-roundup-march-20-2026-3/": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "Skylos: Security Tool with Static Analysis + Local LLM Agents"
+    },
+    "https://aitoolly.com/ai-news/article/2026-03-20-unsloth-ai-launches-unified-web-ui-for-local-training-and-deployment-of-open-source-models": {
+      "seen_at": "2026-03-20T22:32:25Z",
+      "date": "2026-03-21",
+      "title": "Unsloth Launches Unified Web UI for Local LLM Training"
     }
   }
 }
