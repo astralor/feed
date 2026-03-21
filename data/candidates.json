@@ -1,1 +1,162 @@
-[]
+[
+  {
+    "title": "Meta rolls out new AI content enforcement, cutting third-party vendors",
+    "url": "https://www.cnbc.com/2026/03/19/meta-cut-back-third-party-vendors-favor-of-ai-for-content-enforcement.html",
+    "source": "Meta AI",
+    "date": "2026-03-22",
+    "snippet": "Meta is ditching human moderators for AI again, cutting back third-party vendors in favor of AI for content enforcement.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "OpenCode – Open source AI coding agent (1067 points)",
+    "url": "https://opencode.ai/",
+    "source": "Hacker News",
+    "date": "2026-03-22",
+    "snippet": "Open source AI coding agent with 524 comments. Massive community interest.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "Blocking Internet Archive Won't Stop AI, but Will Erase Web's Historical Record (EFF, 302 points)",
+    "url": "https://www.eff.org/deeplinks/2026/03/blocking-internet-archive-wont-stop-ai-it-will-erase-webs-historical-record",
+    "source": "Hacker News",
+    "date": "2026-03-22",
+    "snippet": "EFF argues that blocking Internet Archive access won't stop AI training but will destroy the web's historical record.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "AI Team OS – Turn Claude Code into a Self-Managing AI Team",
+    "url": "https://github.com/CronusL-1141/AI-company",
+    "source": "Hacker News",
+    "date": "2026-03-22",
+    "snippet": "Open source project to orchestrate multiple Claude Code agents as a self-managing AI team.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "Senior European journalist suspended over AI-generated quotes",
+    "url": "https://www.theguardian.com/technology/2026/mar/20/mediahuis-suspends-senior-journalist-over-ai-generated-quotes",
+    "source": "Hacker News",
+    "date": "2026-03-22",
+    "snippet": "A senior journalist was suspended after using AI to generate quotes in articles.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "Show HN: A deterministic middleware to compress LLM prompts by 50-80%",
+    "url": "https://github.com/ARPAHLS/skillware",
+    "source": "Hacker News",
+    "date": "2026-03-22",
+    "snippet": "Skillware framework with a Prompt Token Rewriter that strips conversational filler from agentic loops, saving token costs without extra model calls.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "project-nomad: AI-powered offline survival computer (2,054 stars today)",
+    "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+    "source": "GitHub Trending",
+    "date": "2026-03-22",
+    "snippet": "AI-powered offline survival computer. Top trending repository today.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "vllm-omni: Framework for omni-modality model inference (82 stars today)",
+    "url": "https://github.com/vllm-project/vllm-omni",
+    "source": "GitHub Trending",
+    "date": "2026-03-22",
+    "snippet": "vLLM extension supporting omni-modality (text, image, audio, video) model inference.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "What happened at Nvidia GTC 2026",
+    "url": "https://techcrunch.com/2026/03/20/nvidia-gtc-2026-highlights/",
+    "source": "TechCrunch",
+    "date": "2026-03-22",
+    "snippet": "Recap of Nvidia's annual developer conference GTC 2026, covering announcements and developments.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
+    "url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-copilot-ai-bloat-windows/",
+    "source": "TechCrunch",
+    "date": "2026-03-22",
+    "snippet": "Microsoft is scaling back Copilot AI features on Windows after user feedback about bloat.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned",
+    "url": "https://techcrunch.com/2026/03/21/pentagon-anthropic-court-filing-aligned/",
+    "source": "TechCrunch",
+    "date": "2026-03-22",
+    "snippet": "Court filing reveals Pentagon told Anthropic the two sides were nearly aligned on military AI cooperation.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "DoorDash launches Tasks app to train AI with gig worker recordings",
+    "url": "https://techcrunch.com/2026/03/19/doordash-tasks-app-ai-training/",
+    "source": "TechCrunch",
+    "date": "2026-03-22",
+    "snippet": "DoorDash's new Tasks app pays gig workers to record videos of daily activities to train AI models.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "Jeff Bezos reportedly aims to raise $100 billion to buy and revamp manufacturing firms with AI",
+    "url": "https://techcrunch.com/2026/03/19/jeff-bezos-100-billion-ai-manufacturing/",
+    "source": "TechCrunch",
+    "date": "2026-03-22",
+    "snippet": "Bezos is trying to raise $100 billion to acquire manufacturing firms and infuse them with AI.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "DoorDash's Tasks app shows the bleak future of AI gig work",
+    "url": "https://www.wired.com/story/i-tried-doordashs-tasks-app-and-saw-the-bleak-future-of-ai-gig-work/",
+    "source": "Wired",
+    "date": "2026-03-22",
+    "snippet": "Gig workers are paid to record themselves doing laundry, cooking, and walking around to train AI in DoorDash's new Tasks app.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "Kimi K2.5 powers Cursor's new Composer 2 via Fireworks AI",
+    "url": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
+    "source": "Simon Willison",
+    "date": "2026-03-22",
+    "snippet": "Kimi.ai confirms Kimi-k2.5 provides the foundation for Cursor's Composer 2, accessed via Fireworks AI RL and inference platform.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "Turbo Pascal 3.02A deconstructed using Claude — 39KB binary with full IDE and compiler",
+    "url": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
+    "source": "Simon Willison",
+    "date": "2026-03-22",
+    "snippet": "Used Claude to decompile and interpret Borland's 1985 Turbo Pascal 3.02 executable — a 39,731-byte file containing a full text editor IDE and Pascal compiler.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "FinTradeBench: Financial reasoning benchmark for LLMs — NASDAQ-100 over 10 years",
+    "url": "https://arxiv.org/abs/2603.19225",
+    "source": "arXiv",
+    "date": "2026-03-22",
+    "snippet": "New benchmark evaluating financial reasoning that integrates company fundamentals and trading signals. 1,400 questions over 10-year window. 14 LLMs evaluated.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "2026年AI泛滥，年轻人只为「活人感」买单",
+    "url": "https://36kr.com/p/3730554211762438",
+    "source": "36kr",
+    "date": "2026-03-22",
+    "snippet": "AI内容泛滥的2026年，年轻人开始更重视真实的人际互动体验，「活人感」成为消费新趋势。港中文95后博士做了AI可穿戴硬件，定位全天候情感导师。",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "8万人对话Claude后，Anthropic发现人类对AI的真实渴望",
+    "url": "https://36kr.com/p/3730xxx",
+    "source": "36kr",
+    "date": "2026-03-22",
+    "snippet": "Anthropic访谈8万名Claude用户，发现人类对AI的愿景与担忧交织，且存在显著的地域差异。",
+    "collected_at": "2026-03-21T16:32:50Z"
+  },
+  {
+    "title": "Trump's AI framework targets state laws — federal preemption push",
+    "url": "https://techcrunch.com/2026/03/20/trump-ai-framework-state-laws/",
+    "source": "TechCrunch",
+    "date": "2026-03-22",
+    "snippet": "The Trump administration's new AI framework seeks to preempt state-level AI regulation, centralizing federal control over AI policy.",
+    "collected_at": "2026-03-21T16:32:50Z"
+  }
+]
