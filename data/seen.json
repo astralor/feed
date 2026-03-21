@@ -1770,6 +1770,91 @@
       "seen_at": "2026-03-21T08:31:36Z",
       "date": "2026-03-21",
       "title": "Cursor Composer 2: Opus 4.6 and GPT-5.4 beaten by cheaper AI coding model (Kimi K2.5)"
+    },
+    "https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-20",
+      "title": "OpenAI is throwing everything into building a fully automated researcher"
+    },
+    "https://www.axios.com/2026/03/18/ai-enterprise-revenue-anthropic-openai": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-18",
+      "title": "OpenAI has lost ground to Anthropic in the enterprise market"
+    },
+    "https://openai.com/index/introducing-gpt-5-4": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-19",
+      "title": "GPT-5.4 mini rollout in ChatGPT"
+    },
+    "https://about.fb.com/news/2026/03/boosting-your-support-and-safety-on-metas-apps-with-ai": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-21",
+      "title": "Meta rolls out new AI content enforcement systems"
+    },
+    "https://www.cnbc.com/2026/03/16/meta-nebius-ai-infrastructure.html": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-16",
+      "title": "Meta signs $27 billion deal with Nebius for AI infrastructure"
+    },
+    "https://www.reuters.com/business/world-at-work/meta-planning-sweeping-layoffs-ai-costs-mount-2026-03-14": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-14",
+      "title": "Meta planning sweeping layoffs as AI costs mount"
+    },
+    "https://www.cnbc.com/2026/03/19/meta-backtracks-on-decision-to-end-horizon-worlds-vr-ans-spoke-up.html": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-19",
+      "title": "Meta isn't killing Horizon Worlds for VR after all"
+    },
+    "https://sitefire.ai": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-20",
+      "title": "Launch HN: Sitefire (YC W26) \u2013 Automating actions to improve AI visibility"
+    },
+    "https://www.getspine.ai": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-21",
+      "title": "Launch HN: Spine Swarm \u2013 Multi-agent system on visual canvas"
+    },
+    "https://github.com/NVIDIA": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-20",
+      "title": "Nvidia announces NemoClaw at GTC 2026"
+    },
+    "https://www.wired.com/story/amazon-smartphone-rumor-2026": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-20",
+      "title": "There Aren't a Lot of Reasons to Get Excited About a New Amazon Smartphone"
+    },
+    "https://www.wired.com/story/i-tried-doordashs-tasks-app-and-saw-the-bleak-future-of-ai-gig-work": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-21",
+      "title": "I Tried DoorDash's Tasks App and Saw the Bleak Future of AI Gig Work"
+    },
+    "https://www.bloomberg.com/news/articles/2026-03-19/kalshi-gets-1-billion-in-new-funding-at-22-billion-valuation": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-19",
+      "title": "Prediction market Kalshi raised $1B at $22B valuation"
+    },
+    "https://arxiv.org/abs/2603.19221v1": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-19",
+      "title": "Online Learning with Ranking Feedback for LLM Routing"
+    },
+    "https://arxiv.org/abs/2603.19222v1": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-19",
+      "title": "Spectrally-Guided Diffusion Noise Schedules"
+    },
+    "https://36kr.com/p/3717124471649027": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-21",
+      "title": "\u5b9e\u6d4b\u817e\u8bafQClaw\uff1a\u5fae\u4fe1\u627e\u5230\u4e86\u548c'\u9f99\u867e'\u5171\u5b58\u7684\u65b9\u5f0f"
+    },
+    "https://www.36kr.com/p/3372737591728515": {
+      "seen_at": "2026-03-21T12:32:24Z",
+      "date": "2026-03-21",
+      "title": "\u624e\u514b\u4f2f\u683c\u7684'\u5929\u624d\u540d\u5355'\uff1a\u4e0a\u4ebf\u91cd\u91d1\u80fd\u5426\u7838\u51faMeta\u7684AI\u672a\u6765"
     }
   }
 }
