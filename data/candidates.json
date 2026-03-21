@@ -1,1 +1,308 @@
-[]
+[
+  {
+    "title": "Measuring AI agent autonomy in practice",
+    "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+    "source": "Anthropic Research",
+    "snippet": "Feb 18 - Framework for measuring AI agent autonomy",
+    "category": "research",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Codex for Students: $100 credits for US/Canada",
+    "url": "https://chatgpt.com/codex/students",
+    "source": "OpenAI",
+    "snippet": "College students get $100 in Codex credits",
+    "category": "product",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+    "source": "DeepMind",
+    "snippet": "Fastest and most cost-efficient Gemini 3 series model",
+    "category": "product",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Nano Banana 2: Pro capabilities with lightning-fast speed",
+    "url": "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/",
+    "source": "DeepMind",
+    "snippet": "New image generation model with world knowledge and subject consistency",
+    "category": "product",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Gemini 3.1 Pro: A smarter model for complex tasks",
+    "url": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
+    "source": "DeepMind",
+    "snippet": "Gemini 3.1 Pro for complex reasoning tasks",
+    "category": "product",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Gemini can now create music (Lyria 3)",
+    "url": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+    "source": "DeepMind",
+    "snippet": "Gemini app features music generation via Lyria 3 model",
+    "category": "product",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "A rogue AI led to a serious security incident at Meta",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident",
+    "source": "Meta AI",
+    "snippet": "Rogue AI agent caused security incident at Meta",
+    "category": "safety",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "OpenCode – Open source AI coding agent (632pts)",
+    "url": "https://opencode.ai/",
+    "source": "Hacker News",
+    "snippet": "Open source AI coding agent trending on HN with 632 points",
+    "category": "open-source",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "MacBook M5 Pro and Qwen3.5 = Local AI Security System (158pts)",
+    "url": "https://www.sharpai.org/benchmark/",
+    "source": "Hacker News",
+    "snippet": "Running local AI security system on MacBook M5 Pro with Qwen3.5",
+    "category": "hardware",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Be intentional about how AI changes your codebase (165pts)",
+    "url": "https://aicode.swerdlow.dev",
+    "source": "Hacker News",
+    "snippet": "Thoughtful approaches to AI-assisted code changes",
+    "category": "engineering",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "A rogue AI led to a serious security incident at Meta (168pts)",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident",
+    "source": "Hacker News",
+    "snippet": "Meta experienced security incident caused by rogue AI agent",
+    "category": "safety",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Show HN: Three new Kitten TTS models – smallest under 25MB (532pts)",
+    "url": "https://github.com/KittenML/KittenTTS",
+    "source": "Hacker News",
+    "snippet": "Ultra-compact TTS models, smallest under 25MB",
+    "category": "open-source",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Prompt Injecting Contributing.md (130pts)",
+    "url": "https://glama.ai/blog/2026-03-19-open-source-has-a-bot-problem",
+    "source": "Hacker News",
+    "snippet": "Open source projects vulnerable to prompt injection via CONTRIBUTING.md",
+    "category": "security",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "I turned Markdown into a protocol for generative UI (120pts)",
+    "url": "https://fabian-kuebler.com/posts/markdown-agentic-ui/",
+    "source": "Hacker News",
+    "snippet": "Using Markdown as a protocol for agentic UI generation",
+    "category": "engineering",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "KittenTTS: Ultra-compact TTS models (532pts on HN)",
+    "url": "https://github.com/KittenML/KittenTTS",
+    "source": "GitHub Trending",
+    "snippet": "Three new TTS models, smallest under 25MB",
+    "category": "open-source",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Pentagon told Anthropic they were nearly aligned – week after Trump declared relationship kaput",
+    "url": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
+    "source": "TechCrunch",
+    "snippet": "New court filing reveals Pentagon-Anthropic communication timeline",
+    "category": "policy",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Microsoft rolls back Copilot AI bloat on Windows",
+    "url": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
+    "source": "TechCrunch",
+    "snippet": "Reducing Copilot entry points on Photos, Widgets, Notepad",
+    "category": "product",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Nvidia GTC 2026: NemoClaw, Robot Olaf, $1 trillion bet",
+    "url": "https://techcrunch.com/video/what-happened-at-nvidia-gtc-nemoclaw-robot-olaf-and-a-1-trillion-bet/",
+    "source": "TechCrunch",
+    "snippet": "Jensen Huang's GTC keynote with $1T AI chip sales projection",
+    "category": "event",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Anthropic denies it could sabotage AI tools during war",
+    "url": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/",
+    "source": "Wired",
+    "snippet": "DoD alleges Anthropic could manipulate models; company says impossible",
+    "category": "policy",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Gamers hate Nvidia's DLSS 5",
+    "url": "https://www.wired.com/story/gamers-hate-nvidia-dlss-5-developers-arent-crazy-about-it-either/",
+    "source": "Wired",
+    "snippet": "Nvidia's new AI upscaling tech strikes gamers as uncanny",
+    "category": "gaming",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Kimi K2.5 confirmed as foundation for Cursor Composer 2",
+    "url": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
+    "source": "Simon Willison",
+    "snippet": "Moonshot AI confirms Kimi-k2.5 powers Cursor's Composer 2 via Fireworks",
+    "category": "industry",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Turbo Pascal 3.02A deconstructed with Claude",
+    "url": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
+    "source": "Simon Willison",
+    "snippet": "Using Claude to decompile 1985 Turbo Pascal binary into interactive visualization",
+    "category": "tools",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Nemotron-Cascade 2: Post-Training LLMs with Cascade RL",
+    "url": "https://arxiv.org/abs/2603.19220",
+    "source": "arXiv",
+    "snippet": "NVIDIA's cascade RL and multi-domain on-policy distillation for LLMs",
+    "category": "paper",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Box Maze: Process-Control Architecture for Reliable LLM Reasoning",
+    "url": "https://arxiv.org/abs/2603.19182",
+    "source": "arXiv",
+    "snippet": "Novel process-control approach to improve LLM reasoning reliability",
+    "category": "paper",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "DyMoE: Dynamic Expert Orchestration with Mixed-Precision Quantization",
+    "url": "https://arxiv.org/abs/2603.19172",
+    "source": "arXiv",
+    "snippet": "Efficient MoE inference via dynamic expert routing + mixed precision",
+    "category": "paper",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "OS-Themis: Scalable Critic Framework for Generalist GUI Rewards",
+    "url": "https://arxiv.org/abs/2603.19191",
+    "source": "arXiv",
+    "snippet": "Scalable reward framework for GUI agents",
+    "category": "paper",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Do VLMs Need Vision Transformers? Evaluating SSMs as Vision Encoders",
+    "url": "https://arxiv.org/abs/2603.19209",
+    "source": "arXiv",
+    "snippet": "Testing State Space Models as alternatives to ViT in VLMs",
+    "category": "paper",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "F2LLM-v2: Inclusive Multilingual Embeddings",
+    "url": "https://arxiv.org/abs/2603.19223",
+    "source": "arXiv",
+    "snippet": "Performant multilingual embedding model v2",
+    "category": "paper",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "腾讯「龙虾」QClaw体验：AI能连微信干活了",
+    "url": "https://36kr.com/p/3728581722092039",
+    "source": "36kr",
+    "snippet": "腾讯QClaw让AI连接微信执行任务，整体仍粗糙",
+    "category": "product",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "OpenClaw光速国产化，大厂「龙虾」哪个最好用？",
+    "url": "https://36kr.com/p/3720642158213765",
+    "source": "36kr",
+    "snippet": "黄仁勋对话10位开源AI掌门人，讨论OpenClaw和算力",
+    "category": "industry",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "黄仁勋：重启面向中国的H200 AI加速器生产",
+    "url": "https://news.sina.com.cn/c/2026-03-20/doc-inhrqtze4164915.shtml",
+    "source": "36kr",
+    "snippet": "英伟达重启中国H200生产，优先供应美国高端芯片",
+    "category": "hardware",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Super Micro shares plunge 25% after co-founder charged in $2.5B smuggling plot",
+    "url": "https://www.forbes.com/sites/tylerroush/2026/03/20/super-micro-shares-plunge-25-after-co-founder-charged-in-25-billion-a",
+    "source": "Dynamic Search",
+    "snippet": "Forbes - Super Micro co-founder charged with AI tech smuggling",
+    "category": "policy",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "OpenCode: Open source AI coding agent launches",
+    "url": "https://opencode.ai/",
+    "source": "Dynamic Search",
+    "snippet": "New open source AI coding agent gaining traction",
+    "category": "open-source",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "The best AI investment might be in energy tech",
+    "url": "https://techcrunch.com/2026/03/20/the-best-ai-investment-might-be-in-energy-tech/",
+    "source": "Dynamic Search",
+    "snippet": "Power bottleneck in AI data centers creates energy investment opportunity",
+    "category": "business",
+    "collected_at": "2026-03-21T06:33:27Z",
+    "date": "2026-03-21"
+  }
+]

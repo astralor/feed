@@ -1495,6 +1495,161 @@
       "seen_at": "2026-03-20T22:32:25Z",
       "date": "2026-03-21",
       "title": "Unsloth Launches Unified Web UI for Local LLM Training"
+    },
+    "https://www.anthropic.com/research/measuring-agent-autonomy": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Measuring AI agent autonomy in practice"
+    },
+    "https://chatgpt.com/codex/students": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Codex for Students: $100 credits for US/Canada"
+    },
+    "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale"
+    },
+    "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Nano Banana 2: Pro capabilities with lightning-fast speed"
+    },
+    "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Gemini 3.1 Pro: A smarter model for complex tasks"
+    },
+    "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Gemini can now create music (Lyria 3)"
+    },
+    "https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "A rogue AI led to a serious security incident at Meta (168pts)"
+    },
+    "https://opencode.ai": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "OpenCode: Open source AI coding agent launches"
+    },
+    "https://www.sharpai.org/benchmark": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "MacBook M5 Pro and Qwen3.5 = Local AI Security System (158pts)"
+    },
+    "https://aicode.swerdlow.dev": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Be intentional about how AI changes your codebase (165pts)"
+    },
+    "https://github.com/KittenML/KittenTTS": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "KittenTTS: Ultra-compact TTS models (532pts on HN)"
+    },
+    "https://glama.ai/blog/2026-03-19-open-source-has-a-bot-problem": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Prompt Injecting Contributing.md (130pts)"
+    },
+    "https://fabian-kuebler.com/posts/markdown-agentic-ui": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "I turned Markdown into a protocol for generative UI (120pts)"
+    },
+    "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Pentagon told Anthropic they were nearly aligned \u2013 week after Trump declared relationship kaput"
+    },
+    "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Microsoft rolls back Copilot AI bloat on Windows"
+    },
+    "https://techcrunch.com/video/what-happened-at-nvidia-gtc-nemoclaw-robot-olaf-and-a-1-trillion-bet": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Nvidia GTC 2026: NemoClaw, Robot Olaf, $1 trillion bet"
+    },
+    "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Anthropic denies it could sabotage AI tools during war"
+    },
+    "https://www.wired.com/story/gamers-hate-nvidia-dlss-5-developers-arent-crazy-about-it-either": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Gamers hate Nvidia's DLSS 5"
+    },
+    "https://simonwillison.net/2026/Mar/20/cursor-on-kimi": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Kimi K2.5 confirmed as foundation for Cursor Composer 2"
+    },
+    "https://simonwillison.net/2026/Mar/20/turbo-pascal": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Turbo Pascal 3.02A deconstructed with Claude"
+    },
+    "https://arxiv.org/abs/2603.19220": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Nemotron-Cascade 2: Post-Training LLMs with Cascade RL"
+    },
+    "https://arxiv.org/abs/2603.19182": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Box Maze: Process-Control Architecture for Reliable LLM Reasoning"
+    },
+    "https://arxiv.org/abs/2603.19172": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "DyMoE: Dynamic Expert Orchestration with Mixed-Precision Quantization"
+    },
+    "https://arxiv.org/abs/2603.19191": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "OS-Themis: Scalable Critic Framework for Generalist GUI Rewards"
+    },
+    "https://arxiv.org/abs/2603.19209": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Do VLMs Need Vision Transformers? Evaluating SSMs as Vision Encoders"
+    },
+    "https://arxiv.org/abs/2603.19223": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "F2LLM-v2: Inclusive Multilingual Embeddings"
+    },
+    "https://36kr.com/p/3728581722092039": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "\u817e\u8baf\u300c\u9f99\u867e\u300dQClaw\u4f53\u9a8c\uff1aAI\u80fd\u8fde\u5fae\u4fe1\u5e72\u6d3b\u4e86"
+    },
+    "https://36kr.com/p/3720642158213765": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "OpenClaw\u5149\u901f\u56fd\u4ea7\u5316\uff0c\u5927\u5382\u300c\u9f99\u867e\u300d\u54ea\u4e2a\u6700\u597d\u7528\uff1f"
+    },
+    "https://news.sina.com.cn/c/2026-03-20/doc-inhrqtze4164915.shtml": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "\u9ec4\u4ec1\u52cb\uff1a\u91cd\u542f\u9762\u5411\u4e2d\u56fd\u7684H200 AI\u52a0\u901f\u5668\u751f\u4ea7"
+    },
+    "https://www.forbes.com/sites/tylerroush/2026/03/20/super-micro-shares-plunge-25-after-co-founder-charged-in-25-billion-a": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "Super Micro shares plunge 25% after co-founder charged in $2.5B smuggling plot"
+    },
+    "https://techcrunch.com/2026/03/20/the-best-ai-investment-might-be-in-energy-tech": {
+      "seen_at": "2026-03-21T06:33:27Z",
+      "date": "2026-03-21",
+      "title": "The best AI investment might be in energy tech"
     }
   }
 }
