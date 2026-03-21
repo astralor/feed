@@ -1,1 +1,114 @@
-[]
+[
+  {
+    "title": "OpenAI to nearly double workforce to 8,000 by end-2026",
+    "url": "https://www.reuters.com/business/openai-nearly-double-workforce-8000-by-end-2026-ft-reports-2026-03-21/",
+    "source": "openai",
+    "description": "OpenAI plans to nearly double its workforce to 8,000 from 4,500 by the end of 2026, FT reports.",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "OpenAI to acquire Astral (uv, ruff, ty)",
+    "url": "https://astral.sh/blog/openai",
+    "source": "openai",
+    "description": "Astral team will join Codex team at OpenAI. Open source tools will continue to be supported.",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-19"
+  },
+  {
+    "title": "Tech Workers 'Tokenmaxxing' AI Agent Use",
+    "url": "https://www.nytimes.com/2026/03/20/technology/tokenmaxxing-ai-agents.html",
+    "source": "openai",
+    "description": "An engineer at OpenAI processed 210 billion tokens through AI models over the last week.",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-20"
+  },
+  {
+    "title": "Publisher pulls horror novel 'Shy Girl' over AI concerns",
+    "url": "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/",
+    "source": "techcrunch",
+    "description": "Hachette Book Group will not publish 'Shy Girl' over concerns that AI was used to generate the text.",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Why Wall Street wasn't won over by Nvidia's big conference",
+    "url": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
+    "source": "techcrunch",
+    "description": "Despite investor fears of an AI bubble, Nvidia's latest conference shows most in the industry aren't concerned.",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Amazon reportedly building a new AI-powered smartphone",
+    "url": "https://www.wired.com/story/amazon-smartphone-rumor-2026/",
+    "source": "wired",
+    "description": "If Amazon follows through, experts warn it would be next to impossible to break into a crowded market.",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-20"
+  },
+  {
+    "title": "DoJ has taken down botnets behind the largest-ever DDoS attack",
+    "url": "https://www.wired.com/story/us-takes-down-botnets-used-in-record-breaking-cyberattacks/",
+    "source": "mittr",
+    "description": "They had infected more than 3 million devices.",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-20"
+  },
+  {
+    "title": "中国AI资产将全面爆发",
+    "url": "https://www.36kr.com/p/3729737950477959",
+    "source": "36kr",
+    "description": "36kr article on China's AI asset growth outlook for 2026.",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-19"
+  },
+  {
+    "title": "华为发布2026年八大'行业+AI'旗舰解决方案",
+    "url": "http://jjckb.xinhuanet.com/20260321/95fd93e88048486f8678b1462eb4d602/c.html",
+    "source": "chinese-news",
+    "description": "华为中国合作伙伴大会2026发布八大行业+AI解决方案。",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "小米发布新一代SU7，加速布局AI大模型，计划投入600亿",
+    "url": "https://www.bj.news.cn/20260321/f9776a27a0eb4913ac1e7ac5e648f313/c.html",
+    "source": "chinese-news",
+    "description": "小米正加速转型为由AI深度赋能的人车家全生态企业，计划在大模型等领域投入至少600亿元。",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "华东师大'AI一作'社会实验成果发布",
+    "url": "https://www.sina.cn/article_7857201856_1d45362c001903g9qw.html",
+    "source": "chinese-news",
+    "description": "全球首个以AI为第一作者的哲学社会科学论文征文活动，收到9国724篇投稿。",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "沐曦北京AI研究院启用暨企业开源中心揭牌",
+    "url": "http://jjckb.xinhuanet.com/20260321/10763324b9834ea1b4c10f50d31982d2/c.html",
+    "source": "chinese-news",
+    "description": "沐曦股份开源MXMACA自研软件栈，已积累超30万开发者用户。",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-21"
+  },
+  {
+    "title": "Trump releases national AI framework targeting state laws",
+    "url": "https://www.reuters.com/world/us/white-house-releases-national-ai-framework-2026-03-20/",
+    "source": "policy",
+    "description": "White House unveiled AI policy urging Congress to pre-empt state rules, protect children, and shield communities from high energy costs.",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-20"
+  },
+  {
+    "title": "AI helps unlock geothermal potential - Zanskar",
+    "url": "https://www.foxbusiness.com/politics/artificial-intelligence-helps-unlock-geothermal-potential",
+    "source": "news",
+    "description": "Geothermal company Zanskar claims its AI models have made more discoveries in three years than the industry found in 30.",
+    "collected_at": "2026-03-21T20:31:38Z",
+    "date": "2026-03-20"
+  }
+]
