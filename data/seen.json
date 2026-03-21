@@ -1650,6 +1650,126 @@
       "seen_at": "2026-03-21T06:33:27Z",
       "date": "2026-03-21",
       "title": "The best AI investment might be in energy tech"
+    },
+    "https://www.anthropic.com/research/economic-research-labor-market-impacts-of-ai": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Economic Research: Labor market impacts of AI: A new measure and early evidence"
+    },
+    "https://www.anthropic.com/research/model-deprecation-commitments": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "An update on our model deprecation commitments for Claude Opus 3"
+    },
+    "https://www.anthropic.com/research/ai-fluency-index": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Anthropic Education Report: The AI Fluency Index"
+    },
+    "https://www.anthropic.com/research/measuring-ai-agent-autonomy": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Measuring AI agent autonomy in practice"
+    },
+    "https://winbuzzer.com/2026/03/20/meta-ai-content-enforcement-systems-facebook-instagram-threads-xcxwbn/": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Meta replaces third-party moderators with AI systems across Facebook, Instagram, Threads"
+    },
+    "https://www.theguardian.com/technology/2026/mar/20/meta-ai-agents-instruction-causes-large-sensitive-data-leak-to-employees": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Meta AI agent's instruction causes large sensitive data leak to employees"
+    },
+    "https://www.investing.com/analysis/why-metas-ai-chip-announcement-has-broadcom-investors-paying-attention-200676952": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Meta unveils four customized AI chips"
+    },
+    "https://www.socialmediatoday.com/news/meta-rolls-out-manus-ai-assistance-tools-for-marketers/815151/": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Meta rolls out Manus AI assistance tools for marketers"
+    },
+    "https://news.ycombinator.com/item?id=47457472": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Launch HN: Sitefire (YC W26) \u2013 Automating actions to improve AI visibility"
+    },
+    "https://techcrunch.com/category/artificial-intelligence/": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "TechCrunch AI category \u2014 latest stories"
+    },
+    "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Anthropic denies it could sabotage AI tools during war"
+    },
+    "https://www.wired.com/story/gamers-hate-nvidia-dlss-5-developers-arent-crazy-about-it-either/": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Gamers hate Nvidia's DLSS 5, developers aren't crazy about it either"
+    },
+    "https://www.wired.com/story/palantir-developer-conference-ai-war-alex-karp/": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "At Palantir's Developer Conference, AI is built to win wars"
+    },
+    "https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial/": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "The Download: OpenAI automated researcher, psychedelic trial blind spot"
+    },
+    "https://simonwillison.net/2026/Mar/20/turbo-pascal/": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Turbo Pascal 3.02A, deconstructed (with Claude)"
+    },
+    "https://www.latestly.com/socially/technology/grok-4-20-launched-with-multi-agent-architecture-for-deeper-reasoning-check-features-and-subscription-tiers-here-7360931.html": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Grok 4.20 launched with multi-agent architecture for deeper reasoning (2M context)"
+    },
+    "https://amazingelearning.com/xai-is-cooking-grok-4-20-just-dropped-2-million-context-window/": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "xAI Grok 4.20 beta: 2M context window, tested against Claude Opus and Codex"
+    },
+    "https://www.ndtv.com/world-news/teenagers-sue-elon-musks-xai-claiming-grok-created-sexually-explicit-images-of-them-11241373": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Teenagers sue xAI claiming Grok created explicit images of them"
+    },
+    "https://www.techzine.eu/news/analytics/139809/xai-sends-engineers-to-companies-in-competition-with-openai/": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "xAI sends engineers to companies in competition with OpenAI"
+    },
+    "https://www.cnbc.com/2026/03/20/anthropic-whos-most-optimistic-about-ai-and-who-isnt.html": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Who's most optimistic about AI \u2014 and who isn't, according to Anthropic"
+    },
+    "https://www.reuters.com/world/us-charges-three-people-with-conspiring-divert-ai-tech-china-2026-03-19/": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "US charges Super Micro co-founder with smuggling $2.5B AI chips to China"
+    },
+    "https://www.nbcnews.com/tech/tech-news/trump-ai-congress-law-framework-legislation-artificial-intelligence-rcna264433": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "White House releases AI legislation framework"
+    },
+    "https://www.theguardian.com/technology/2026/mar/13/meta-layoffs-ai": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Meta reportedly plans sweeping layoffs (20%+) as AI costs increase"
+    },
+    "https://apidog.com/blog/cursor-composer-2/": {
+      "seen_at": "2026-03-21T08:31:36Z",
+      "date": "2026-03-21",
+      "title": "Cursor Composer 2: Opus 4.6 and GPT-5.4 beaten by cheaper AI coding model (Kimi K2.5)"
     }
   }
 }

@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "url": "https://www.anthropic.com/research/economic-research-labor-market-impacts-of-ai",
+    "title": "Economic Research: Labor market impacts of AI: A new measure and early evidence",
+    "source": "anthropic",
+    "date": "2026-03-05"
+  },
+  {
+    "url": "https://www.anthropic.com/research/model-deprecation-commitments",
+    "title": "An update on our model deprecation commitments for Claude Opus 3",
+    "source": "anthropic",
+    "date": "2026-02-25"
+  },
+  {
+    "url": "https://www.anthropic.com/research/ai-fluency-index",
+    "title": "Anthropic Education Report: The AI Fluency Index",
+    "source": "anthropic",
+    "date": "2026-02-18"
+  },
+  {
+    "url": "https://www.anthropic.com/research/measuring-ai-agent-autonomy",
+    "title": "Measuring AI agent autonomy in practice",
+    "source": "anthropic",
+    "date": "2026-02-16"
+  },
+  {
+    "url": "https://winbuzzer.com/2026/03/20/meta-ai-content-enforcement-systems-facebook-instagram-threads-xcxwbn/",
+    "title": "Meta replaces third-party moderators with AI systems across Facebook, Instagram, Threads",
+    "source": "meta",
+    "date": "2026-03-20"
+  },
+  {
+    "url": "https://www.theguardian.com/technology/2026/mar/20/meta-ai-agents-instruction-causes-large-sensitive-data-leak-to-employees",
+    "title": "Meta AI agent's instruction causes large sensitive data leak to employees",
+    "source": "meta",
+    "date": "2026-03-20"
+  },
+  {
+    "url": "https://www.investing.com/analysis/why-metas-ai-chip-announcement-has-broadcom-investors-paying-attention-200676952",
+    "title": "Meta unveils four customized AI chips",
+    "source": "meta",
+    "date": "2026-03-19"
+  },
+  {
+    "url": "https://www.socialmediatoday.com/news/meta-rolls-out-manus-ai-assistance-tools-for-marketers/815151/",
+    "title": "Meta rolls out Manus AI assistance tools for marketers",
+    "source": "meta",
+    "date": "2026-03-18"
+  },
+  {
+    "url": "https://news.ycombinator.com/item?id=47457472",
+    "title": "Launch HN: Sitefire (YC W26) – Automating actions to improve AI visibility",
+    "source": "hackernews",
+    "date": "2026-03-20"
+  },
+  {
+    "url": "https://techcrunch.com/category/artificial-intelligence/",
+    "title": "TechCrunch AI category — latest stories",
+    "source": "techcrunch",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/",
+    "title": "Anthropic denies it could sabotage AI tools during war",
+    "source": "wired",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.wired.com/story/gamers-hate-nvidia-dlss-5-developers-arent-crazy-about-it-either/",
+    "title": "Gamers hate Nvidia's DLSS 5, developers aren't crazy about it either",
+    "source": "wired",
+    "date": "2026-03-20"
+  },
+  {
+    "url": "https://www.wired.com/story/palantir-developer-conference-ai-war-alex-karp/",
+    "title": "At Palantir's Developer Conference, AI is built to win wars",
+    "source": "wired",
+    "date": "2026-03-20"
+  },
+  {
+    "url": "https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial/",
+    "title": "The Download: OpenAI automated researcher, psychedelic trial blind spot",
+    "source": "mit-techreview",
+    "date": "2026-03-20"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Mar/20/turbo-pascal/",
+    "title": "Turbo Pascal 3.02A, deconstructed (with Claude)",
+    "source": "simonwillison",
+    "date": "2026-03-20"
+  },
+  {
+    "url": "https://www.latestly.com/socially/technology/grok-4-20-launched-with-multi-agent-architecture-for-deeper-reasoning-check-features-and-subscription-tiers-here-7360931.html",
+    "title": "Grok 4.20 launched with multi-agent architecture for deeper reasoning (2M context)",
+    "source": "xai",
+    "date": "2026-03-20"
+  },
+  {
+    "url": "https://amazingelearning.com/xai-is-cooking-grok-4-20-just-dropped-2-million-context-window/",
+    "title": "xAI Grok 4.20 beta: 2M context window, tested against Claude Opus and Codex",
+    "source": "xai",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.ndtv.com/world-news/teenagers-sue-elon-musks-xai-claiming-grok-created-sexually-explicit-images-of-them-11241373",
+    "title": "Teenagers sue xAI claiming Grok created explicit images of them",
+    "source": "xai",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.techzine.eu/news/analytics/139809/xai-sends-engineers-to-companies-in-competition-with-openai/",
+    "title": "xAI sends engineers to companies in competition with OpenAI",
+    "source": "xai",
+    "date": "2026-03-21"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/03/20/anthropic-whos-most-optimistic-about-ai-and-who-isnt.html",
+    "title": "Who's most optimistic about AI — and who isn't, according to Anthropic",
+    "source": "cnbc",
+    "date": "2026-03-20"
+  },
+  {
+    "url": "https://www.reuters.com/world/us-charges-three-people-with-conspiring-divert-ai-tech-china-2026-03-19/",
+    "title": "US charges Super Micro co-founder with smuggling $2.5B AI chips to China",
+    "source": "reuters",
+    "date": "2026-03-19"
+  },
+  {
+    "url": "https://www.nbcnews.com/tech/tech-news/trump-ai-congress-law-framework-legislation-artificial-intelligence-rcna264433",
+    "title": "White House releases AI legislation framework",
+    "source": "nbcnews",
+    "date": "2026-03-20"
+  },
+  {
+    "url": "https://www.theguardian.com/technology/2026/mar/13/meta-layoffs-ai",
+    "title": "Meta reportedly plans sweeping layoffs (20%+) as AI costs increase",
+    "source": "guardian",
+    "date": "2026-03-13"
+  },
+  {
+    "url": "https://apidog.com/blog/cursor-composer-2/",
+    "title": "Cursor Composer 2: Opus 4.6 and GPT-5.4 beaten by cheaper AI coding model (Kimi K2.5)",
+    "source": "techcrunch",
+    "date": "2026-03-20"
+  }
+]
