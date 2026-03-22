@@ -2335,6 +2335,66 @@
       "seen_at": "2026-03-22T06:34:03Z",
       "date": "2026-03-22",
       "title": "OpenAI Codex for Students \u9879\u76ee\u63a8\u51fa"
+    },
+    "https://www.cnbc.com/2026/03/20/openai-superapp-chatgpt-codex-browser.html": {
+      "seen_at": "2026-03-22T08:32:16Z",
+      "date": "2026-03-22",
+      "title": "OpenAI building a super app merging ChatGPT, Codex and browser"
+    },
+    "https://news.ycombinator.com/item?id=47460525": {
+      "seen_at": "2026-03-22T08:32:16Z",
+      "date": "2026-03-22",
+      "title": "OpenCode \u2013 Open source AI coding agent"
+    },
+    "https://github.com/trending?since=daily": {
+      "seen_at": "2026-03-22T08:32:16Z",
+      "date": "2026-03-22",
+      "title": "GitHub Trending: AI-related repos (Mar 22)"
+    },
+    "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/": {
+      "seen_at": "2026-03-22T08:32:16Z",
+      "date": "2026-03-22",
+      "title": "Are AI tokens the new signing bonus or just a cost of doing business?"
+    },
+    "https://36kr.com/p/3727714507635587": {
+      "seen_at": "2026-03-22T08:32:16Z",
+      "date": "2026-03-22",
+      "title": "\u524d\u817e\u8bafAI\u5927\u725b\u5218\u5a01\u89c6\u9891\u521b\u4e1a\uff0cVideo Rebirth\u878d\u4e868000\u4e07\u7f8e\u5143"
+    },
+    "https://36kr.com/p/3705032837788040": {
+      "seen_at": "2026-03-22T08:32:16Z",
+      "date": "2026-03-22",
+      "title": "AI\u5927\u6a21\u578bClaude\u5165\u5217\u7f8e\u519b\u59cb\u672b"
+    },
+    "https://www.analyticsinsight.net/news/google-deepmind-appoints-jasjeet-sekhon-as-chief-strategy-officer-to-strengthen-ai-leadership": {
+      "seen_at": "2026-03-22T10:33:17Z",
+      "date": "2026-03-22",
+      "title": "Google DeepMind Appoints Jasjeet Sekhon as Chief Strategy Officer"
+    },
+    "https://businesspost.ng/technology/meta-launches-ai-support-assistant-on-facebook-instagram/": {
+      "seen_at": "2026-03-22T10:33:17Z",
+      "date": "2026-03-22",
+      "title": "Meta Launches AI Support Assistant on Facebook, Instagram"
+    },
+    "https://xage.com/blog/rogue-by-design-what-metas-ai-incident-reveals-about-agent-security/": {
+      "seen_at": "2026-03-22T10:33:17Z",
+      "date": "2026-03-22",
+      "title": "Meta AI Incident: What It Reveals About Securing AI Agents"
+    },
+    "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything": {
+      "seen_at": "2026-03-22T10:33:17Z",
+      "date": "2026-03-22",
+      "title": "Profiling Hacker News users based on their comments with LLMs"
+    },
+    "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything": {
+      "seen_at": "2026-03-22T10:33:17Z",
+      "date": "2026-03-22",
+      "title": "Using Git with coding agents \u2014 agentic engineering patterns"
+    },
+    "https://36kr.com/p/2468558624790664": {
+      "seen_at": "2026-03-22T10:33:17Z",
+      "date": "2026-03-22",
+      "title": "\u5f53AI\u6765\u6572\u95e8\uff0c\u56fd\u6f2b\u4ea7\u4e1a\u559c\u5fe7\u53c2\u534a"
     }
   }
 }

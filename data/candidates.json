@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "title": "Google DeepMind Appoints Jasjeet Sekhon as Chief Strategy Officer",
+    "url": "https://www.analyticsinsight.net/news/google-deepmind-appoints-jasjeet-sekhon-as-chief-strategy-officer-to-strengthen-ai-leadership",
+    "source": "google-deepmind",
+    "description": "New CSO to lead research, commercialisation, and policy strategy.",
+    "published": "2026-03-22T10:33:17Z",
+    "collected_at": "2026-03-22T10:33:17Z",
+    "lang": "en"
+  },
+  {
+    "title": "Meta Launches AI Support Assistant on Facebook, Instagram",
+    "url": "https://businesspost.ng/technology/meta-launches-ai-support-assistant-on-facebook-instagram/",
+    "source": "meta",
+    "description": "New AI support tools for FB and IG users.",
+    "published": "2026-03-22T10:33:17Z",
+    "collected_at": "2026-03-22T10:33:17Z",
+    "lang": "en"
+  },
+  {
+    "title": "Meta AI Incident: What It Reveals About Securing AI Agents",
+    "url": "https://xage.com/blog/rogue-by-design-what-metas-ai-incident-reveals-about-agent-security/",
+    "source": "meta",
+    "description": "Rogue AI agent at Meta triggered security incident.",
+    "published": "2026-03-22T10:33:17Z",
+    "collected_at": "2026-03-22T10:33:17Z",
+    "lang": "en"
+  },
+  {
+    "title": "Profiling Hacker News users based on their comments with LLMs",
+    "url": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
+    "source": "simon-willison",
+    "description": "Using last 1,000 HN comments to profile users. Startlingly effective.",
+    "published": "2026-03-22T10:33:17Z",
+    "collected_at": "2026-03-22T10:33:17Z",
+    "lang": "en"
+  },
+  {
+    "title": "Using Git with coding agents — agentic engineering patterns",
+    "url": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
+    "source": "simon-willison",
+    "description": "Git best practices for coding agent workflows.",
+    "published": "2026-03-22T10:33:17Z",
+    "collected_at": "2026-03-22T10:33:17Z",
+    "lang": "en"
+  },
+  {
+    "title": "当AI来敲门，国漫产业喜忧参半",
+    "url": "https://36kr.com/p/2468558624790664",
+    "source": "36kr",
+    "description": "AI对国漫产业影响分析",
+    "published": "2026-03-22T10:33:17Z",
+    "collected_at": "2026-03-22T10:33:17Z",
+    "lang": "zh"
+  }
+]
