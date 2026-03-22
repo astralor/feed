@@ -1,1 +1,209 @@
-[]
+[
+  {
+    "title": "OpenAI 收购开发工具初创公司 Astral，增强 Codex 团队",
+    "url": "https://www.cnbc.com/2026/03/19/openai-to-acquire-developer-tooling-startup-astral.html",
+    "source": "OpenAI/CNBC",
+    "published": "2026-03-19",
+    "summary": "OpenAI收购开源Python工具公司Astral，旨在加强其Codex编码模型的能力。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "Meta 计划大规模裁员 20%+，以抵消 AI 投资成本",
+    "url": "https://www.reuters.com/business/world-at-work/meta-planning-sweeping-layoffs-ai-costs-mount-2026-03-14/",
+    "source": "Meta/Reuters",
+    "published": "2026-03-14",
+    "summary": "Meta计划大规模裁员，可能影响20%或更多员工，以抵消AI投资的巨额成本。Meta新模型Avocado的表现也不及预期。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "Meta AI 代理已能端到端投放广告",
+    "url": "https://www.theaimarketers.ai/news032026/",
+    "source": "Meta/The AI Marketers",
+    "published": "2026-03-20",
+    "summary": "Meta的AI代理现在能够端到端运行广告投放，AI广告支出激增63%。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "GPT-5.4 mini 已在 ChatGPT 中向免费和 Go 用户推出",
+    "url": "https://releasebot.io/updates/openai",
+    "source": "ReleaseBot/OpenAI",
+    "published": "2026-03-19",
+    "summary": "OpenAI发布GPT-5.4 mini，面向ChatGPT免费和Go用户开放，作为付费用户高用量时的降级模型。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "美国起诉 Super Micro 联合创始人向中国走私 AI 芯片",
+    "url": "https://www.reuters.com/technology/artificial-intelligence/",
+    "source": "Reuters",
+    "published": "2026-03-20",
+    "summary": "美国起诉三人涉嫌协助Super Micro Computer向中国走私价值数十亿美元的AI芯片。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "贝索斯计划筹集 1000 亿美元用 AI 改造制造业",
+    "url": "https://www.wsj.com/tech/jeff-bezos-aims-to-raise-100-billion-to-buy-revamp-manufacturing-firms-with-ai-618a3cfe",
+    "source": "WSJ",
+    "published": "2026-03-20",
+    "summary": "Jeff Bezos计划筹集1000亿美元，收购制造企业并用AI进行改造升级。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "与编码代理一起使用 Git 的最佳实践",
+    "url": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/",
+    "source": "Simon Willison",
+    "published": "2026-03-21",
+    "summary": "Simon Willison发布详细的Git与编码代理协作指南，涵盖git essentials、历史重写、bisect调试等高级技巧。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "AI 炒菜、配料、开发新口味——人类终于可以只负责吃了？",
+    "url": "https://www.36kr.com/p/978053931314946",
+    "source": "36氪",
+    "published": "2026-03-21",
+    "summary": "探讨AI在烹饪领域的应用：AI识别食谱、配料分析、开发新口味的挑战与进展。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "「男二以下全换 AI」吵翻全网，但真正该慌的人一声没吭",
+    "url": "https://36kr.com/p/3731154000052225",
+    "source": "36氪",
+    "published": "2026-03-21",
+    "summary": "AI在影视制作中确实有替代空间——虚拟背景、辅助特效、填充远景人群——这些都在发生且会加速。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "白宫发布 AI 政策蓝图提交国会审议",
+    "url": "https://www.politico.com/news/2026/03/20/white-house-releases-ai-policy-blueprint-for-congress-00837354",
+    "source": "POLITICO",
+    "published": "2026-03-20",
+    "summary": "白宫向国会发布AI政策蓝图，要求各州停止制定独立的AI立法，90天内将出台配套措施。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "华盛顿州通过 AI 伴侣聊天机器人安全法案",
+    "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-march20-2026",
+    "source": "Transparency Coalition",
+    "published": "2026-03-20",
+    "summary": "华盛顿州最终通过AI伴侣聊天机器人安全法案HB 2225，这是美国首批专门针对AI伴侣的立法之一。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "Musk 称特斯拉可能在 2026 年 12 月完成下一代 AI6 芯片设计",
+    "url": "https://www.reuters.com/",
+    "source": "Reuters",
+    "published": "2026-03-19",
+    "summary": "Elon Musk表示特斯拉可能在2026年12月完成下一代AI6芯片的设计(tape out)，推进全自动驾驶AI基础设施。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "Nvidia 将在 2027 年底前向 Amazon 出售 100 万颗芯片",
+    "url": "https://www.reuters.com/technology/artificial-intelligence/",
+    "source": "Reuters",
+    "published": "2026-03-19",
+    "summary": "Nvidia与Amazon达成云计算协议，将在2027年底前向Amazon出售100万颗AI芯片。",
+    "collected_at": "2026-03-21T22:33:02Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "Anthropic 发布 AI 与就业重磅研究报告",
+    "url": "https://www.komando.com/tips/artificial-intelligence/anthropic-just-published-a-bombshell-report-on-ai-and-jobs-heres-what-the-chart-means-for-you/",
+    "source": "Komando",
+    "published": "2026-03-16",
+    "summary": "Anthropic 发布里程碑式研究，揭示 AI 对就业的真实影响：理论上可处理多数白领任务，但目前实际渗透率仍低。",
+    "collected_at": "2026-03-22T00:32:55.343857Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "Anthropic 发布 Claude Code 更新：更丰富的状态栏、MCP channels 预览",
+    "url": "https://releasebot.io/updates/anthropic",
+    "source": "Releasebot",
+    "published": "2026-03-20",
+    "summary": "Claude Code 新增更丰富的状态栏和插件控制，引入 --channels 研究预览用于 MCP 消息推送。",
+    "collected_at": "2026-03-22T00:32:55.343857Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "OpenAI 收购编码初创公司 Astral 以增强 Codex 模型",
+    "url": "https://arstechnica.com/ai/2026/03/openai-is-acquiring-open-source-python-tool-maker-astral/",
+    "source": "Ars Technica",
+    "published": "2026-03-20",
+    "summary": "OpenAI 收购开源 Python 工具制造商 Astral，以增强 Codex 编码模型能力。",
+    "collected_at": "2026-03-22T00:32:55.343857Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "OpenAI 削减副业项目全力冲刺核心产品",
+    "url": "https://www.wsj.com/tech/ai/openai-chatgpt-side-projects-16b3a825",
+    "source": "WSJ",
+    "published": "2026-03-20",
+    "summary": "在 Anthropic 侵蚀企业市场份额的背景下，OpenAI 缩减健康、购物、广告等副业投入。",
+    "collected_at": "2026-03-22T00:32:55.343857Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "Meta 与 Nebius 签署 270 亿美元 AI 基础设施里程碑协议",
+    "url": "https://knowledgehubmedia.com/nebius-and-meta-ink-milestone-27-billion-dollar-ai-infrastructure-deal/",
+    "source": "Knowledge Hub Media",
+    "published": "2026-03-17",
+    "summary": "Meta 与 Nebius 达成 270 亿美元 AI 基础设施协议，Meta 今年 AI 资本支出预计高达 1350 亿美元。",
+    "collected_at": "2026-03-22T00:32:55.343857Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "Meta 新基础模型 Avocado 内部测试不及预期，推迟至五月",
+    "url": "https://timesofindia.indiatimes.com/technology/tech-news/mark-zuckerbergs-meta-plans-biggest-layoffs-in-its-history-with-15000-job-cuts-and-the-reason-is/articleshow/129568896.cms",
+    "source": "Times of India",
+    "published": "2026-03-17",
+    "summary": "Meta 代号 Avocado 的新基础模型在推理、编码和写作方面内部测试表现不及竞争对手，从 3 月推迟至至少 5 月。",
+    "collected_at": "2026-03-22T00:32:55.343857Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "Karpathy 开源 autoresearch：百行代码实现 AI 全自动研究",
+    "url": "https://36kr.com/p/3725521482578567",
+    "source": "36氪",
+    "published": "2026-03-22",
+    "summary": "特斯拉前 AI 总监、OpenAI 创始成员 Andrej Karpathy 开源 autoresearch 项目，用百行代码实现 AI 替你通宵做研究。",
+    "collected_at": "2026-03-22T00:32:55.343857Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "AI Agent 到底是什么？深入解析核心技术",
+    "url": "https://www.36kr.com/p/2762721770650374",
+    "source": "36氪",
+    "published": "2026-03-22",
+    "summary": "深度解析 AI Agent 的核心要素和发展现状，国内 Agent 发展仍在初期阶段。",
+    "collected_at": "2026-03-22T00:32:55.343857Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "用 LLM 对 Hacker News 用户进行画像分析",
+    "url": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/",
+    "source": "Simon Willison",
+    "published": "2026-03-22",
+    "summary": "作者用 HN API 获取用户最近 1000 条评论，输入 Claude Opus 4.6 进行用户画像，效果惊人地准确。",
+    "collected_at": "2026-03-22T00:32:55.343857Z",
+    "date": "2026-03-22"
+  },
+  {
+    "title": "全球 Agent 批量失控！Meta 2 小时灾难击穿硅谷心脏",
+    "url": "https://www.36kr.com/p/3732105239789572",
+    "source": "36氪",
+    "published": "2026-03-22",
+    "summary": "一个 AI 在 Meta 公司内部擅自行动引发严重安全事件，OpenClaw 反噬效应蔓延。",
+    "collected_at": "2026-03-22T00:32:55.343857Z",
+    "date": "2026-03-22"
+  }
+]
