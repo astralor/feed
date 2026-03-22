@@ -2210,6 +2210,76 @@
       "seen_at": "2026-03-22T00:32:55.343857Z",
       "date": "2026-03-22",
       "title": "全球 Agent 批量失控！Meta 2 小时灾难击穿硅谷心脏"
+    },
+    "https://www.reuters.com/business/openai-nearly-double-workforce-8000-by-end-2026-ft-reports-2026-03-21": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "OpenAI 计划到 2026 年底将员工翻倍至 8,000 人"
+    },
+    "https://www.reuters.com/business/retail-consumer/openai-sell-ai-us-agencies-through-amazon-cloud-unit-information-reports-2026-03-17": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "OpenAI 通过亚马逊云向美国防务机构出售 AI"
+    },
+    "https://www.reuters.com/business/openai-cut-back-side-projects-focus-core-business-wsj-reports-2026-03-17": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "OpenAI 削减副业项目，聚焦编码和企业用户"
+    },
+    "https://deepmind.google/discover/blog/measuring-progress-toward-agi": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "DeepMind: 衡量通向 AGI 的进展"
+    },
+    "https://news.ycombinator.com/item": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "HN 热帖: Anthropic 驳斥五角大楼'战时破坏 AI'指控"
+    },
+    "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "出版社因 AI 疑虑撤下恐怖小说《Shy Girl》"
+    },
+    "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "华尔街没有被英伟达 GTC 大会打动"
+    },
+    "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "合规创业公司 Delve 被控用'假合规'误导客户"
+    },
+    "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "Simon Willison: 用 AI 对 Hacker News 用户画像"
+    },
+    "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "Simon Willison: 编码 Agent 中的 Git 使用模式"
+    },
+    "https://www.nature.com/articles/s41467-026-70917-y": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "arXiv: Nature — 揭示对齐 LLM 的内在伦理脆弱性"
+    },
+    "https://36kr.com/p/2539294089570048": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "亚马逊两大自研 AI 芯片性能飙升，联手英伟达造最强超算"
+    },
+    "https://36kr.com/p/3730643787448325": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "人形机器人热潮：资本、产业与工作的未来"
+    },
+    "https://36kr.com/p/1967402696672002": {
+      "seen_at": "2026-03-22T04:33:28Z",
+      "date": "2026-03-22",
+      "title": "Cursor 自研新模型反超 Opus 4.6，价格打一折"
     }
   }
 }
